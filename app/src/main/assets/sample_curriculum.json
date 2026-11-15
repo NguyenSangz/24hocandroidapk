@@ -1,0 +1,3211 @@
+{
+  "subjects": [
+    { "id": "math", "name": "Toán", "icon": "calculate", "color": "#2563EB", "description": "Đại số, Hình học và Xác suất thống kê theo chuẩn GDPT 2018", "category": "Khoa học tự nhiên", "isPinned": true },
+    { "id": "literature", "name": "Ngữ văn", "icon": "menu_book", "color": "#D97706", "description": "Đọc hiểu văn bản, Tiếng Việt và Viết bài", "category": "Khoa học xã hội", "isPinned": true },
+    { "id": "english", "name": "Tiếng Anh", "icon": "translate", "color": "#059669", "description": "Từ vựng, Ngữ pháp, Nghe - Nói - Đọc - Viết", "category": "Ngoại ngữ", "isPinned": true },
+    { "id": "physics", "name": "Vật lý", "icon": "bolt", "color": "#4F46E5", "description": "Cơ, Nhiệt, Quang và Điện từ học", "category": "Khoa học tự nhiên", "isPinned": false },
+    { "id": "chemistry", "name": "Hóa học", "icon": "science", "color": "#7C3AED", "description": "Chất, Nguyên tử, Phản ứng hóa học", "category": "Khoa học tự nhiên", "isPinned": false },
+    { "id": "biology", "name": "Sinh học", "icon": "eco", "color": "#16A34A", "description": "Tế bào, Di truyền, Sinh thái và Cơ thể sống", "category": "Khoa học tự nhiên", "isPinned": false },
+    { "id": "history", "name": "Lịch sử", "icon": "history_edu", "color": "#DC2626", "description": "Lịch sử Việt Nam & Thế giới qua các thời kỳ", "category": "Khoa học xã hội", "isPinned": false },
+    { "id": "geography", "name": "Địa lý", "icon": "public", "color": "#0D9488", "description": "Địa lý tự nhiên, Dân cư và Kinh tế", "category": "Khoa học xã hội", "isPinned": false },
+    { "id": "civic", "name": "GDCD", "icon": "favorite", "color": "#E11D48", "description": "Đạo đức, Kỹ năng sống và Pháp luật", "category": "Khoa học xã hội", "isPinned": false },
+    { "id": "informatics", "name": "Tin học", "icon": "computer", "color": "#0284C7", "description": "Khoa học máy tính, Thuật toán và Ứng dụng số", "category": "Công nghệ", "isPinned": false },
+    { "id": "technology", "name": "Công nghệ", "icon": "precision_manufacturing", "color": "#EA580C", "description": "Nông nghiệp, Cơ khí, Điện tử và Thiết kế", "category": "Công nghệ", "isPinned": false },
+    { "id": "pe", "name": "Giáo dục thể chất", "icon": "fitness_center", "color": "#10B981", "description": "Rèn luyện thể lực, Vận động và Sức khỏe", "category": "Thể chất & Nghệ thuật", "isPinned": false },
+    { "id": "music", "name": "Âm nhạc", "icon": "music_note", "color": "#8B5CF6", "description": "Nhạc lý, Hát, Nhạc cụ và Thưởng thức âm nhạc", "category": "Thể chất & Nghệ thuật", "isPinned": false },
+    { "id": "art", "name": "Mỹ thuật", "icon": "palette", "color": "#EC4899", "description": "Hội họa, Điêu khắc, Thiết kế mỹ thuật", "category": "Thể chất & Nghệ thuật", "isPinned": false },
+    { "id": "experiential", "name": "Hoạt động trải nghiệm", "icon": "explore", "color": "#F59E0B", "description": "Hướng nghiệp, Kỹ năng thực tế và Hoạt động xã hội", "category": "Trải nghiệm", "isPinned": false }
+  ],
+  "grades": [
+    {
+      "grade": 6,
+      "chapters": [
+        {
+          "id": "g6_math_c1",
+          "subjectId": "math",
+          "grade": 6,
+          "order": 1,
+          "title": "Chương 1: Tập hợp các số tự nhiên",
+          "description": "Làm quen với tập hợp N, N*, các phép tính và lũy thừa",
+          "lessons": [
+            {
+              "id": "g6_m_c1_l1",
+              "chapterId": "g6_math_c1",
+              "order": 1,
+              "title": "Bài 1: Tập hợp các số tự nhiên - Phần tử của tập hợp",
+              "summary": "Tập hợp các số tự nhiên được ký hiệu là ℕ = {0; 1; 2; 3; ...}.\nTập hợp các số tự nhiên khác 0 được ký hiệu là ℕ* = {1; 2; 3; ...}.\n\nCách biểu diễn tập hợp:\n1. Liệt kê các phần tử: A = {0; 1; 2; 3; 4}.\n2. Chỉ ra tính chất đặc trưng: A = {x ∈ ℕ | x < 5}.\n\nKý hiệu:\n- x ∈ A: x thuộc A (x là phần tử của A)\n- y ∉ A: y không thuộc A",
+              "examples": "Ví dụ 1: Viết tập hợp B các số tự nhiên chẵn nhỏ hơn 10.\nCách 1: B = {0; 2; 4; 6; 8}\nCách 2: B = {x ∈ ℕ | x là số chẵn, x < 10}\n\nVí dụ 2: Cho A = {2; 4; 6}. Khi đó: 2 ∈ A, 5 ∉ A.",
+              "tips": "Mẹo nhớ: Tập hợp ℕ có số 0, còn ℕ* có dấu sao giống như ngôi sao đầu tiên bắt đầu từ số 1 (không có số 0)."
+            },
+            {
+              "id": "g6_m_c1_l2",
+              "chapterId": "g6_math_c1",
+              "order": 2,
+              "title": "Bài 2: Các phép tính cộng, trừ, nhân, chia số tự nhiên",
+              "summary": "1. Phép cộng: a + b = c (số hạng + số hạng = tổng). Tính chất giao hoán: a + b = b + a; kết hợp: (a + b) + c = a + (b + c).\n2. Phép nhân: a . b = p (thừa số . thừa số = tích). Phân phối: a(b + c) = ab + ac.\n3. Phép chia hết: a = b . q (b ≠ 0). Phép chia có dư: a = b . q + r (0 < r < b).",
+              "examples": "Ví dụ 1: Tính nhanh: 37 + 195 + 63 = (37 + 63) + 195 = 100 + 195 = 295.\nVí dụ 2: Tính: 25 . 12 = 25 . (4 . 3) = (25 . 4) . 3 = 100 . 3 = 300.",
+              "tips": "Mẹo tính nhẩm: Luôn tìm các cặp số có tổng hoặc tích tròn chục, tròn trăm (ví dụ: 25 x 4 = 100, 125 x 8 = 1000)."
+            },
+            {
+              "id": "g6_m_c1_l3",
+              "chapterId": "g6_math_c1",
+              "order": 3,
+              "title": "Bài 3: Lũy thừa với số mũ tự nhiên",
+              "summary": "Lũy thừa bậc n của a là tích của n thừa số a bằng nhau: aⁿ = a . a . ... . a (n thừa số a, n ∈ ℕ*).\n- a gọi là cơ số, n gọi là số mũ.\n- Quy ước: a¹ = a; a⁰ = 1 (với a ≠ 0).\n- Nhân hai lũy thừa cùng cơ số: aᵐ . aⁿ = aᵐ⁺ⁿ.\n- Chia hai lũy thừa cùng cơ số: aᵐ : aⁿ = aᵐ⁻ⁿ (a ≠ 0, m ≥ n).",
+              "examples": "Ví dụ 1: 2³ = 2 . 2 . 2 = 8.\nVí dụ 2: 3² . 3⁴ = 3²⁺⁴ = 3⁶ = 729.\nVí dụ 3: 5⁷ : 5⁵ = 5⁷⁻⁵ = 5² = 25.",
+              "tips": "Chú ý: Nhân cùng cơ số thì CỘNG số mũ, chia cùng cơ số thì TRỪ số mũ. Không được nhân hay chia hai cơ số với nhau!"
+            }
+          ]
+        },
+        {
+          "id": "g6_math_c2",
+          "subjectId": "math",
+          "grade": 6,
+          "order": 2,
+          "title": "Chương 2: Số nguyên",
+          "description": "Khám phá tập hợp Z các số nguyên âm, số 0 và số nguyên dương",
+          "lessons": [
+            {
+              "id": "g6_m_c2_l1",
+              "chapterId": "g6_math_c2",
+              "order": 1,
+              "title": "Bài 1: Tập hợp các số nguyên và trục số",
+              "summary": "Tập hợp số nguyên ℤ bao gồm:\n- Các số nguyên dương: {1; 2; 3; ...}\n- Số 0 (không âm, không dương)\n- Các số nguyên âm: {-1; -2; -3; ...}\nKý hiệu: ℤ = {..., -3, -2, -1, 0, 1, 2, 3, ...}.\nSố đối của a ký hiệu là -a. Số đối của số đối là chính nó: -(-a) = a. Số đối của 0 là 0.",
+              "examples": "Ví dụ 1: Nhiệt độ ở Sa Pa là 3 độ C dưới 0 độ C được biểu diễn là -3°C.\nVí dụ 2: Số đối của 5 là -5. Số đối của -8 là 8.",
+              "tips": "Trên trục số nằm ngang, điểm nằm bên trái luôn nhỏ hơn điểm nằm bên phải: -5 < -2 < 0 < 3."
+            },
+            {
+              "id": "g6_m_c2_l2",
+              "chapterId": "g6_math_c2",
+              "order": 2,
+              "title": "Bài 2: Phép cộng và phép trừ hai số nguyên",
+              "summary": "1. Cộng hai số cùng dấu: Cộng phần tự nhiên rồi đặt dấu chung phía trước.\n   (-3) + (-5) = -(3 + 5) = -8.\n2. Cộng hai số khác dấu: Lấy số có phần tự nhiên lớn hơn trừ số có phần tự nhiên nhỏ hơn, lấy dấu của số có phần tự nhiên lớn hơn.\n   (-7) + 4 = -(7 - 4) = -3.\n3. Trừ hai số nguyên: a - b = a + (-b) (Muốn trừ cho b thì cộng với số đối của b).",
+              "examples": "Ví dụ 1: (-12) + (-8) = -20.\nVí dụ 2: 15 + (-20) = -(20 - 15) = -5.\nVí dụ 3: 4 - 9 = 4 + (-9) = -5.\nVí dụ 4: 6 - (-3) = 6 + 3 = 9.",
+              "tips": "Mẹo trừ hai số: Dấu trừ trước số âm biến thành dấu cộng: a - (-b) = a + b."
+            },
+            {
+              "id": "g6_m_c2_l3",
+              "chapterId": "g6_math_c2",
+              "order": 3,
+              "title": "Bài 3: Quy tắc dấu ngoặc và phép nhân số nguyên",
+              "summary": "1. Quy tắc dấu ngoặc:\n- Dấu '+' đằng trước ngoặc: giữ nguyên dấu các số hạng bên trong: +(a - b + c) = a - b + c.\n- Dấu '-' đằng trước ngoặc: đổi dấu tất cả số hạng bên trong: -(a - b + c) = -a + b - c.\n2. Phép nhân số nguyên:\n- Cùng dấu thì DƯƠNG: (+) . (+) = (+); (-) . (-) = (+).\n- Khác dấu thì ÂM: (+) . (-) = (-); (-) . (+) = (-).",
+              "examples": "Ví dụ 1: 15 - (7 - 2) = 15 - 7 + 2 = 10.\nVí dụ 2: (-4) . (-5) = 20.\nVí dụ 3: (-6) . 7 = -42.",
+              "tips": "Quy tắc nằm lòng: 'Bạn của bạn là bạn, thù của thù là bạn, bạn của thù là thù' (+ cùng dấu ra +, khác dấu ra -)."
+            }
+          ]
+        },
+        {
+          "id": "g6_eng_c1",
+          "subjectId": "english",
+          "grade": 6,
+          "order": 1,
+          "title": "Unit 1: My New School",
+          "description": "Friends, subjects, school uniforms and the present simple tense",
+          "lessons": [
+            {
+              "id": "g6_e_c1_l1",
+              "chapterId": "g6_eng_c1",
+              "order": 1,
+              "title": "Lesson 1: Vocabulary & School Items",
+              "summary": "Key Vocabulary:\n- pencil case (hộp bút), compass (com-pa), calculator (máy tính bỏ túi), textbook (sách giáo khoa), uniform (đồng phục).\n- Verbs with school activities:\n  + play: play football, play music\n  + do: do homework, do judo\n  + have: have breakfast, have lessons\n  + study: study English, study history",
+              "examples": "Example 1: I do judo on Tuesday afternoon.\nExample 2: Minh wears his new uniform on Mondays.\nExample 3: Can I borrow your calculator?",
+              "tips": "Collocation note: 'do' dùng cho võ thuật hoặc bài tập cá nhân (do karate, do homework); 'play' dùng cho thể thao có bóng hoặc nhạc cụ."
+            },
+            {
+              "id": "g6_e_c1_l2",
+              "chapterId": "g6_eng_c1",
+              "order": 2,
+              "title": "Lesson 2: Present Simple Tense (Hiện tại đơn)",
+              "summary": "Công thức thì Hiện tại đơn:\n- Khẳng định: S + V(s/es) (He/She/It + V-s/es; I/You/We/They + V-nguyên thể)\n- Phủ định: S + do not / does not + V-nguyên thể (don't / doesn't)\n- Nghi vấn: Do / Does + S + V-nguyên thể?\nDấu hiệu nhận biết: always, usually, often, sometimes, never, every day, every week.",
+              "examples": "Example 1: She studies English every morning.\nExample 2: They do not go to school by bus.\nExample 3: Does Lan like her new school? - Yes, she does.",
+              "tips": "Cách thêm s/es: Động từ tận cùng bằng o, s, z, ch, x, sh ('O Sông Zui Chưa Xóa Sương') thêm 'es' (go -> goes, watch -> watches)."
+            },
+            {
+              "id": "g6_e_c1_l3",
+              "chapterId": "g6_eng_c1",
+              "order": 3,
+              "title": "Lesson 3: Adverbs of Frequency & Daily Routines",
+              "summary": "Trạng từ chỉ tần suất (Adverbs of Frequency):\n- Always (100% - luôn luôn)\n- Usually (80% - thường xuyên)\n- Often (60% - hay)\n- Sometimes (30% - thỉnh thoảng)\n- Never (0% - không bao giờ)\nVị trí: Đứng TRƯỚC động từ thường, đứng SAU động từ 'to be'.",
+              "examples": "Example 1: I usually ride my bike to school. (Trước V thường)\nExample 2: Nam is never late for class. (Sau to be 'is')\nExample 3: How often do you read books? - Twice a week.",
+              "tips": "Công thức nhớ vị trí: 'Đứng sau BE, đứng trước THƯỜNG'."
+            }
+          ]
+        },
+        {
+          "id": "g6_eng_c2",
+          "subjectId": "english",
+          "grade": 6,
+          "order": 2,
+          "title": "Unit 2: My House",
+          "description": "Rooms, furniture, prepositions of place and possessive case",
+          "lessons": [
+            {
+              "id": "g6_e_c2_l1",
+              "chapterId": "g6_eng_c2",
+              "order": 1,
+              "title": "Lesson 1: Types of Houses & Rooms",
+              "summary": "Từ vựng ngôi nhà:\n- Types of houses: town house (nhà phố), country house (nhà ở nông thôn), villa (biệt thự), stilt house (nhà sàn), apartment (căn hộ).\n- Rooms: living room (phòng khách), kitchen (nhà bếp), bedroom (phòng ngủ), bathroom (phòng tắm), hall (hành lang/sảnh).\n- Furniture: sofa, fridge (tủ lạnh), wardrobe (tủ quần áo), chest of drawers (tủ có ngăn kéo).",
+              "examples": "Example 1: There is a big sofa in our living room.\nExample 2: My family lives in a cozy town house in Da Nang.",
+              "tips": "Phân biệt: 'apartment' (chung cư - Anh Mỹ) tương đương với 'flat' (Anh Anh)."
+            },
+            {
+              "id": "g6_e_c2_l2",
+              "chapterId": "g6_eng_c2",
+              "order": 2,
+              "title": "Lesson 2: Prepositions of Place (Giới từ chỉ nơi chốn)",
+              "summary": "Các giới từ chỉ nơi chốn phổ biến:\n- in (trong), on (trên), under (dưới), behind (phía sau), in front of (phía trước), next to (bên cạnh), between... and... (ở giữa hai vật).\nCấu trúc miêu tả đồ vật:\n- There is + danh từ số ít / không đếm được + giới từ nơi chốn.\n- There are + danh từ số nhiều + giới từ nơi chốn.",
+              "examples": "Example 1: The cat is under the table.\nExample 2: There are two pictures on the wall.\nExample 3: The school is between the post office and the library.",
+              "tips": "'in front of' có 3 từ, còn 'behind' chỉ có 1 từ. 'between' luôn đi với liên từ 'and'."
+            },
+            {
+              "id": "g6_e_c2_l3",
+              "chapterId": "g6_eng_c2",
+              "order": 3,
+              "title": "Lesson 3: Possessive Case ('s - Sở hữu cách)",
+              "summary": "Sở hữu cách dùng để chỉ quyền sở hữu:\n- Danh từ số ít: thêm 's (Nam's room, my teacher's book).\n- Danh từ số nhiều có đuôi 's': chỉ thêm dấu nháy đơn ' (my parents' car, the students' classroom).\n- Danh từ số nhiều bất quy tắc không có 's': thêm 's (the children's toys, women's clothes).",
+              "examples": "Example 1: This is Phong's bedroom.\nExample 2: Those are the students' bags.\nExample 3: My brother's dog is very cute.",
+              "tips": "Lưu ý: Không dùng sở hữu cách 's cho đồ vật vô tri; thay vào đó dùng 'of' (the door of the room, not the room's door)."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "grade": 7,
+      "chapters": [
+        {
+          "id": "g7_math_c1",
+          "subjectId": "math",
+          "grade": 7,
+          "order": 1,
+          "title": "Chương 1: Số hữu tỉ",
+          "description": "Tập hợp số hữu tỉ Q, các phép tính và lũy thừa của số hữu tỉ",
+          "lessons": [
+            {
+              "id": "g7_m_c1_l1",
+              "chapterId": "g7_math_c1",
+              "order": 1,
+              "title": "Bài 1: Tập hợp các số hữu tỉ",
+              "summary": "Số hữu tỉ là số viết được dưới dạng phân số a/b với a, b ∈ ℤ, b ≠ 0. Tập hợp các số hữu tỉ được ký hiệu là ℚ.\n- Mọi số nguyên a đều là số hữu tỉ vì a = a/1.\n- Số hữu tỉ dương lớn hơn 0, số hữu tỉ âm nhỏ hơn 0. Số 0 không là số hữu tỉ âm, cũng không là số hữu tỉ dương.\n- Hai phân số a/b và c/d bằng nhau nếu a . d = b . c.",
+              "examples": "Ví dụ 1: 0.5 = 1/2 ∈ ℚ; -3 = -3/1 ∈ ℚ; 1 2/3 = 5/3 ∈ ℚ.\nVí dụ 2: So sánh -2/3 và -4/5: -2/3 = -10/15; -4/5 = -12/15. Vì -10 > -12 nên -2/3 > -4/5.",
+              "tips": "Mẹo so sánh hai phân số âm: Khi cùng mẫu dương, tử nào lớn hơn thì phân số đó lớn hơn."
+            },
+            {
+              "id": "g7_m_c1_l2",
+              "chapterId": "g7_math_c1",
+              "order": 2,
+              "title": "Bài 2: Cộng, trừ, nhân, chia số hữu tỉ",
+              "summary": "Quy tắc tính toán với số hữu tỉ (đưa về phân số):\n- Cộng, trừ: a/m ± b/m = (a ± b)/m.\n- Nhân: a/b . c/d = (a.c)/(b.d).\n- Chia: a/b : c/d = a/b . d/c = (a.d)/(b.c) (c/d ≠ 0).\nQuy tắc chuyển vế: Khi chuyển một số hạng từ vế này sang vế kia của một đẳng thức, ta phải đổi dấu số hạng đó: x + a = b => x = b - a.",
+              "examples": "Ví dụ 1: 1/3 + (-2/5) = 5/15 + (-6/15) = -1/15.\nVí dụ 2: Tìm x biết x - 1/4 = 3/2 => x = 3/2 + 1/4 = 6/4 + 1/4 = 7/4.",
+              "tips": "Quy tắc chuyển vế: 'Chuyển vế thì đổi dấu', dấu cộng thành dấu trừ, dấu trừ thành dấu cộng."
+            },
+            {
+              "id": "g7_m_c1_l3",
+              "chapterId": "g7_math_c1",
+              "order": 3,
+              "title": "Bài 3: Lũy thừa của một số hữu tỉ",
+              "summary": "Với x, y ∈ ℚ và m, n ∈ ℕ:\n- xᵐ . xⁿ = xᵐ⁺ⁿ\n- xᵐ : xⁿ = xᵐ⁻ⁿ (x ≠ 0, m ≥ n)\n- (xᵐ)ⁿ = xᵐ˙ⁿ (Lũy thừa của lũy thừa)\n- (x . y)ⁿ = xⁿ . yⁿ (Lũy thừa của một tích)\n- (x / y)ⁿ = xⁿ / yⁿ (y ≠ 0, lũy thừa của một thương)",
+              "examples": "Ví dụ 1: ( -1/2 )³ = (-1)³/2³ = -1/8.\nVí dụ 2: (2²)³ = 2²˙³ = 2⁶ = 64.\nVí dụ 3: (0.25)³ . 4³ = (0.25 . 4)³ = 1³ = 1.",
+              "tips": "Nếu lũy thừa của số âm với số mũ chẵn thì kết quả DƯƠNG; số mũ lẻ thì kết quả ÂM."
+            }
+          ]
+        },
+        {
+          "id": "g7_math_c2",
+          "subjectId": "math",
+          "grade": 7,
+          "order": 2,
+          "title": "Chương 2: Hình học - Góc và đường thẳng song song",
+          "description": "Hai góc kề bù, đối đỉnh và các dấu hiệu song song",
+          "lessons": [
+            {
+              "id": "g7_m_c2_l1",
+              "chapterId": "g7_math_c2",
+              "order": 1,
+              "title": "Bài 1: Các góc ở vị trí đặc biệt",
+              "summary": "1. Hai góc kề bù: Là hai góc vừa kề nhau vừa bù nhau. Tổng số đo của hai góc kề bù bằng 180°: xOy + yOz = 180°.\n2. Hai góc đối đỉnh: Là hai góc mà mỗi cạnh của góc này là tia đối của một cạnh của góc kia. Hai góc đối đỉnh thì bằng nhau.",
+              "examples": "Ví dụ 1: Cho góc xOy = 60°. Góc kề bù với góc xOy có số đo là 180° - 60° = 120°.\nVí dụ 2: Hai đường thẳng AB và CD cắt nhau tại O tạo thành góc AOC = 45°. Khi đó góc đối đỉnh BOD = 45°.",
+              "tips": "Nhớ rằng: Hai góc đối đỉnh thì luôn bằng nhau, nhưng hai góc bằng nhau chưa chắc đã đối đỉnh."
+            },
+            {
+              "id": "g7_m_c2_l2",
+              "chapterId": "g7_math_c2",
+              "order": 2,
+              "title": "Bài 2: Tia phân giác của một góc",
+              "summary": "Tia phân giác của một góc là tia nằm trong góc và tạo với hai cạnh của góc đó hai góc bằng nhau.\n- Nếu tia Oz là tia phân giác của góc xOy thì: xOz = zOy = xOy / 2.",
+              "examples": "Ví dụ: Cho góc xOy = 80°, tia Ot là tia phân giác của góc xOy. Khi đó góc xOt = tOy = 80° / 2 = 40°.",
+              "tips": "Để chứng minh tia Oz là phân giác của góc xOy: Cần chứng minh tia Oz nằm giữa Ox, Oy và xOz = zOy."
+            },
+            {
+              "id": "g7_m_c2_l3",
+              "chapterId": "g7_math_c2",
+              "order": 3,
+              "title": "Bài 3: Hai đường thẳng song song và dấu hiệu nhận biết",
+              "summary": "Nếu đường thẳng c cắt hai đường thẳng a và b, và trong các góc tạo thành có:\n- Một cặp góc so le trong bằng nhau, HOẶC\n- Một cặp góc đồng vị bằng nhau, HOẶC\n- Một cặp góc trong cùng phía bù nhau (tổng bằng 180°)\n=> Thì hai đường thẳng a và b song song với nhau (ký hiệu: a // b).",
+              "examples": "Ví dụ: Cho hai đường thẳng a và b. Đường thẳng c cắt a tại A, cắt b tại B sao cho góc A₁ = 70° và góc B₁ = 70° ở vị trí đồng vị. Suy ra a // b.",
+              "tips": "Hình chữ Z tạo ra cặp góc so le trong; hình chữ F tạo ra cặp góc đồng vị; hình chữ U tạo ra góc trong cùng phía bù nhau."
+            }
+          ]
+        },
+        {
+          "id": "g7_eng_c1",
+          "subjectId": "english",
+          "grade": 7,
+          "order": 1,
+          "title": "Unit 1: Hobbies",
+          "description": "Talking about leisure activities and verbs of liking/disliking",
+          "lessons": [
+            {
+              "id": "g7_e_c1_l1",
+              "chapterId": "g7_eng_c1",
+              "order": 1,
+              "title": "Lesson 1: Vocabulary for Hobbies",
+              "summary": "Vocabulary:\n- collecting coins/stamps/dolls (sưu tầm tiền xu/tem/búp bê)\n- doing judo/yoga (tập judo/yoga)\n- gardening (làm vườn), making models (làm mô hình)\n- arranging flowers (cắm hoa), bird-watching (ngắm chim)\n- expensive (đắt tiền), creative (sáng tạo), relaxing (thư giãn).",
+              "examples": "Example 1: My sister loves arranging flowers on weekends.\nExample 2: Making models requires patience and creativity.",
+              "tips": "Học từ vựng theo cặp: do yoga, go camping, play badminton, make pottery."
+            },
+            {
+              "id": "g7_e_c1_l2",
+              "chapterId": "g7_eng_c1",
+              "order": 2,
+              "title": "Lesson 2: Verbs of Liking & Disliking + Gerund (V-ing)",
+              "summary": "Các động từ chỉ sở thích thường theo sau bởi Danh động từ (V-ing):\n- like, love, enjoy, fancy, adore + V-ing (thích, yêu)\n- dislike, hate, detest + V-ing (không thích, ghét)\n- don't mind + V-ing (không phiền, không ngại)\nLưu ý: like/love/hate cũng có thể đi với 'to V', nhưng dùng V-ing diễn tả sở thích mang tính lâu dài.",
+              "examples": "Example 1: I enjoy listening to pop music in my free time.\nExample 2: Peter hates washing dishes.\nExample 3: Do you fancy hanging out tonight?",
+              "tips": "'fancy' và 'enjoy' bắt buộc phải dùng V-ing phía sau, không dùng to-V."
+            },
+            {
+              "id": "g7_e_c1_l3",
+              "chapterId": "g7_eng_c1",
+              "order": 3,
+              "title": "Lesson 3: Present Simple vs Past Simple in Hobbies",
+              "summary": "Sử dụng thì:\n- Present Simple: Diễn tả sở thích ở hiện tại và thói quen thường ngày. (I take photos every day).\n- Past Simple: Diễn tả thời điểm bắt đầu sở thích trong quá khứ. (I started this hobby two years ago).\nCông thức Quá khứ đơn: S + V-ed / V2; Phủ định: S + did not + V-bare; Câu hỏi: Did + S + V-bare?",
+              "examples": "Example 1: She started collecting teddy bears when she was 7.\nExample 2: Did you buy this camera last month? - Yes, I did.",
+              "tips": "Từ nhận biết Quá khứ đơn: ago, yesterday, last week, in 2020."
+            }
+          ]
+        },
+        {
+          "id": "g7_eng_c2",
+          "subjectId": "english",
+          "grade": 7,
+          "order": 2,
+          "title": "Unit 2: Healthy Living",
+          "description": "Health problems, lifestyle tips and simple sentences",
+          "lessons": [
+            {
+              "id": "g7_e_c2_l1",
+              "chapterId": "g7_eng_c2",
+              "order": 1,
+              "title": "Lesson 1: Health Problems & Symptoms",
+              "summary": "Vocabulary:\n- sunburn (cháy nắng), acne / pimples (mụn trứng cá), allergy (dị ứng), toothache (đau răng), sore throat (viêm họng), fever (sốt).\n- healthy diet (chế độ ăn lành mạnh), vegetarian (người ăn chay), active lifestyle (lối sống năng động).",
+              "examples": "Example 1: Wear a wide hat to avoid sunburn.\nExample 2: He has a sore throat, so he drinks warm ginger water.",
+              "tips": "Đuôi '-ache' nghĩa là đau nhức: headache (đau đầu), stomachache (đau dạ dày), backache (đau lưng)."
+            },
+            {
+              "id": "g7_e_c2_l2",
+              "chapterId": "g7_eng_c2",
+              "order": 2,
+              "title": "Lesson 2: Giving Advice with 'Should / Shouldn't' & Imperatives",
+              "summary": "1. Khuyên bảo: S + should / shouldn't + V-bare.\n- You should sleep 8 hours a day. (Bạn nên ngủ 8 tiếng mỗi ngày)\n- You shouldn't stay up late. (Bạn không nên thức khuya)\n2. Câu mệnh lệnh đưa lời khuyên:\n- Khẳng định: V-bare... (Eat more green vegetables!)\n- Phủ định: Don't + V-bare... (Don't drink too much soda!)",
+              "examples": "Example 1: Wash your hands often to prevent flu.\nExample 2: You shouldn't touch your face when you have acne.",
+              "tips": "'Should' là động từ khuyết thiếu, sau nó luôn là động từ nguyên mẫu không 'to'."
+            },
+            {
+              "id": "g7_e_c2_l3",
+              "chapterId": "g7_eng_c2",
+              "order": 3,
+              "title": "Lesson 3: Simple & Compound Sentences (Câu đơn & Câu ghép)",
+              "summary": "1. Câu đơn (Simple sentence): Có một mệnh đề độc lập (gồm 1 chủ ngữ và 1 vị ngữ chính).\n   Ví dụ: I do morning exercise daily.\n2. Câu ghép (Compound sentence): Nối hai mệnh đề độc lập bằng liên từ đẳng lập FANBOYS (for, and, nor, but, or, yet, so), thường có dấu phẩy trước liên từ.\n- and (và), but (nhưng), or (hoặc), so (vì vậy).",
+              "examples": "Example 1: I love fast food, BUT it is not good for health.\nExample 2: She exercises regularly, SO she is in good shape.",
+              "tips": "Mẹo nhớ liên từ câu ghép: FANBOYS (For, And, Nor, But, Or, Yet, So)."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "grade": 8,
+      "chapters": [
+        {
+          "id": "g8_math_c1",
+          "subjectId": "math",
+          "grade": 8,
+          "order": 1,
+          "title": "Chương 1: Đa thức nhiều biến",
+          "description": "Đơn thức, đa thức, các phép tính và 7 hằng đẳng thức đáng nhớ",
+          "lessons": [
+            {
+              "id": "g8_m_c1_l1",
+              "chapterId": "g8_math_c1",
+              "order": 1,
+              "title": "Bài 1: Đơn thức và đa thức nhiều biến",
+              "summary": "1. Đơn thức nhiều biến: Là biểu thức đại số chỉ gồm một số, hoặc một biến, hoặc một tích giữa các số và các biến.\n2. Bậc của đơn thức có hệ số khác 0 là tổng số mũ của tất cả các biến có trong đơn thức đó.\n3. Đa thức: Là một tổng của những đơn thức. Mỗi đơn thức trong tổng gọi là một hạng tử của đa thức đó.",
+              "examples": "Ví dụ 1: 3x²y là đơn thức bậc 2 + 1 = 3.\nVí dụ 2: P = 2x³y - 5xy² + 7 là đa thức bậc 4 (bậc của hạng tử 2x³y là 3+1=4).",
+              "tips": "Số thực khác 0 là đơn thức bậc 0. Số 0 là đơn thức không có bậc."
+            },
+            {
+              "id": "g8_m_c1_l2",
+              "chapterId": "g8_math_c1",
+              "order": 2,
+              "title": "Bài 2: Các phép tính với đa thức nhiều biến",
+              "summary": "1. Cộng, trừ đa thức: Nhóm các đơn thức đồng dạng (cùng phần biến) rồi cộng, trừ hệ số.\n2. Nhân đơn thức với đa thức: A(B + C) = AB + AC.\n3. Nhân đa thức với đa thức: (A + B)(C + D) = AC + AD + BC + BD.",
+              "examples": "Ví dụ 1: (2x²y + 3xy) + (x²y - xy) = (2 + 1)x²y + (3 - 1)xy = 3x²y + 2xy.\nVí dụ 2: (x + 2)(x + 3) = x² + 3x + 2x + 6 = x² + 5x + 6.",
+              "tips": "Cẩn thận dấu âm khi nhân đa thức: (-a)(-b) = +ab; (-a)(+b) = -ab."
+            },
+            {
+              "id": "g8_m_c1_l3",
+              "chapterId": "g8_math_c1",
+              "order": 3,
+              "title": "Bài 3: 7 Hằng đẳng thức đáng nhớ",
+              "summary": "1. (A + B)² = A² + 2AB + B²\n2. (A - B)² = A² - 2AB + B²\n3. A² - B² = (A - B)(A + B)\n4. (A + B)³ = A³ + 3A²B + 3AB² + B³\n5. (A - B)³ = A³ - 3A²B + 3AB² - B³\n6. A³ + B³ = (A + B)(A² - AB + B²)\n7. A³ - B³ = (A - B)(A² + AB + B²)",
+              "examples": "Ví dụ 1: (x + 3)² = x² + 6x + 9.\nVí dụ 2: x² - 16 = (x - 4)(x + 4).\nVí dụ 3: x³ - 8 = (x - 2)(x² + 2x + 4).",
+              "tips": "Phân biệt kỹ: (A - B)³ là lập phương của hiệu; còn A³ - B³ là hiệu của hai lập phương!"
+            }
+          ]
+        },
+        {
+          "id": "g8_math_c2",
+          "subjectId": "math",
+          "grade": 8,
+          "order": 2,
+          "title": "Chương 2: Phân thức đại số",
+          "description": "Định nghĩa phân thức, tính chất cơ bản và các phép toán",
+          "lessons": [
+            {
+              "id": "g8_m_c2_l1",
+              "chapterId": "g8_math_c2",
+              "order": 1,
+              "title": "Bài 1: Khái niệm phân thức đại số",
+              "summary": "Một phân thức đại số (phân thức) là một biểu thức có dạng A/B, trong đó A, B là những đa thức và B khác đa thức 0.\n- A gọi là tử thức (tử), B gọi là mẫu thức (mẫu).\n- Điều kiện xác định của phân thức A/B là giá trị của biến để mẫu thức B ≠ 0.\n- Hai phân thức A/B và C/D bằng nhau nếu A . D = B . C.",
+              "examples": "Ví dụ 1: Phân thức (x + 1)/(x - 2) xác định khi x - 2 ≠ 0 <=> x ≠ 2.\nVí dụ 2: (x - 1)/(x² - 1) = 1/(x + 1) với x ≠ ±1.",
+              "tips": "Luôn luôn tìm điều kiện xác định (mẫu khác 0) đầu tiên trước khi rút gọn hoặc tính giá trị phân thức!"
+            },
+            {
+              "id": "g8_m_c2_l2",
+              "chapterId": "g8_math_c2",
+              "order": 2,
+              "title": "Bài 2: Tính chất cơ bản và rút gọn phân thức",
+              "summary": "1. Tính chất cơ bản:\n- A/B = (A . M) / (B . M) (với M là đa thức khác 0)\n- A/B = (A : N) / (B : N) (với N là nhân tử chung của A và B)\n2. Rút gọn phân thức:\n- Phân tích cả tử và mẫu thành nhân tử.\n- Chia cả tử và mẫu cho nhân tử chung.",
+              "examples": "Ví dụ: Rút gọn P = (2x + 4)/(x² - 4):\nTa có 2x + 4 = 2(x + 2); x² - 4 = (x - 2)(x + 2).\nDo đó P = [2(x + 2)] / [(x - 2)(x + 2)] = 2/(x - 2) (với x ≠ ±2).",
+              "tips": "Quy tắc đổi dấu: Đổi dấu cả tử và mẫu thì phân thức không đổi: A/B = (-A)/(-B)."
+            },
+            {
+              "id": "g8_m_c2_l3",
+              "chapterId": "g8_math_c2",
+              "order": 3,
+              "title": "Bài 3: Cộng, trừ, nhân, chia phân thức đại số",
+              "summary": "1. Cộng, trừ cùng mẫu: A/M ± B/M = (A ± B)/M.\n2. Khác mẫu: Quy đồng mẫu thức rồi thực hiện phép tính.\n3. Nhân phân thức: (A/B) . (C/D) = (A . C) / (B . D).\n4. Chia phân thức: (A/B) : (C/D) = (A/B) . (D/C) = (A . D) / (B . C) (với C/D ≠ 0).",
+              "examples": "Ví dụ 1: 1/x + 1/(x+1) = (x+1)/[x(x+1)] + x/[x(x+1)] = (2x+1)/[x(x+1)].\nVí dụ 2: (x/2) . (4/x²) = 4x / 2x² = 2/x.",
+              "tips": "Để quy đồng nhanh, hãy phân tích tất cả các mẫu thành nhân tử và tìm Mẫu thức chung (MTC) nhỏ nhất."
+            }
+          ]
+        },
+        {
+          "id": "g8_eng_c1",
+          "subjectId": "english",
+          "grade": 8,
+          "order": 1,
+          "title": "Unit 1: Leisure Time",
+          "description": "Activities, hobbies and verbs of liking + Gerund/To-infinitive",
+          "lessons": [
+            {
+              "id": "g8_e_c1_l1",
+              "chapterId": "g8_eng_c1",
+              "order": 1,
+              "title": "Lesson 1: Leisure Activities & Slang",
+              "summary": "Vocabulary:\n- DIY (Do It Yourself - tự làm đồ thủ công), origami (nghệ thuật gấp giấy), surfing the net (lướt mạng), hang out with friends (tụ tập bạn bè), knit (đan len), puzzle (trò giải đố).\n- Idioms & Expressions: hooked on (say mê), crazy about (cuồng cái gì), fond of (yêu thích), into something (thích thú).",
+              "examples": "Example 1: My brother is crazy about playing computer games.\nExample 2: She is hooked on origami; she makes paper cranes every day.",
+              "tips": "'hooked on', 'crazy about', 'fond of' đều đi với danh từ hoặc V-ing."
+            },
+            {
+              "id": "g8_e_c1_l2",
+              "chapterId": "g8_eng_c1",
+              "order": 2,
+              "title": "Lesson 2: Verbs of Liking: Gerund vs To-infinitive",
+              "summary": "1. Các động từ CHỈ đi với V-ing: enjoy, avoid, fancy, finish, mind, practice.\n2. Các động từ CHỈ đi với to-V: want, decide, hope, promise, plan, refuse.\n3. Các động từ đi được với CẢ HAI và không đổi nghĩa nhiều: like, love, hate, prefer.\n4. Đổi nghĩa: stop + to V (dừng lại ĐỂ làm gì) vs stop + V-ing (dừng HẲN việc đang làm).",
+              "examples": "Example 1: He decided to learn coding.\nExample 2: She avoided talking to strangers.\nExample 3: He stopped smoking (Bỏ thuốc). He stopped to buy a coffee (Dừng lại để mua cà phê).",
+              "tips": "Chú ý câu hỏi thi hay bẫy 'stop / remember / forget + to V hay V-ing'."
+            },
+            {
+              "id": "g8_e_c1_l3",
+              "chapterId": "g8_eng_c1",
+              "order": 3,
+              "title": "Lesson 3: Social Networking & Screen Time",
+              "summary": "Vocabulary & Reading Skills:\n- balance (cân bằng), screen time (thời gian trước màn hình), virtual life (cuộc sống ảo), face-to-face interaction (giao tiếp trực tiếp).\n- Collocations: make friends, stay in touch, join a club, share photos online.",
+              "examples": "Example 1: Teens should balance their screen time and outdoor activities.\nExample 2: Social media helps us stay in touch with friends far away.",
+              "tips": "Liên từ kết nối bài luận: Furthermore (Hơn nữa), In addition (Ngoài ra), On the other hand (Mặt khác)."
+            }
+          ]
+        },
+        {
+          "id": "g8_eng_c2",
+          "subjectId": "english",
+          "grade": 8,
+          "order": 2,
+          "title": "Unit 2: Life in the Countryside",
+          "description": "Rural life, peaceful atmosphere and comparative forms of adverbs",
+          "lessons": [
+            {
+              "id": "g8_e_c2_l1",
+              "chapterId": "g8_eng_c2",
+              "order": 1,
+              "title": "Lesson 1: Rural Vocabulary & Countryside Life",
+              "summary": "Từ vựng cuộc sống nông thôn:\n- harvest time (mùa gặt), paddy field (cánh đồng lúa), herd cattle (chăn gia súc), buffalo-drawn cart (xe trâu kéo), hospitable (hiếu khách), peaceful (yên bình), picturesque (đẹp như tranh vẽ), vast (bao la, rộng lớn).",
+              "examples": "Example 1: During harvest time, local farmers work from dawn to dusk.\nExample 2: The vast paddy fields look like a yellow carpet.",
+              "tips": "'hospitable' nghĩa là hiếu khách, niềm nở tiếp đón người lạ."
+            },
+            {
+              "id": "g8_e_c2_l2",
+              "chapterId": "g8_eng_c2",
+              "order": 2,
+              "title": "Lesson 2: Comparative Adverbs (So sánh hơn của trạng từ)",
+              "summary": "1. Trạng từ ngắn (1 âm tiết: fast, hard, early, late): S1 + V + adv-er + than + S2.\n   fast -> faster, hard -> harder, early -> earlier.\n2. Trạng từ dài (2 âm tiết trở lên, thường có đuôi -ly): S1 + V + more + adv + than + S2.\n   carefully -> more carefully, fluently -> more fluently.\n3. Trạng từ bất quy tắc:\n   well -> better, badly -> worse, far -> farther/further.",
+              "examples": "Example 1: Life in the country moves more slowly than in the city.\nExample 2: He drives more carefully than his brother.\nExample 3: Farmers work harder during harvest time.",
+              "tips": "Đừng nhầm lẫn: 'hard' là cả tính từ và trạng từ; 'hardly' có nghĩa là 'hầu như không' chứ không phải 'chăm chỉ'."
+            },
+            {
+              "id": "g8_e_c2_l3",
+              "chapterId": "g8_eng_c2",
+              "order": 3,
+              "title": "Lesson 3: Comparing City and Country Life",
+              "summary": "Cấu trúc so sánh quan điểm:\n- In my opinion / From my perspective, ...\n- While city life is convenient, life in the countryside is more peaceful.\n- Advantages & Disadvantages of living in rural areas:\n  + Pros: fresh air, friendly neighbors, safe environment.\n  + Cons: lack of entertainment, fewer modern hospitals.",
+              "examples": "Example 1: Although public transport is convenient, cities are much noisier than villages.\nExample 2: Children in the countryside play outdoors more freely.",
+              "tips": "Từ nối thể hiện sự tương phản: While / Whereas / In contrast."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "grade": 9,
+      "chapters": [
+        {
+          "id": "g9_math_c1",
+          "subjectId": "math",
+          "grade": 9,
+          "order": 1,
+          "title": "Chương 1: Phương trình và hệ phương trình",
+          "description": "Phương trình bậc nhất hai ẩn và các phương pháp giải hệ",
+          "lessons": [
+            {
+              "id": "g9_m_c1_l1",
+              "chapterId": "g9_math_c1",
+              "order": 1,
+              "title": "Bài 1: Phương trình bậc nhất hai ẩn",
+              "summary": "1. Khái niệm: Phương trình bậc nhất hai ẩn x và y là hệ thức dạng ax + by = c, trong đó a, b, c là các số đã biết (a ≠ 0 hoặc b ≠ 0).\n2. Nghiệm: Cặp số (x₀; y₀) là nghiệm của ax + by = c nếu ax₀ + by₀ = c là khẳng định đúng.\n3. Tập nghiệm: Phương trình bậc nhất hai ẩn luôn có vô số nghiệm. Trong mặt phẳng tọa độ Oxy, tập nghiệm được biểu diễn bởi đường thẳng ax + by = c.",
+              "examples": "Ví dụ: Phương trình 2x - y = 3 có nghiệm (2; 1) vì 2(2) - 1 = 3.\nTập nghiệm: { (x; 2x - 3) | x ∈ ℝ }.",
+              "tips": "Nếu a ≠ 0 và b = 0 => Đường thẳng x = c/a song song với trục tung Oy."
+            },
+            {
+              "id": "g9_m_c1_l2",
+              "chapterId": "g9_math_c1",
+              "order": 2,
+              "title": "Bài 2: Hệ hai phương trình bậc nhất hai ẩn",
+              "summary": "Dạng tổng quát: { a₁x + b₁y = c₁ ; a₂x + b₂y = c₂ }.\nCác phương pháp giải chính:\n1. Phương pháp thế: Rút một ẩn từ một phương trình thế vào phương trình còn lại để được phương trình một ẩn.\n2. Phương pháp cộng đại số: Nhân hai vế mỗi phương trình với hệ số thích hợp để hệ số của một ẩn bằng nhau (hoặc đối nhau), rồi cộng (hoặc trừ) hai vế để triệt tiêu ẩn đó.",
+              "examples": "Ví dụ: Giải hệ { x + y = 5 ; 2x - y = 1 }:\nCộng hai vế: (x + 2x) + (y - y) = 5 + 1 => 3x = 6 => x = 2.\nThay x = 2 vào pt đầu: 2 + y = 5 => y = 3.\nVậy hệ có nghiệm duy nhất (2; 3).",
+              "tips": "Khi hệ số của một ẩn đối nhau (như y và -y), ta CỘNG hai vế. Khi bằng nhau (như 2x và 2x), ta TRỪ hai vế."
+            },
+            {
+              "id": "g9_m_c1_l3",
+              "chapterId": "g9_math_c1",
+              "order": 3,
+              "title": "Bài 3: Giải bài toán bằng cách lập hệ phương trình",
+              "summary": "Các bước giải bài toán bằng cách lập hệ phương trình:\n- Bước 1: Chọn hai ẩn và đặt điều kiện thích hợp (đơn vị, khoảng giá trị).\n- Bước 2: Biểu diễn các đại lượng chưa biết theo ẩn và các đại lượng đã biết.\n- Bước 3: Lập hai phương trình liên hệ giữa các đại lượng.\n- Bước 4: Giải hệ phương trình và kiểm tra điều kiện để kết luận.",
+              "examples": "Ví dụ: Bài toán cổ 'Vừa gà vừa chó, bó lại cho tròn, ba mươi sáu con, một trăm chân chẵn'.\nGọi số gà là x, số chó là y (x, y ∈ ℕ*).\nTổng số con: x + y = 36.\nTổng số chân: 2x + 4y = 100.\nGiải hệ ta được: x = 22 (gà), y = 14 (chó).",
+              "tips": "Ghi nhớ công thức chuyển động: Quãng đường = Vận tốc x Thời gian (s = v . t)."
+            }
+          ]
+        },
+        {
+          "id": "g9_math_c2",
+          "subjectId": "math",
+          "grade": 9,
+          "order": 2,
+          "title": "Chương 2: Căn bậc hai và Căn bậc ba",
+          "description": "Căn thức bậc hai, các phép biến đổi và rút gọn biểu thức",
+          "lessons": [
+            {
+              "id": "g9_m_c2_l1",
+              "chapterId": "g9_math_c2",
+              "order": 1,
+              "title": "Bài 1: Căn bậc hai số học và hằng đẳng thức √(A²)",
+              "summary": "1. Với số dương a, số √a được gọi là căn bậc hai số học của a. Số 0 có căn bậc hai số học là 0.\n2. Căn thức bậc hai √A xác định khi A ≥ 0 (biểu thức dưới dấu căn không âm).\n3. Hằng đẳng thức: √(A²) = |A|.\n   - Nếu A ≥ 0 thì √(A²) = A.\n   - Nếu A < 0 thì √(A²) = -A.",
+              "examples": "Ví dụ 1: √16 = 4 (không phải ±4; căn bậc hai của 16 mới là ±4).\nVí dụ 2: √( (-5)² ) = |-5| = 5.\nVí dụ 3: √( (√3 - 2)² ) = |√3 - 2| = 2 - √3 (vì √3 < 2).",
+              "tips": "Tuyệt đối không viết √(A²) = A mà phải luôn có dấu giá trị tuyệt đối |A| trước khi phá dấu."
+            },
+            {
+              "id": "g9_m_c2_l2",
+              "chapterId": "g9_math_c2",
+              "order": 2,
+              "title": "Bài 2: Khai phương một tích và một thương",
+              "summary": "1. Khai phương một tích: Với A ≥ 0 và B ≥ 0, ta có √(A . B) = √A . √B.\n2. Khai phương một thương: Với A ≥ 0 và B > 0, ta có √(A / B) = √A / √B.\n3. Đưa thừa số ra ngoài / vào trong dấu căn:\n   - √(A² . B) = |A|√B (với B ≥ 0).\n   - A√B = √(A² . B) (nếu A ≥ 0) và -√(A² . B) (nếu A < 0).",
+              "examples": "Ví dụ 1: √75 = √(25 . 3) = 5√3.\nVí dụ 2: √(49 / 81) = √49 / √81 = 7/9.\nVí dụ 3: -3√2 = -√(3² . 2) = -√18.",
+              "tips": "Tách số dưới dấu căn thành tích của một số chính phương (4, 9, 16, 25, 36...) với một số khác."
+            },
+            {
+              "id": "g9_m_c2_l3",
+              "chapterId": "g9_math_c2",
+              "order": 3,
+              "title": "Bài 3: Trục căn thức ở mẫu và rút gọn biểu thức chứa căn",
+              "summary": "1. Khử mẫu của biểu thức lấy căn: √(A/B) = (√(AB)) / |B| (A.B ≥ 0, B ≠ 0).\n2. Trục căn thức ở mẫu:\n   - Với mẫu là √B: Nhân cả tử và mẫu với √B.\n   - Với mẫu là biểu thức liên hợp (√A ± B) hoặc (√A ± √B): Sử dụng hằng đẳng thức (x - y)(x + y) = x² - y² để trục căn thức.",
+              "examples": "Ví dụ 1: 2/√3 = (2√3)/3.\nVí dụ 2: 1/(√5 - 2) = (√5 + 2) / [(√5 - 2)(√5 + 2)] = (√5 + 2) / (5 - 4) = √5 + 2.",
+              "tips": "Biểu thức liên hợp của (√a - √b) là (√a + √b). Tích của chúng bằng a - b (mất căn hoàn toàn)."
+            }
+          ]
+        },
+        {
+          "id": "g9_eng_c1",
+          "subjectId": "english",
+          "grade": 9,
+          "order": 1,
+          "title": "Unit 1: Local Community",
+          "description": "Community services, craftsmen, artisans and question words + to-infinitive",
+          "lessons": [
+            {
+              "id": "g9_e_c1_l1",
+              "chapterId": "g9_eng_c1",
+              "order": 1,
+              "title": "Lesson 1: Community Services & Crafts",
+              "summary": "Vocabulary:\n- artisan / craftsman (thợ thủ công), pottery (đồ gốm), lantern (đèn lồng), lacquerware (đồ sơn mài), community helper (người trợ giúp cộng đồng), garbage collector (người gom rác), deliver (giao hàng), preserve (bảo tồn truyền thống).",
+              "examples": "Example 1: Bat Trang village is well known for its handmade ceramic pottery.\nExample 2: Artisans use natural materials to make colorful silk lanterns in Hoi An.",
+              "tips": "'craft' là nghề thủ công; 'craftsman' là nghệ nhân."
+            },
+            {
+              "id": "g9_e_c1_l2",
+              "chapterId": "g9_eng_c1",
+              "order": 2,
+              "title": "Lesson 2: Question Words Before To-Infinitive (Wh-words + To V)",
+              "summary": "Cấu trúc: Wh-word + to-infinitive (who, what, where, when, how + to V).\n- Dùng sau các động từ: ask, wonder, know, understand, tell, discover, decide.\n- Diễn tả hành động chưa biết giải quyết thế nào hoặc cần quyết định.\nLưu ý: 'Why' KHÔNG dùng với to-infinitive.",
+              "examples": "Example 1: I don't know WHERE TO BUY the best souvenir.\nExample 2: She asked HOW TO MAKE traditional conical hats.\nExample 3: They couldn't decide WHAT TO DO next.",
+              "tips": "Wh-word + to V có thể viết lại thành mệnh đề: 'how to do it' = 'how I should do it'."
+            },
+            {
+              "id": "g9_e_c1_l3",
+              "chapterId": "g9_eng_c1",
+              "order": 3,
+              "title": "Lesson 3: Phrasal Verbs in Daily Life",
+              "summary": "Cụm động từ (Phrasal Verbs):\n- pass down (truyền lại qua nhiều thế hệ)\n- face up to (đối mặt với khó khăn)\n- look forward to + V-ing (trông chờ)\n- run out of (hết cạn kiệt thứ gì)\n- get on with / get along with (hòa thuận với ai)\n- take care of (chăm sóc).",
+              "examples": "Example 1: This embroidery skill has been passed down from my grandmother.\nExample 2: We have run out of printer paper.",
+              "tips": "'look forward to' luôn theo sau bởi V-ing hoặc danh từ (không dùng động từ nguyên thể)."
+            }
+          ]
+        },
+        {
+          "id": "g9_eng_c2",
+          "subjectId": "english",
+          "grade": 9,
+          "order": 2,
+          "title": "Unit 2: City Life",
+          "description": "Urban challenges, modern attractions and comparisons",
+          "lessons": [
+            {
+              "id": "g9_e_c2_l1",
+              "chapterId": "g9_eng_c2",
+              "order": 1,
+              "title": "Lesson 1: City Features & Urban Challenges",
+              "summary": "Vocabulary:\n- metropolitan (đô thị lớn), skyscraper (nhà chọc trời), rush hour (giờ cao điểm), congestion (tắc nghẽn giao thông), pollution (ô nhiễm), cost of living (chi phí sinh hoạt), fabulous (tuyệt vời), affordable (vừa túi tiền).",
+              "examples": "Example 1: Traffic congestion is a major headache during rush hours.\nExample 2: Ho Chi Minh City is a bustling metropolitan center.",
+              "tips": "'congestion' và 'traffic jam' đều chỉ tắc đường; congestion mang sắc thái nặng và kéo dài hơn."
+            },
+            {
+              "id": "g9_e_c2_l2",
+              "chapterId": "g9_eng_c2",
+              "order": 2,
+              "title": "Lesson 2: Double Comparisons (So sánh kép: Càng... Càng...)",
+              "summary": "Cấu trúc The + comparative..., the + comparative... (Càng... thì càng...):\n1. Với tính từ / trạng từ ngắn: The + adj/adv-er..., the + adj/adv-er...\n2. Với tính từ / trạng từ dài: The more + adj/adv..., the more + adj/adv...\n3. Với mệnh đề đầy đủ: The + comparative + S + V, the + comparative + S + V.",
+              "examples": "Example 1: The bigger the city is, the higher the cost of living becomes.\nExample 2: The more you practice speaking English, the more confident you feel.\nExample 3: The earlier you start, the better the result.",
+              "tips": "Cả hai vế của so sánh kép đều phải có quán từ 'The'."
+            },
+            {
+              "id": "g9_e_c2_l3",
+              "chapterId": "g9_eng_c2",
+              "order": 3,
+              "title": "Lesson 3: Giving Directions & City Communication",
+              "summary": "Cụm từ chỉ đường và giao tiếp nơi đô thị:\n- go straight ahead (đi thẳng)\n- take the second turning on your left (rẽ lối rẽ thứ hai bên trái)\n- round the corner (ngay khúc cua)\n- within walking distance (ở cự ly có thể đi bộ được)\n- Excuse me, could you tell me the way to...? (Xin lỗi, bạn có thể chỉ đường tới...?)",
+              "examples": "Example 1: The subway station is just round the corner.\nExample 2: The supermarket is within walking distance from my apartment.",
+              "tips": "Cách hỏi đường lịch sự nhất luôn mở đầu bằng 'Excuse me, could you please tell me...'."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "q_g6_m_c1_l1_1",
+      "lessonId": "g6_m_c1_l1",
+      "type": "MULTIPLE_CHOICE",
+      "content": "Tập hợp các số tự nhiên khác 0 được ký hiệu là gì?",
+      "options": ["ℕ", "ℕ*", "ℤ", "ℚ"],
+      "correctAnswer": "ℕ*",
+      "hint": "Ký hiệu có thêm một dấu sao nhỏ ở góc trên.",
+      "explanation": "Theo quy ước toán học GDPT 2018, tập hợp ℕ = {0; 1; 2; ...} là các số tự nhiên, còn ℕ* = {1; 2; 3; ...} là tập hợp các số tự nhiên khác 0."
+    },
+    {
+      "id": "q_g6_m_c1_l1_2",
+      "lessonId": "g6_m_c1_l1",
+      "type": "TRUE_FALSE",
+      "content": "Số 0 là phần tử thuộc tập hợp ℕ*.",
+      "options": ["Đúng", "Sai"],
+      "correctAnswer": "Sai",
+      "hint": "Tập ℕ* chỉ chứa các số tự nhiên khác 0.",
+      "explanation": "Sai vì ℕ* = {1; 2; 3; ...} không chứa phần tử số 0. Ta viết 0 ∉ ℕ*."
+    },
+    {
+      "id": "q_g6_m_c1_l1_3",
+      "lessonId": "g6_m_c1_l1",
+      "type": "FILL_BLANK",
+      "content": "Số phần tử của tập hợp A = {x ∈ ℕ | 3 ≤ x < 8} là ___ phần tử.",
+      "options": [],
+      "correctAnswer": "5",
+      "hint": "Liệt kê các số từ 3 đến 7.",
+      "explanation": "Các phần tử của A là: 3; 4; 5; 6; 7. Như vậy tập A có đúng 5 phần tử."
+    },
+    {
+      "id": "q_g6_m_c1_l1_4",
+      "lessonId": "g6_m_c1_l1",
+      "type": "MULTIPLE_CHOICE",
+      "content": "Cho M = {a; b; c}. Cách viết nào sau đây là ĐÚNG?",
+      "options": ["a ⊂ M", "{a} ∈ M", "a ∈ M", "{a; b} ∈ M"],
+      "correctAnswer": "a ∈ M",
+      "hint": "Phần tử thuộc tập hợp dùng ký hiệu ∈.",
+      "explanation": "a là một phần tử của tập hợp M nên ta viết a ∈ M. Còn {a} là tập con của M nên viết {a} ⊂ M."
+    },
+    {
+      "id": "q_g6_m_c1_l1_5",
+      "lessonId": "g6_m_c1_l1",
+      "type": "MULTIPLE_CHOICE",
+      "content": "Viết tập hợp các chữ số của số 2026 bằng cách liệt kê phần tử:",
+      "options": ["{2; 0; 2; 6}", "{2; 0; 6}", "{0; 2; 6}", "{2; 6}"],
+      "correctAnswer": "{2; 0; 6}",
+      "hint": "Mỗi phần tử trong tập hợp chỉ được liệt kê một lần.",
+      "explanation": "Theo quy tắc liệt kê, mỗi phần tử chỉ được viết một lần, thứ tự liệt kê tùy ý. Do đó tập hợp là {2; 0; 6}."
+    },
+    {
+      "id": "q_g6_m_c1_l2_1",
+      "lessonId": "g6_m_c1_l2",
+      "type": "MULTIPLE_CHOICE",
+      "content": "Kết quả của phép tính nhẩm nhanh 25 . 36 . 4 là:",
+      "options": ["360", "3600", "7200", "1800"],
+      "correctAnswer": "3600",
+      "hint": "Nhóm 25 với 4 trước.",
+      "explanation": "Áp dụng tính chất giao hoán và kết hợp: (25 . 4) . 36 = 100 . 36 = 3600."
+    },
+    {
+      "id": "q_g6_m_c1_l2_2",
+      "lessonId": "g6_m_c1_l2",
+      "type": "FILL_BLANK",
+      "content": "Tìm số tự nhiên x biết: 125 - x = 45. Giá trị của x là ___",
+      "options": [],
+      "correctAnswer": "80",
+      "hint": "Số trừ bằng số bị trừ trừ đi hiệu.",
+      "explanation": "x = 125 - 45 = 80."
+    },
+    {
+      "id": "q_g6_m_c1_l2_3",
+      "lessonId": "g6_m_c1_l2",
+      "type": "TRUE_FALSE",
+      "content": "Trong phép chia có dư, số dư r luôn nhỏ hơn số chia b (r < b).",
+      "options": ["Đúng", "Sai"],
+      "correctAnswer": "Đúng",
+      "hint": "Nếu số dư lớn hơn hoặc bằng số chia thì phép chia chưa hoàn tất.",
+      "explanation": "Đúng. Với phép chia có dư a = b . q + r thì điều kiện bắt buộc là 0 < r < b."
+    },
+    {
+      "id": "q_g6_m_c1_l2_4",
+      "lessonId": "g6_m_c1_l2",
+      "type": "MULTIPLE_CHOICE",
+      "content": "Tính giá trị biểu thức: 47 . 13 + 47 . 87",
+      "options": ["470", "4700", "4070", "5000"],
+      "correctAnswer": "4700",
+      "hint": "Áp dụng tính chất phân phối đặt 47 ra ngoài.",
+      "explanation": "47 . (13 + 87) = 47 . 100 = 4700."
+    },
+    {
+      "id": "q_g6_m_c1_l2_5",
+      "lessonId": "g6_m_c1_l2",
+      "type": "MULTIPLE_CHOICE",
+      "content": "Một phép chia có số chia là 8, thương là 12 và số dư là 5. Số bị chia là:",
+      "options": ["101", "96", "100", "105"],
+      "correctAnswer": "101",
+      "hint": "Số bị chia = Số chia x Thương + Số dư.",
+      "explanation": "Số bị chia = 8 . 12 + 5 = 96 + 5 = 101."
+    },
+    {
+      "id": "q_g6_m_c1_l3_1",
+      "lessonId": "g6_m_c1_l3",
+      "type": "MULTIPLE_CHOICE",
+      "content": "Viết tích 3 . 3 . 3 . 3 . 3 dưới dạng một lũy thừa:",
+      "options": ["3⁴", "3⁵", "5³", "15"],
+      "correctAnswer": "3⁵",
+      "hint": "Đếm số lượng thừa số 3.",
+      "explanation": "Tích của 5 thừa số 3 bằng nhau được viết là 3⁵."
+    },
+    {
+      "id": "q_g6_m_c1_l3_2",
+      "lessonId": "g6_m_c1_l3",
+      "type": "MULTIPLE_CHOICE",
+      "content": "Kết quả của phép nhân 2³ . 2⁴ là:",
+      "options": ["2⁷", "2¹²", "4⁷", "4¹²"],
+      "correctAnswer": "2⁷",
+      "hint": "Nhân hai lũy thừa cùng cơ số thì giữ nguyên cơ số và cộng các số mũ.",
+      "explanation": "2³ . 2⁴ = 2³⁺⁴ = 2⁷."
+    },
+    {
+      "id": "q_g6_m_c1_l3_3",
+      "lessonId": "g6_m_c1_l3",
+      "type": "FILL_BLANK",
+      "content": "Tính giá trị của 5⁴ : 5² = ___",
+      "options": [],
+      "correctAnswer": "25",
+      "hint": "5⁴ : 5² = 5².",
+      "explanation": "5⁴ : 5² = 5⁴⁻² = 5² = 25."
+    },
+    {
+      "id": "q_g6_m_c1_l3_4",
+      "lessonId": "g6_m_c1_l3",
+      "type": "TRUE_FALSE",
+      "content": "Quy ước: a⁰ = 1 với mọi số tự nhiên a khác 0.",
+      "options": ["Đúng", "Sai"],
+      "correctAnswer": "Đúng",
+      "hint": "Lũy thừa bậc 0 của bất kỳ số khác 0 nào đều bằng 1.",
+      "explanation": "Đúng. Theo định nghĩa, với a ≠ 0 thì a⁰ = 1."
+    },
+    {
+      "id": "q_g6_m_c1_l3_5",
+      "lessonId": "g6_m_c1_l3",
+      "type": "MULTIPLE_CHOICE",
+      "content": "Thứ tự thực hiện phép tính đúng đối với biểu thức không có dấu ngoặc là:",
+      "options": [
+        "Cộng, trừ -> Nhân, chia -> Lũy thừa",
+        "Lũy thừa -> Nhân, chia -> Cộng, trừ",
+        "Nhân, chia -> Lũy thừa -> Cộng, trừ",
+        "Tùy ý thực hiện phép tính nào trước cũng được"
+      ],
+      "correctAnswer": "Lũy thừa -> Nhân, chia -> Cộng, trừ",
+      "hint": "Lũy thừa có mức độ ưu tiên cao nhất.",
+      "explanation": "Thứ tự thực hiện phép tính chuẩn: Lũy thừa -> Nhân và chia -> Cộng và trừ."
+    },
+    {
+      "id": "q_g6_m_c2_l1_1",
+      "lessonId": "g6_m_c2_l1",
+      "type": "MULTIPLE_CHOICE",
+      "content": "Số đối của số -15 là:",
+      "options": ["-15", "15", "0", "1/15"],
+      "correctAnswer": "15",
+      "hint": "Số đối đổi dấu trừ thành cộng.",
+      "explanation": "Số đối của số nguyên a là -a. Do đó số đối của -15 là -(-15) = 15."
+    },
+    {
+      "id": "q_g6_m_c2_l1_2",
+      "lessonId": "g6_m_c2_l1",
+      "type": "TRUE_FALSE",
+      "content": "Số 0 là số nguyên dương nhỏ nhất.",
+      "options": ["Đúng", "Sai"],
+      "correctAnswer": "Sai",
+      "hint": "Số 0 không âm cũng không dương.",
+      "explanation": "Sai vì số 0 không phải là số nguyên dương và cũng không phải là số nguyên âm. Số nguyên dương nhỏ nhất là 1."
+    },
+    {
+      "id": "q_g6_m_c2_l1_3",
+      "lessonId": "g6_m_c2_l1",
+      "type": "MULTIPLE_CHOICE",
+      "content": "Sắp xếp các số nguyên sau theo thứ tự tăng dần: -7; 0; 3; -2",
+      "options": ["-7 < -2 < 0 < 3", "0 < -2 < 3 < -7", "-2 < -7 < 0 < 3", "3 < 0 < -2 < -7"],
+      "correctAnswer": "-7 < -2 < 0 < 3",
+      "hint": "Số âm càng xa số 0 về bên trái trên trục số thì càng nhỏ.",
+      "explanation": "Trên trục số: -7 nằm xa nhất bên trái, tiếp theo là -2, rồi đến 0, và bên phải cùng là 3. Vậy -7 < -2 < 0 < 3."
+    },
+    {
+      "id": "q_g6_m_c2_l1_4",
+      "lessonId": "g6_m_c2_l1",
+      "type": "FILL_BLANK",
+      "content": "Đỉnh núi Fansipan cao 3143 m so với mực nước biển biểu diễn là +3143 m. Rãnh Mariana sâu 10994 m dưới mực nước biển biểu diễn bằng số nguyên là ___ m.",
+      "options": [],
+      "correctAnswer": "-10994",
+      "hint": "Dưới mực nước biển dùng dấu âm.",
+      "explanation": "Độ sâu dưới mực nước biển được quy ước bằng số nguyên âm: -10994."
+    },
+    {
+      "id": "q_g6_m_c2_l1_5",
+      "lessonId": "g6_m_c2_l1",
+      "type": "MULTIPLE_CHOICE",
+      "content": "Tập hợp các số nguyên ℤ bao gồm:",
+      "options": [
+        "Các số tự nhiên và phân số",
+        "Các số nguyên âm, số 0 và các số nguyên dương",
+        "Chỉ các số nguyên âm và số nguyên dương",
+        "Các số tự nhiên khác 0"
+      ],
+      "correctAnswer": "Các số nguyên âm, số 0 và các số nguyên dương",
+      "hint": "Có 3 thành phần chính hợp thành tập Z.",
+      "explanation": "ℤ gồm các số nguyên âm, số 0 và các số nguyên dương (số tự nhiên khác 0)."
+    },
+    {
+      "id": "q_g6_m_c2_l2_1",
+      "lessonId": "g6_m_c2_l2",
+      "type": "MULTIPLE_CHOICE",
+      "content": "Tính: (-12) + (-18)",
+      "options": ["-30", "30", "-6", "6"],
+      "correctAnswer": "-30",
+      "hint": "Cộng hai số cùng dấu âm: cộng các giá trị tự nhiên rồi đặt dấu trừ đằng trước.",
+      "explanation": "(-12) + (-18) = -(12 + 18) = -30."
+    },
+    {
+      "id": "q_g6_m_c2_l2_2",
+      "lessonId": "g6_m_c2_l2",
+      "type": "MULTIPLE_CHOICE",
+      "content": "Kết quả của phép tính: 25 + (-35) là:",
+      "options": ["10", "-10", "60", "-60"],
+      "correctAnswer": "-10",
+      "hint": "Lấy 35 trừ 25 và đặt dấu trừ của số lớn hơn.",
+      "explanation": "Cộng hai số khác dấu: 25 + (-35) = -(35 - 25) = -10."
+    },
+    {
+      "id": "q_g6_m_c2_l2_3",
+      "lessonId": "g6_m_c2_l2",
+      "type": "FILL_BLANK",
+      "content": "Tính giá trị của phép trừ: 14 - (-6) = ___",
+      "options": [],
+      "correctAnswer": "20",
+      "hint": "Trừ cho số âm biến thành cộng.",
+      "explanation": "14 - (-6) = 14 + 6 = 20."
+    },
+    {
+      "id": "q_g6_m_c2_l2_4",
+      "lessonId": "g6_m_c2_l2",
+      "type": "TRUE_FALSE",
+      "content": "Tổng của hai số nguyên đối nhau luôn luôn bằng 0.",
+      "options": ["Đúng", "Sai"],
+      "correctAnswer": "Đúng",
+      "hint": "Ví dụ 5 + (-5) = 0.",
+      "explanation": "Đúng. Với mọi số nguyên a, ta luôn có a + (-a) = 0."
+    },
+    {
+      "id": "q_g6_m_c2_l2_5",
+      "lessonId": "g6_m_c2_l2",
+      "type": "MULTIPLE_CHOICE",
+      "content": "Nhiệt độ buổi sáng là -2°C, đến buổi trưa nhiệt độ tăng thêm 5°C. Nhiệt độ buổi trưa là:",
+      "options": ["-7°C", "3°C", "7°C", "-3°C"],
+      "correctAnswer": "3°C",
+      "hint": "Tính (-2) + 5.",
+      "explanation": "Nhiệt độ buổi trưa là: (-2) + 5 = 3°C."
+    },
+    {
+      "id": "q_g6_m_c2_l3_1",
+      "lessonId": "g6_m_c2_l3",
+      "type": "MULTIPLE_CHOICE",
+      "content": "Khi bỏ dấu ngoặc có dấu trừ đằng trước -(a - b + c), ta được kết quả là:",
+      "options": ["-a - b + c", "-a + b - c", "-a + b + c", "a - b + c"],
+      "correctAnswer": "-a + b - c",
+      "hint": "Đổi dấu tất cả các hạng tử trong ngoặc.",
+      "explanation": "Quy tắc dấu ngoặc: Dấu '-' đằng trước đổi a thành -a, -b thành +b, +c thành -c."
+    },
+    {
+      "id": "q_g6_m_c2_l3_2",
+      "lessonId": "g6_m_c2_l3",
+      "type": "FILL_BLANK",
+      "content": "Tính: (-7) . (-8) = ___",
+      "options": [],
+      "correctAnswer": "56",
+      "hint": "Tích của hai số nguyên cùng dấu âm là một số nguyên dương.",
+      "explanation": "(-7) . (-8) = +(7 . 8) = 56."
+    },
+    {
+      "id": "q_g6_m_c2_l3_3",
+      "lessonId": "g6_m_c2_l3",
+      "type": "MULTIPLE_CHOICE",
+      "content": "Tính: (-4) . 15",
+      "options": ["-60", "60", "-19", "-11"],
+      "correctAnswer": "-60",
+      "hint": "Tích của hai số khác dấu là số âm.",
+      "explanation": "(-4) . 15 = -(4 . 15) = -60."
+    },
+    {
+      "id": "q_g6_m_c2_l3_4",
+      "lessonId": "g6_m_c2_l3",
+      "type": "TRUE_FALSE",
+      "content": "Bình phương của bất kỳ số nguyên nào cũng là một số không âm: a² ≥ 0.",
+      "options": ["Đúng", "Sai"],
+      "correctAnswer": "Đúng",
+      "hint": "Số âm nhân với số âm ra số dương, 0² = 0.",
+      "explanation": "Đúng. Với mọi số nguyên a, a . a luôn mang dấu dương hoặc bằng 0."
+    },
+    {
+      "id": "q_g6_m_c2_l3_5",
+      "lessonId": "g6_m_c2_l3",
+      "type": "MULTIPLE_CHOICE",
+      "content": "Giá trị của biểu thức (-2)³ là:",
+      "options": ["-8", "8", "-6", "6"],
+      "correctAnswer": "-8",
+      "hint": "Lũy thừa bậc lẻ của số âm là số âm.",
+      "explanation": "(-2)³ = (-2) . (-2) . (-2) = 4 . (-2) = -8."
+    },
+    {
+      "id": "q_g6_e_c1_l1_1",
+      "lessonId": "g6_e_c1_l1",
+      "type": "MULTIPLE_CHOICE",
+      "content": "Choose the correct collocation: 'Students often ___ judo in the school gym.'",
+      "options": ["play", "do", "have", "study"],
+      "correctAnswer": "do",
+      "hint": "We use 'do' with martial arts.",
+      "explanation": "We use 'do' with individual activities and martial arts: do judo, do karate, do yoga."
+    },
+    {
+      "id": "q_g6_e_c1_l1_2",
+      "lessonId": "g6_e_c1_l1",
+      "type": "MULTIPLE_CHOICE",
+      "content": "Which item is used to draw circles in geometry?",
+      "options": ["calculator", "compass", "pencil case", "ruler"],
+      "correctAnswer": "compass",
+      "hint": "It has two legs, one with a needle and one with a pencil.",
+      "explanation": "'Compass' (com-pa) is used for drawing circles and arcs in geometry."
+    },
+    {
+      "id": "q_g6_e_c1_l1_3",
+      "lessonId": "g6_e_c1_l1",
+      "type": "FILL_BLANK",
+      "content": "In Vietnam, students usually wear their school ___ on Mondays.",
+      "options": [],
+      "correctAnswer": "uniform",
+      "hint": "Special clothes that all students wear at school.",
+      "explanation": "'uniform' có nghĩa là đồng phục học sinh."
+    },
+    {
+      "id": "q_g6_e_c1_l1_4",
+      "lessonId": "g6_e_c1_l1",
+      "type": "TRUE_FALSE",
+      "content": "The phrase 'play homework' is grammatically correct in English.",
+      "options": ["Đúng", "Sai"],
+      "correctAnswer": "Sai",
+      "hint": "The correct verb for homework is 'do'.",
+      "explanation": "Sai. The correct collocation is 'do homework', not 'play homework'."
+    },
+    {
+      "id": "q_g6_e_c1_l1_5",
+      "lessonId": "g6_e_c1_l1",
+      "type": "MULTIPLE_CHOICE",
+      "content": "Which word has a different vowel sound in the underlined part: b<u>i</u>cycle, c<u>i</u>nema, l<u>i</u>brary, cl<u>i</u>mb?",
+      "options": ["bicycle", "cinema", "library", "climb"],
+      "correctAnswer": "cinema",
+      "hint": "'cinema' starts with /ɪ/ sound while others have /aɪ/ sound.",
+      "explanation": "cinema phát âm là /ˈsɪnəmə/ (âm /ɪ/), còn bicycle, library, climb đều phát âm âm /aɪ/."
+    },
+    {
+      "id": "q_g6_e_c1_l2_1",
+      "lessonId": "g6_e_c1_l2",
+      "type": "MULTIPLE_CHOICE",
+      "content": "Lan ___ to school by bike every morning.",
+      "options": ["go", "goes", "going", "gone"],
+      "correctAnswer": "goes",
+      "hint": "Lan is third-person singular (she).",
+      "explanation": "Với chủ ngữ ngôi thứ 3 số ít (Lan), động từ 'go' kết thúc bằng 'o' nên thêm 'es' thành 'goes'."
+    },
+    {
+      "id": "q_g6_e_c1_l2_2",
+      "lessonId": "g6_e_c1_l2",
+      "type": "FILL_BLANK",
+      "content": "Complete the sentence: They ___ not live in Hanoi. (do / does)",
+      "options": [],
+      "correctAnswer": "do",
+      "hint": "Subject is 'They'.",
+      "explanation": "Chủ ngữ 'They' dùng trợ động từ 'do' trong câu phủ định (They do not live...)."
+    },
+    {
+      "id": "q_g6_e_c1_l2_3",
+      "lessonId": "g6_e_c1_l2",
+      "type": "MULTIPLE_CHOICE",
+      "content": "___ your brother like studying science?",
+      "options": ["Do", "Does", "Is", "Are"],
+      "correctAnswer": "Does",
+      "hint": "'your brother' is equivalent to 'he'.",
+      "explanation": "Chủ ngữ 'your brother' là ngôi thứ ba số ít, câu hỏi thì hiện tại đơn với động từ thường 'like' dùng trợ động từ 'Does'."
+    },
+    {
+      "id": "q_g6_e_c1_l2_4",
+      "lessonId": "g6_e_c1_l2",
+      "type": "TRUE_FALSE",
+      "content": "In Present Simple, verbs ending in -ch, -sh, -x, -s, -o take '-es' with he/she/it.",
+      "options": ["Đúng", "Sai"],
+      "correctAnswer": "Đúng",
+      "hint": "Example: watches, washes, fixes, goes.",
+      "explanation": "Đúng. Quy tắc chính tả thêm '-es' khi động từ kết thúc bằng các âm xuýt hoặc chữ o."
+    },
+    {
+      "id": "q_g6_e_c1_l2_5",
+      "lessonId": "g6_e_c1_l2",
+      "type": "MULTIPLE_CHOICE",
+      "content": "Find the mistake: 'My father <u>watch</u> TV every evening after dinner.'",
+      "options": ["watch", "TV", "every", "after dinner"],
+      "correctAnswer": "watch",
+      "hint": "Subject 'My father' requires verb with -es.",
+      "explanation": "'My father' là ngôi thứ ba số ít, động từ cần chia là 'watches'."
+    },
+    {
+      "id": "q_g6_e_c1_l3_1",
+      "lessonId": "g6_e_c1_l3",
+      "type": "MULTIPLE_CHOICE",
+      "content": "Which sentence has the correct word order for adverbs of frequency?",
+      "options": [
+        "Nam usually is late for school.",
+        "Nam is usually late for school.",
+        "Nam late is usually for school.",
+        "Usually Nam late is for school."
+      ],
+      "correctAnswer": "Nam is usually late for school.",
+      "hint": "Adverbs of frequency come AFTER the verb 'to be'.",
+      "explanation": "Trạng từ chỉ tần suất đứng SAU động từ 'to be' (is usually late)."
+    },
+    {
+      "id": "q_g6_e_c1_l3_2",
+      "lessonId": "g6_e_c1_l3",
+      "type": "MULTIPLE_CHOICE",
+      "content": "I ___ play football because I don't like sports at all (0%).",
+      "options": ["always", "often", "sometimes", "never"],
+      "correctAnswer": "never",
+      "hint": "0% frequency means not ever.",
+      "explanation": "'never' mang nghĩa không bao giờ (tần suất 0%)."
+    },
+    {
+      "id": "q_g6_e_c1_l3_3",
+      "lessonId": "g6_e_c1_l3",
+      "type": "FILL_BLANK",
+      "content": "'How ___ do you wash your hands?' - 'Three times a day.'",
+      "options": [],
+      "correctAnswer": "often",
+      "hint": "Question phrase for frequency.",
+      "explanation": "'How often' dùng để hỏi về mức độ thường xuyên / tần suất."
+    },
+    {
+      "id": "q_g6_e_c1_l3_4",
+      "lessonId": "g6_e_c1_l3",
+      "type": "TRUE_FALSE",
+      "content": "Adverbs of frequency stand BEFORE ordinary verbs.",
+      "options": ["Đúng", "Sai"],
+      "correctAnswer": "Đúng",
+      "hint": "Example: I usually walk to school.",
+      "explanation": "Đúng. Trạng từ chỉ tần suất đứng TRƯỚC động từ thường (I always do my homework)."
+    },
+    {
+      "id": "q_g6_e_c1_l3_5",
+      "lessonId": "g6_e_c1_l3",
+      "type": "MULTIPLE_CHOICE",
+      "content": "Put words in order: 'rarely / he / breakfast / eats / at home'",
+      "options": [
+        "He rarely eats breakfast at home.",
+        "He eats rarely breakfast at home.",
+        "Rarely he eats at home breakfast.",
+        "He breakfast rarely eats at home."
+      ],
+      "correctAnswer": "He rarely eats breakfast at home.",
+      "hint": "Subject + Adverb + Verb + Object.",
+      "explanation": "Cấu trúc chuẩn: He (S) + rarely (adv) + eats (V) + breakfast (O) + at home."
+    },
+    {
+      "id": "q_g6_e_c2_l1_1",
+      "lessonId": "g6_e_c2_l1",
+      "type": "MULTIPLE_CHOICE",
+      "content": "Which type of house is typical for ethnic minority groups in the mountains of Vietnam?",
+      "options": ["villa", "stilt house", "apartment", "town house"],
+      "correctAnswer": "stilt house",
+      "hint": "A house built on wooden poles above ground.",
+      "explanation": "'stilt house' là nhà sàn truyền thống của các dân tộc thiểu số miền núi."
+    },
+    {
+      "id": "q_g6_e_c2_l1_2",
+      "lessonId": "g6_e_c2_l1",
+      "type": "MULTIPLE_CHOICE",
+      "content": "Where do you keep your clothes in your bedroom?",
+      "options": ["fridge", "wardrobe", "dishwasher", "sink"],
+      "correctAnswer": "wardrobe",
+      "hint": "A tall piece of furniture for hanging coats and clothes.",
+      "explanation": "'wardrobe' là tủ đựng quần áo; 'fridge' là tủ lạnh; 'dishwasher' là máy rửa bát."
+    },
+    {
+      "id": "q_g6_e_c2_l1_3",
+      "lessonId": "g6_e_c2_l1",
+      "type": "FILL_BLANK",
+      "content": "My mother is cooking dinner in the ___ right now.",
+      "options": [],
+      "correctAnswer": "kitchen",
+      "hint": "The room used for cooking meals.",
+      "explanation": "'kitchen' là phòng bếp nơi nấu ăn."
+    },
+    {
+      "id": "q_g6_e_c2_l1_4",
+      "lessonId": "g6_e_c2_l1",
+      "type": "TRUE_FALSE",
+      "content": "A 'flat' in British English means the same as an 'apartment' in American English.",
+      "options": ["Đúng", "Sai"],
+      "correctAnswer": "Đúng",
+      "hint": "Both mean căn hộ chung cư.",
+      "explanation": "Đúng. 'flat' (Anh Anh) và 'apartment' (Anh Mỹ) đều có nghĩa là căn hộ."
+    },
+    {
+      "id": "q_g6_e_c2_l1_5",
+      "lessonId": "g6_e_c2_l1",
+      "type": "MULTIPLE_CHOICE",
+      "content": "Which item belongs in the bathroom?",
+      "options": ["shower", "sofa", "microwave", "bed"],
+      "correctAnswer": "shower",
+      "hint": "Used for washing your body under spraying water.",
+      "explanation": "'shower' là vòi hoa sen trong phòng tắm."
+    },
+    {
+      "id": "q_g6_e_c2_l2_1",
+      "lessonId": "g6_e_c2_l2",
+      "type": "MULTIPLE_CHOICE",
+      "content": "The cat is sleeping ___ the table, completely under it.",
+      "options": ["on", "under", "in", "between"],
+      "correctAnswer": "under",
+      "hint": "Below the surface of the table.",
+      "explanation": "'under' nghĩa là ở bên dưới cái bàn."
+    },
+    {
+      "id": "q_g6_e_c2_l2_2",
+      "lessonId": "g6_e_c2_l2",
+      "type": "MULTIPLE_CHOICE",
+      "content": "There ___ three books and a lamp on the desk.",
+      "options": ["is", "are", "be", "have"],
+      "correctAnswer": "are",
+      "hint": "'three books' is a plural noun.",
+      "explanation": "Sau 'There' là danh từ số nhiều 'three books' nên dùng động từ 'are'."
+    },
+    {
+      "id": "q_g6_e_c2_l2_3",
+      "lessonId": "g6_e_c2_l2",
+      "type": "FILL_BLANK",
+      "content": "The school is ___ the bank and the bookstore.",
+      "options": [],
+      "correctAnswer": "between",
+      "hint": "In the middle of two things.",
+      "explanation": "Giới từ 'between' đi kèm liên từ 'and' để chỉ vị trí ở giữa hai nơi."
+    },
+    {
+      "id": "q_g6_e_c2_l2_4",
+      "lessonId": "g6_e_c2_l2",
+      "type": "TRUE_FALSE",
+      "content": "We say 'in front of' to mean phía trước một vật nào đó.",
+      "options": ["Đúng", "Sai"],
+      "correctAnswer": "Đúng",
+      "hint": "Opposite of 'behind'.",
+      "explanation": "Đúng. 'in front of' có nghĩa là ở phía trước, đối nghĩa với 'behind' (ở phía sau)."
+    },
+    {
+      "id": "q_g6_e_c2_l2_5",
+      "lessonId": "g6_e_c2_l2",
+      "type": "MULTIPLE_CHOICE",
+      "content": "There ___ a big television in the living room.",
+      "options": ["is", "are", "have", "has"],
+      "correctAnswer": "is",
+      "hint": "'a big television' is singular.",
+      "explanation": "Danh từ số ít 'a big television' đi với cấu trúc 'There is'."
+    },
+    {
+      "id": "q_g6_e_c2_l3_1",
+      "lessonId": "g6_e_c2_l3",
+      "type": "MULTIPLE_CHOICE",
+      "content": "Which is the correct possessive form: 'This is ___ room.'",
+      "options": ["Nam's", "Nams'", "Nam", "of Nam"],
+      "correctAnswer": "Nam's",
+      "hint": "For a singular proper name, add apostrophe + s.",
+      "explanation": "Với tên riêng số ít, ta thêm 's để tạo sở hữu cách: Nam's room."
+    },
+    {
+      "id": "q_g6_e_c2_l3_2",
+      "lessonId": "g6_e_c2_l3",
+      "type": "MULTIPLE_CHOICE",
+      "content": "For regular plural nouns ending in -s (like parents), the possessive form is:",
+      "options": ["parents's", "parents'", "parent's", "parents of"],
+      "correctAnswer": "parents'",
+      "hint": "Only add an apostrophe at the end.",
+      "explanation": "Với danh từ số nhiều đã có đuôi -s, ta chỉ thêm dấu nháy đơn ' (my parents' house)."
+    },
+    {
+      "id": "q_g6_e_c2_l3_3",
+      "lessonId": "g6_e_c2_l3",
+      "type": "FILL_BLANK",
+      "content": "Rewrite using possessive 's: 'The bag of the teacher' -> 'The ___ bag.'",
+      "options": [],
+      "correctAnswer": "teacher's",
+      "hint": "Add 's to teacher.",
+      "explanation": "The teacher's bag = Cái cặp của giáo viên."
+    },
+    {
+      "id": "q_g6_e_c2_l3_4",
+      "lessonId": "g6_e_c2_l3",
+      "type": "TRUE_FALSE",
+      "content": "For irregular plural nouns like 'children', we write 'children's toys'.",
+      "options": ["Đúng", "Sai"],
+      "correctAnswer": "Đúng",
+      "hint": "'children' doesn't end in s.",
+      "explanation": "Đúng. Danh từ số nhiều không có đuôi s như children, men, women sẽ thêm 's (children's toys)."
+    },
+    {
+      "id": "q_g6_e_c2_l3_5",
+      "lessonId": "g6_e_c2_l3",
+      "type": "MULTIPLE_CHOICE",
+      "content": "Choose the best English phrase for: 'Cửa sổ của căn phòng'",
+      "options": ["the room's window", "the window of the room", "room window's", "the windows room"],
+      "correctAnswer": "the window of the room",
+      "hint": "For inanimate objects, use 'of'.",
+      "explanation": "Với đồ vật vô tri vô giác, người ta ưu tiên dùng giới từ 'of' thay vì sở hữu cách 's: the window of the room."
+    },
+    {
+      "id": "q_g7_m_c1_l1_1",
+      "lessonId": "g7_m_c1_l1",
+      "type": "MULTIPLE_CHOICE",
+      "content": "Số nào sau đây KHÔNG PHẢI là số hữu tỉ?",
+      "options": ["-3/4", "0", "1.25", "√2"],
+      "correctAnswer": "√2",
+      "hint": "Căn bậc hai của 2 là số vô tỉ.",
+      "explanation": "√2 là số vô tỉ (không viết được dưới dạng phân số a/b với a,b thuộc Z), do đó không thuộc Q."
+    },
+    {
+      "id": "q_g7_m_c1_l1_2",
+      "lessonId": "g7_m_c1_l1",
+      "type": "TRUE_FALSE",
+      "content": "Mọi số nguyên đều là số hữu tỉ: ℤ ⊂ ℚ.",
+      "options": ["Đúng", "Sai"],
+      "correctAnswer": "Đúng",
+      "hint": "Mọi số nguyên a đều viết được thành a/1.",
+      "explanation": "Đúng. Với mọi số nguyên a, ta luôn có a = a/1 nên ℤ ⊂ ℚ."
+    },
+    {
+      "id": "q_g7_m_c1_l1_3",
+      "lessonId": "g7_m_c1_l1",
+      "type": "MULTIPLE_CHOICE",
+      "content": "So sánh hai số hữu tỉ: -3/5 và -2/5",
+      "options": ["-3/5 > -2/5", "-3/5 < -2/5", "-3/5 = -2/5", "Không so sánh được"],
+      "correctAnswer": "-3/5 < -2/5",
+      "hint": "Hai phân số cùng mẫu dương 5, so sánh tử số -3 và -2.",
+      "explanation": "Vì -3 < -2 nên -3/5 < -2/5."
+    },
+    {
+      "id": "q_g7_m_c1_l1_4",
+      "lessonId": "g7_m_c1_l1",
+      "type": "FILL_BLANK",
+      "content": "Số đối của số hữu tỉ -2/7 là phân số ___ (viết dạng a/b)",
+      "options": [],
+      "correctAnswer": "2/7",
+      "hint": "Đổi dấu trừ thành cộng.",
+      "explanation": "Số đối của -2/7 là -(-2/7) = 2/7."
+    },
+    {
+      "id": "q_g7_m_c1_l1_5",
+      "lessonId": "g7_m_c1_l1",
+      "type": "MULTIPLE_CHOICE",
+      "content": "Tập hợp số hữu tỉ được ký hiệu bằng chữ cái nào?",
+      "options": ["ℚ", "ℝ", "ℤ", "ℕ"],
+      "correctAnswer": "ℚ",
+      "hint": "Bắt đầu từ chữ Quotient trong tiếng Anh.",
+      "explanation": "Tập hợp các số hữu tỉ được ký hiệu là ℚ (Quotient)."
+    },
+    {
+      "id": "q_g7_m_c1_l2_1",
+      "lessonId": "g7_m_c1_l2",
+      "type": "MULTIPLE_CHOICE",
+      "content": "Tính: (-1/3) + 2/5",
+      "options": ["1/15", "-1/15", "7/15", "-7/15"],
+      "correctAnswer": "1/15",
+      "hint": "Quy đồng mẫu chung 15: -5/15 + 6/15.",
+      "explanation": "-1/3 + 2/5 = -5/15 + 6/15 = 1/15."
+    },
+    {
+      "id": "q_g7_m_c1_l2_2",
+      "lessonId": "g7_m_c1_l2",
+      "type": "FILL_BLANK",
+      "content": "Tìm x biết: x - 1/2 = 3/4. Giá trị của x dưới dạng phân số tối giản là ___ (viết a/b)",
+      "options": [],
+      "correctAnswer": "5/4",
+      "hint": "Chuyển vế: x = 3/4 + 1/2.",
+      "explanation": "x = 3/4 + 2/4 = 5/4."
+    },
+    {
+      "id": "q_g7_m_c1_l2_3",
+      "lessonId": "g7_m_c1_l2",
+      "type": "TRUE_FALSE",
+      "content": "Khi chuyển một số hạng từ vế này sang vế kia của một đẳng thức, ta phải đổi dấu số hạng đó.",
+      "options": ["Đúng", "Sai"],
+      "correctAnswer": "Đúng",
+      "hint": "Quy tắc chuyển vế trong toán học.",
+      "explanation": "Đúng. Đó chính là quy tắc chuyển vế đổi dấu trong đại số."
+    },
+    {
+      "id": "q_g7_m_c1_l2_4",
+      "lessonId": "g7_m_c1_l2",
+      "type": "MULTIPLE_CHOICE",
+      "content": "Tính tích: (-3/4) . (8/9)",
+      "options": ["-2/3", "2/3", "-1/3", "-6/7"],
+      "correctAnswer": "-2/3",
+      "hint": "Rút gọn 3 với 9 và 8 với 4.",
+      "explanation": "(-3 . 8) / (4 . 9) = -24/36 = -2/3."
+    },
+    {
+      "id": "q_g7_m_c1_l2_5",
+      "lessonId": "g7_m_c1_l2",
+      "type": "MULTIPLE_CHOICE",
+      "content": "Kết quả của phép chia (2/5) : (-4/15) là:",
+      "options": ["-3/2", "3/2", "-8/75", "-5/6"],
+      "correctAnswer": "-3/2",
+      "hint": "Nhân với phân số nghịch đảo -15/4.",
+      "explanation": "2/5 . (-15/4) = -30/20 = -3/2."
+    },
+    {
+      "id": "q_g7_m_c1_l3_1",
+      "lessonId": "g7_m_c1_l3",
+      "type": "MULTIPLE_CHOICE",
+      "content": "Tính giá trị của lũy thừa: (-1/2)⁴",
+      "options": ["1/16", "-1/16", "1/8", "-1/8"],
+      "correctAnswer": "1/16",
+      "hint": "Số âm nâng lên lũy thừa bậc chẵn sẽ cho kết quả dương.",
+      "explanation": "(-1/2)⁴ = (-1)⁴ / 2⁴ = 1/16."
+    },
+    {
+      "id": "q_g7_m_c1_l3_2",
+      "lessonId": "g7_m_c1_l3",
+      "type": "FILL_BLANK",
+      "content": "Rút gọn biểu thức (3²)³ = 3^___ (điền số mũ)",
+      "options": [],
+      "correctAnswer": "6",
+      "hint": "Lũy thừa của lũy thừa: nhân các số mũ.",
+      "explanation": "(3²)³ = 3²˙³ = 3⁶. Số mũ là 6."
+    },
+    {
+      "id": "q_g7_m_c1_l3_3",
+      "lessonId": "g7_m_c1_l3",
+      "type": "TRUE_FALSE",
+      "content": "Với x ≠ 0 và m ≥ n, ta có: xᵐ : xⁿ = xᵐ⁻ⁿ.",
+      "options": ["Đúng", "Sai"],
+      "correctAnswer": "Đúng",
+      "hint": "Quy tắc chia hai lũy thừa cùng cơ số.",
+      "explanation": "Đúng. Chia hai lũy thừa cùng cơ số thì giữ nguyên cơ số và lấy hiệu hai số mũ."
+    },
+    {
+      "id": "q_g7_m_c1_l3_4",
+      "lessonId": "g7_m_c1_l3",
+      "type": "MULTIPLE_CHOICE",
+      "content": "Tính nhanh: (0.5)⁵ . 2⁵",
+      "options": ["1", "0.5", "2", "32"],
+      "correctAnswer": "1",
+      "hint": "Áp dụng công thức (x . y)ⁿ = xⁿ . yⁿ.",
+      "explanation": "(0.5 . 2)⁵ = 1⁵ = 1."
+    },
+    {
+      "id": "q_g7_m_c1_l3_5",
+      "lessonId": "g7_m_c1_l3",
+      "type": "MULTIPLE_CHOICE",
+      "content": "Giá trị của x thỏa mãn x² = 9/16 là:",
+      "options": ["3/4", "-3/4", "±3/4", "9/4"],
+      "correctAnswer": "±3/4",
+      "hint": "Có hai số có bình phương bằng một số dương.",
+      "explanation": "Cả (3/4)² và (-3/4)² đều bằng 9/16, nên x = ±3/4."
+    },
+    {
+      "id": "q_g7_m_c2_l1_1",
+      "lessonId": "g7_m_c2_l1",
+      "type": "MULTIPLE_CHOICE",
+      "content": "Tổng số đo của hai góc kề bù bằng bao nhiêu độ?",
+      "options": ["90°", "180°", "360°", "45°"],
+      "correctAnswer": "180°",
+      "hint": "Hai góc bù nhau có tổng bằng góc bẹt.",
+      "explanation": "Hai góc kề bù có tổng số đo bằng 180°."
+    },
+    {
+      "id": "q_g7_m_c2_l1_2",
+      "lessonId": "g7_m_c2_l1",
+      "type": "TRUE_FALSE",
+      "content": "Hai góc đối đỉnh thì luôn có số đo bằng nhau.",
+      "options": ["Đúng", "Sai"],
+      "correctAnswer": "Đúng",
+      "hint": "Định lý cơ bản về góc đối đỉnh.",
+      "explanation": "Đúng. Hai góc đối đỉnh thì luôn bằng nhau."
+    },
+    {
+      "id": "q_g7_m_c2_l1_3",
+      "lessonId": "g7_m_c2_l1",
+      "type": "FILL_BLANK",
+      "content": "Cho góc xOy = 55°. Góc kề bù với góc xOy có số đo là ___ độ.",
+      "options": [],
+      "correctAnswer": "125",
+      "hint": "Lấy 180° trừ đi 55°.",
+      "explanation": "Số đo góc kề bù là 180° - 55° = 125°."
+    },
+    {
+      "id": "q_g7_m_c2_l1_4",
+      "lessonId": "g7_m_c2_l1",
+      "type": "MULTIPLE_CHOICE",
+      "content": "Hai đường thẳng cắt nhau tạo thành 4 góc. Nếu một góc bằng 90° thì 3 góc còn lại có số đo là:",
+      "options": ["Đều bằng 90°", "90°, 45°, 45°", "180°, 90°, 90°", "Tùy thuộc vào đường thẳng"],
+      "correctAnswer": "Đều bằng 90°",
+      "hint": "Áp dụng tính chất góc đối đỉnh và góc kề bù.",
+      "explanation": "Góc kề bù bằng 180° - 90° = 90°, góc đối đỉnh bằng 90°. Vậy cả 4 góc đều vuông (90°)."
+    },
+    {
+      "id": "q_g7_m_c2_l1_5",
+      "lessonId": "g7_m_c2_l1",
+      "type": "MULTIPLE_CHOICE",
+      "content": "Khẳng định nào sau đây là SAI?",
+      "options": [
+        "Hai góc đối đỉnh thì bằng nhau.",
+        "Hai góc bằng nhau thì chắc chắn đối đỉnh.",
+        "Hai góc kề phụ có tổng số đo bằng 90°.",
+        "Hai góc kề bù có tổng số đo bằng 180°."
+      ],
+      "correctAnswer": "Hai góc bằng nhau thì chắc chắn đối đỉnh.",
+      "hint": "Hai góc ở hai vị trí xa nhau có thể cùng bằng 60° nhưng không đối đỉnh.",
+      "explanation": "Hai góc bằng nhau chưa chắc đã đối đỉnh vì chúng có thể không chung đỉnh hoặc không có các cạnh là tia đối của nhau."
+    },
+    {
+      "id": "q_g7_m_c2_l2_1",
+      "lessonId": "g7_m_c2_l2",
+      "type": "MULTIPLE_CHOICE",
+      "content": "Nếu tia Oz là tia phân giác của góc xOy = 110° thì góc xOz có số đo bằng:",
+      "options": ["55°", "110°", "70°", "90°"],
+      "correctAnswer": "55°",
+      "hint": "Tia phân giác chia góc thành hai phần bằng nhau.",
+      "explanation": "xOz = xOy / 2 = 110° / 2 = 55°."
+    },
+    {
+      "id": "q_g7_m_c2_l2_2",
+      "lessonId": "g7_m_c2_l2",
+      "type": "FILL_BLANK",
+      "content": "Tia phân giác của góc bẹt (180°) tạo với mỗi cạnh của góc bẹt một góc có số đo là ___ độ.",
+      "options": [],
+      "correctAnswer": "90",
+      "hint": "180° : 2.",
+      "explanation": "180° / 2 = 90° (góc vuông)."
+    },
+    {
+      "id": "q_g7_m_c2_l2_3",
+      "lessonId": "g7_m_c2_l2",
+      "type": "TRUE_FALSE",
+      "content": "Mỗi góc (khác góc bẹt) chỉ có duy nhất một tia phân giác.",
+      "options": ["Đúng", "Sai"],
+      "correctAnswer": "Đúng",
+      "hint": "Tia phân giác nằm trong góc và chia đôi số đo góc.",
+      "explanation": "Đúng. Trong mặt phẳng, mỗi góc có một và chỉ một tia phân giác."
+    },
+    {
+      "id": "q_g7_m_c2_l2_4",
+      "lessonId": "g7_m_c2_l2",
+      "type": "MULTIPLE_CHOICE",
+      "content": "Hai tia phân giác của hai góc kề bù tạo với nhau một góc bằng:",
+      "options": ["90°", "180°", "45°", "60°"],
+      "correctAnswer": "90°",
+      "hint": "Tổng hai góc bằng 180°, tổng hai nửa góc bằng 180° / 2.",
+      "explanation": "Nếu a + b = 180° thì a/2 + b/2 = (a+b)/2 = 90°. Do đó hai tia phân giác vuông góc với nhau."
+    },
+    {
+      "id": "q_g7_m_c2_l2_5",
+      "lessonId": "g7_m_c2_l2",
+      "type": "MULTIPLE_CHOICE",
+      "content": "Để chứng minh tia Om là tia phân giác của góc xOy, ta cần chỉ ra điều kiện gì?",
+      "options": [
+        "Tia Om nằm giữa hai tia Ox, Oy và góc xOm = góc mOy",
+        "Chỉ cần góc xOm = góc mOy",
+        "Tia Om vuông góc với Ox",
+        "Tia Om nằm ngoài góc xOy"
+      ],
+      "correctAnswer": "Tia Om nằm giữa hai tia Ox, Oy và góc xOm = góc mOy",
+      "hint": "Cần cả vị trí nằm giữa và số đo bằng nhau.",
+      "explanation": "Định nghĩa yêu cầu tia Om phải nằm giữa hai tia Ox, Oy và chia đôi số đo góc (xOm = mOy)."
+    },
+    {
+      "id": "q_g7_m_c2_l3_1",
+      "lessonId": "g7_m_c2_l3",
+      "type": "MULTIPLE_CHOICE",
+      "content": "Đường thẳng c cắt hai đường thẳng a và b. Nếu có một cặp góc so le trong bằng nhau thì:",
+      "options": ["a // b", "a ⊥ b", "a cắt b", "Không kết luận được"],
+      "correctAnswer": "a // b",
+      "hint": "Dấu hiệu nhận biết hai đường thẳng song song.",
+      "explanation": "Theo dấu hiệu nhận biết hai đường thẳng song song: Một cặp góc so le trong bằng nhau thì a // b."
+    },
+    {
+      "id": "q_g7_m_c2_l3_2",
+      "lessonId": "g7_m_c2_l3",
+      "type": "TRUE_FALSE",
+      "content": "Nếu hai đường thẳng a và b song song thì hai góc trong cùng phía bù nhau (tổng bằng 180°).",
+      "options": ["Đúng", "Sai"],
+      "correctAnswer": "Đúng",
+      "hint": "Tính chất của hai đường thẳng song song.",
+      "explanation": "Đúng. Khi hai đường thẳng song song thì hai góc trong cùng phía có tổng bằng 180°."
+    },
+    {
+      "id": "q_g7_m_c2_l3_3",
+      "lessonId": "g7_m_c2_l3",
+      "type": "FILL_BLANK",
+      "content": "Cho a // b. Đường thẳng c cắt a và b tạo thành góc A₁ = 65°. Khi đó góc so le trong B₂ với góc A₁ có số đo là ___ độ.",
+      "options": [],
+      "correctAnswer": "65",
+      "hint": "Hai góc so le trong thì bằng nhau.",
+      "explanation": "Vì a // b nên hai góc so le trong có số đo bằng nhau: B₂ = A₁ = 65°."
+    },
+    {
+      "id": "q_g7_m_c2_l3_4",
+      "lessonId": "g7_m_c2_l3",
+      "type": "MULTIPLE_CHOICE",
+      "content": "Hình học chữ cái nào thường minh họa cho cặp góc đồng vị?",
+      "options": ["Chữ F", "Chữ Z", "Chữ U", "Chữ X"],
+      "correctAnswer": "Chữ F",
+      "hint": "Chữ Z là so le trong, chữ F là đồng vị.",
+      "explanation": "Hình chữ F minh họa trực quan cặp góc đồng vị."
+    },
+    {
+      "id": "q_g7_m_c2_l3_5",
+      "lessonId": "g7_m_c2_l3",
+      "type": "MULTIPLE_CHOICE",
+      "content": "Cho hai đường thẳng phân biệt a và b cùng vuông góc với đường thẳng c (a ⊥ c và b ⊥ c). Khi đó:",
+      "options": ["a // b", "a ⊥ b", "a cắt b", "a trùng b"],
+      "correctAnswer": "a // b",
+      "hint": "Hai đường thẳng cùng vuông góc với đường thẳng thứ ba thì song song với nhau.",
+      "explanation": "Định lý: Hai đường thẳng phân biệt cùng vuông góc với một đường thẳng thứ ba thì chúng song song với nhau."
+    },
+    {
+      "id": "q_g7_e_c1_l1_1",
+      "lessonId": "g7_e_c1_l1",
+      "type": "MULTIPLE_CHOICE",
+      "content": "Which hobby involves taking care of plants and flowers?",
+      "options": ["gardening", "bird-watching", "making models", "collecting coins"],
+      "correctAnswer": "gardening",
+      "hint": "Working in a garden.",
+      "explanation": "'gardening' là sở thích làm vườn chăm sóc hoa lá."
+    },
+    {
+      "id": "q_g7_e_c1_l1_2",
+      "lessonId": "g7_e_c1_l1",
+      "type": "FILL_BLANK",
+      "content": "Tom enjoys making ___ of airplanes and ships in his free time.",
+      "options": [],
+      "correctAnswer": "models",
+      "hint": "Miniature copies of objects.",
+      "explanation": "'making models' nghĩa là lắp ráp mô hình."
+    },
+    {
+      "id": "q_g7_e_c1_l1_3",
+      "lessonId": "g7_e_c1_l1",
+      "type": "MULTIPLE_CHOICE",
+      "content": "My grandmother likes ___ flowers to decorate our dining room on Sundays.",
+      "options": ["arranging", "doing", "playing", "making"],
+      "correctAnswer": "arranging",
+      "hint": "Collocation with flowers.",
+      "explanation": "'arranging flowers' có nghĩa là cắm hoa nghệ thuật."
+    },
+    {
+      "id": "q_g7_e_c1_l1_4",
+      "lessonId": "g7_e_c1_l1",
+      "type": "TRUE_FALSE",
+      "content": "'Yoga' and 'judo' both take the verb 'do' (do yoga, do judo).",
+      "options": ["Đúng", "Sai"],
+      "correctAnswer": "Đúng",
+      "hint": "Both are martial arts/fitness exercises.",
+      "explanation": "Đúng. Động từ 'do' đi cùng yoga và judo."
+    },
+    {
+      "id": "q_g7_e_c1_l1_5",
+      "lessonId": "g7_e_c1_l1",
+      "type": "MULTIPLE_CHOICE",
+      "content": "Which adjective means causing you to feel relaxed and free from worry?",
+      "options": ["relaxing", "expensive", "stressful", "noisy"],
+      "correctAnswer": "relaxing",
+      "hint": "Makes you feel calm.",
+      "explanation": "'relaxing' nghĩa là thư giãn, làm cho đầu óc thoải mái."
+    },
+    {
+      "id": "q_g7_e_c1_l2_1",
+      "lessonId": "g7_e_c1_l2",
+      "type": "MULTIPLE_CHOICE",
+      "content": "My sister enjoys ___ to K-pop music in her spare time.",
+      "options": ["listening", "to listen", "listen", "listened"],
+      "correctAnswer": "listening",
+      "hint": "The verb 'enjoy' must be followed by a gerund (V-ing).",
+      "explanation": "Sau động từ 'enjoy', ta luôn dùng danh động từ V-ing (enjoy listening)."
+    },
+    {
+      "id": "q_g7_e_c1_l2_2",
+      "lessonId": "g7_e_c1_l2",
+      "type": "FILL_BLANK",
+      "content": "Do you fancy ___ out for a cup of milk tea? (hang / hanging)",
+      "options": [],
+      "correctAnswer": "hanging",
+      "hint": "'fancy' is followed by V-ing.",
+      "explanation": "Fancy + V-ing: fancy hanging out."
+    },
+    {
+      "id": "q_g7_e_c1_l2_3",
+      "lessonId": "g7_e_c1_l2",
+      "type": "TRUE_FALSE",
+      "content": "'I detest washing the dishes' means that I hate washing the dishes.",
+      "options": ["Đúng", "Sai"],
+      "correctAnswer": "Đúng",
+      "hint": "'detest' is a strong synonym of hate.",
+      "explanation": "Đúng. 'detest' có nghĩa là căm ghét, đồng nghĩa mạnh với 'hate'."
+    },
+    {
+      "id": "q_g7_e_c1_l2_4",
+      "lessonId": "g7_e_c1_l2",
+      "type": "MULTIPLE_CHOICE",
+      "content": "Which sentence is INCORRECT?",
+      "options": [
+        "I love reading comic books.",
+        "She hates doing housework.",
+        "They enjoy to play football.",
+        "He dislikes waking up early."
+      ],
+      "correctAnswer": "They enjoy to play football.",
+      "hint": "'enjoy' cannot be followed by to-infinitive.",
+      "explanation": "Câu sai là 'They enjoy to play football' vì sau 'enjoy' bắt buộc phải là V-ing ('enjoy playing')."
+    },
+    {
+      "id": "q_g7_e_c1_l2_5",
+      "lessonId": "g7_e_c1_l2",
+      "type": "MULTIPLE_CHOICE",
+      "content": "Peter doesn't mind ___ his little sister with her homework.",
+      "options": ["helping", "to help", "help", "helped"],
+      "correctAnswer": "helping",
+      "hint": "Cấu trúc: don't mind + V-ing.",
+      "explanation": "'don't mind + V-ing' nghĩa là không ngại giúp đỡ."
+    },
+    {
+      "id": "q_g7_e_c1_l3_1",
+      "lessonId": "g7_e_c1_l3",
+      "type": "MULTIPLE_CHOICE",
+      "content": "I ___ collecting old stamps three years ago.",
+      "options": ["started", "start", "starting", "have started"],
+      "correctAnswer": "started",
+      "hint": "'three years ago' signals the Past Simple tense.",
+      "explanation": "Có 'ago' là dấu hiệu thì Quá khứ đơn, dùng động từ dạng quá khứ: started."
+    },
+    {
+      "id": "q_g7_e_c1_l3_2",
+      "lessonId": "g7_e_c1_l3",
+      "type": "FILL_BLANK",
+      "content": "Did you ___ badminton with Minh yesterday? (play / played)",
+      "options": [],
+      "correctAnswer": "play",
+      "hint": "After auxiliary 'Did', use bare verb.",
+      "explanation": "Trong câu hỏi với trợ động từ 'Did', động từ chính giữ nguyên thể: Did you play."
+    },
+    {
+      "id": "q_g7_e_c1_l3_3",
+      "lessonId": "g7_e_c1_l3",
+      "type": "TRUE_FALSE",
+      "content": "Past Simple is used to talk about actions that started and finished in the past.",
+      "options": ["Đúng", "Sai"],
+      "correctAnswer": "Đúng",
+      "hint": "Definition of Past Simple.",
+      "explanation": "Đúng. Thì Quá khứ đơn diễn tả hành động đã xảy ra và kết thúc hoàn toàn trong quá khứ."
+    },
+    {
+      "id": "q_g7_e_c1_l3_4",
+      "lessonId": "g7_e_c1_l3",
+      "type": "MULTIPLE_CHOICE",
+      "content": "Past form of the irregular verb 'take' is:",
+      "options": ["took", "taked", "token", "taking"],
+      "correctAnswer": "took",
+      "hint": "take -> took -> taken.",
+      "explanation": "Quá khứ của 'take' là 'took'."
+    },
+    {
+      "id": "q_g7_e_c1_l3_5",
+      "lessonId": "g7_e_c1_l3",
+      "type": "MULTIPLE_CHOICE",
+      "content": "Last Sunday, Lan ___ a pottery class in Bat Trang village.",
+      "options": ["attended", "attends", "attend", "is attending"],
+      "correctAnswer": "attended",
+      "hint": "'Last Sunday' is a specific time in the past.",
+      "explanation": "Hành động xảy ra vào Chủ nhật tuần trước dùng Quá khứ đơn: attended."
+    },
+    {
+      "id": "q_g7_e_c2_l1_1",
+      "lessonId": "g7_e_c2_l1",
+      "type": "MULTIPLE_CHOICE",
+      "content": "If you stay under the direct sun without sunscreen, you may get:",
+      "options": ["sunburn", "flu", "cough", "toothache"],
+      "correctAnswer": "sunburn",
+      "hint": "Red and painful skin caused by sunlight.",
+      "explanation": "'sunburn' là hiện tượng cháy nắng."
+    },
+    {
+      "id": "q_g7_e_c2_l1_2",
+      "lessonId": "g7_e_c2_l1",
+      "type": "FILL_BLANK",
+      "content": "Someone who does not eat meat or fish is called a ___.",
+      "options": [],
+      "correctAnswer": "vegetarian",
+      "hint": "Person who eats vegetables and plant foods.",
+      "explanation": "'vegetarian' nghĩa là người ăn chay."
+    },
+    {
+      "id": "q_g7_e_c2_l1_3",
+      "lessonId": "g7_e_c2_l1",
+      "type": "MULTIPLE_CHOICE",
+      "content": "Small red spots on the skin of teenagers are called:",
+      "options": ["acne", "flu", "headache", "allergy"],
+      "correctAnswer": "acne",
+      "hint": "Pimples common during puberty.",
+      "explanation": "'acne' là mụn trứng cá, rất phổ biến ở lứa tuổi dậy thì."
+    },
+    {
+      "id": "q_g7_e_c2_l1_4",
+      "lessonId": "g7_e_c2_l1",
+      "type": "TRUE_FALSE",
+      "content": "'Toothache' means pain in your stomach.",
+      "options": ["Đúng", "Sai"],
+      "correctAnswer": "Sai",
+      "hint": "'tooth' means răng, not dạ dày.",
+      "explanation": "Sai. 'toothache' là đau răng, còn đau dạ dày là 'stomachache'."
+    },
+    {
+      "id": "q_g7_e_c2_l1_5",
+      "lessonId": "g7_e_c2_l1",
+      "type": "MULTIPLE_CHOICE",
+      "content": "Drinking enough water and eating vegetables help you stay in good ___.",
+      "options": ["shape", "illness", "weight", "trouble"],
+      "correctAnswer": "shape",
+      "hint": "Collocation: stay in good shape (khỏe khoắn, dáng chuẩn).",
+      "explanation": "'stay in good shape' có nghĩa là giữ gìn vóc dáng và sức khỏe tốt."
+    },
+    {
+      "id": "q_g7_e_c2_l2_1",
+      "lessonId": "g7_e_c2_l2",
+      "type": "MULTIPLE_CHOICE",
+      "content": "You look tired. You ___ go to bed early tonight.",
+      "options": ["should", "shouldn't", "mustn't", "can't"],
+      "correctAnswer": "should",
+      "hint": "Used to give positive advice.",
+      "explanation": "'should' dùng để đưa ra lời khuyên nên làm gì (nên đi ngủ sớm)."
+    },
+    {
+      "id": "q_g7_e_c2_l2_2",
+      "lessonId": "g7_e_c2_l2",
+      "type": "FILL_BLANK",
+      "content": "Give advice with negative imperative: '___ eat too much junk food!' (Don't / Not)",
+      "options": [],
+      "correctAnswer": "Don't",
+      "hint": "Start of a negative command.",
+      "explanation": "Câu mệnh lệnh phủ định bắt đầu bằng 'Don't + V'."
+    },
+    {
+      "id": "q_g7_e_c2_l2_3",
+      "lessonId": "g7_e_c2_l2",
+      "type": "MULTIPLE_CHOICE",
+      "content": "You ___ touch your face with dirty hands because it can cause pimples.",
+      "options": ["shouldn't", "should", "need", "can"],
+      "correctAnswer": "shouldn't",
+      "hint": "Advising not to do something bad.",
+      "explanation": "'shouldn't' khuyên không nên làm điều có hại."
+    },
+    {
+      "id": "q_g7_e_c2_l2_4",
+      "lessonId": "g7_e_c2_l2",
+      "type": "TRUE_FALSE",
+      "content": "After modal verbs like 'should' or 'shouldn't', we use verb-ing.",
+      "options": ["Đúng", "Sai"],
+      "correctAnswer": "Sai",
+      "hint": "We use base verb (V-bare).",
+      "explanation": "Sai. Sau 'should' ta dùng động từ nguyên mẫu không 'to' (V-bare), ví dụ: you should sleep."
+    },
+    {
+      "id": "q_g7_e_c2_l2_5",
+      "lessonId": "g7_e_c2_l2",
+      "type": "MULTIPLE_CHOICE",
+      "content": "'___ your teeth twice a day to prevent cavities.'",
+      "options": ["Brush", "Brushing", "To brush", "Brushed"],
+      "correctAnswer": "Brush",
+      "hint": "Positive imperative begins with bare verb.",
+      "explanation": "Câu mệnh lệnh khẳng định bắt đầu bằng động từ nguyên mẫu: Brush your teeth."
+    },
+    {
+      "id": "q_g7_e_c2_l3_1",
+      "lessonId": "g7_e_c2_l3",
+      "type": "MULTIPLE_CHOICE",
+      "content": "Which coordinating conjunction expresses a contrast between two clauses?",
+      "options": ["and", "but", "so", "or"],
+      "correctAnswer": "but",
+      "hint": "Used for 'nhưng'.",
+      "explanation": "'but' diễn tả sự tương phản, đối lập giữa hai mệnh đề."
+    },
+    {
+      "id": "q_g7_e_c2_l3_2",
+      "lessonId": "g7_e_c2_l3",
+      "type": "FILL_BLANK",
+      "content": "He eats lots of junk food, ___ he is putting on weight. (and / so / but)",
+      "options": [],
+      "correctAnswer": "so",
+      "hint": "Showing the result/consequence.",
+      "explanation": "'so' chỉ kết quả: Ăn nhiều đồ ăn nhanh, vì vậy bị tăng cân."
+    },
+    {
+      "id": "q_g7_e_c2_l3_3",
+      "lessonId": "g7_e_c2_l3",
+      "type": "TRUE_FALSE",
+      "content": "A simple sentence consists of only one independent clause.",
+      "options": ["Đúng", "Sai"],
+      "correctAnswer": "Đúng",
+      "hint": "Definition of simple sentence.",
+      "explanation": "Đúng. Câu đơn chỉ gồm duy nhất một mệnh đề độc lập."
+    },
+    {
+      "id": "q_g7_e_c2_l3_4",
+      "lessonId": "g7_e_c2_l3",
+      "type": "MULTIPLE_CHOICE",
+      "content": "Which sentence is a compound sentence?",
+      "options": [
+        "Nam and Ba play football in the yard.",
+        "Lan likes apples, but Mai prefers oranges.",
+        "Because it rained, we stayed indoors.",
+        "She wants to become a doctor."
+      ],
+      "correctAnswer": "Lan likes apples, but Mai prefers oranges.",
+      "hint": "Look for two independent clauses joined by a coordinator like 'but'.",
+      "explanation": "Câu ghép gồm hai mệnh đề độc lập nối với nhau bằng liên từ 'but': 'Lan likes apples' và 'Mai prefers oranges'."
+    },
+    {
+      "id": "q_g7_e_c2_l3_5",
+      "lessonId": "g7_e_c2_l3",
+      "type": "MULTIPLE_CHOICE",
+      "content": "You can cycle to school, ___ you can take the bus.",
+      "options": ["or", "so", "but", "yet"],
+      "correctAnswer": "or",
+      "hint": "Giving an alternative choice.",
+      "explanation": "'or' đưa ra sự lựa chọn: hoặc là đi xe đạp, hoặc là đi xe buýt."
+    },
+    {
+      "id": "q_g8_m_c1_l1_1",
+      "lessonId": "g8_m_c1_l1",
+      "type": "MULTIPLE_CHOICE",
+      "content": "Bậc của đơn thức 4x³y²z là:",
+      "options": ["5", "6", "7", "3"],
+      "correctAnswer": "6",
+      "hint": "Cộng tất cả số mũ của các biến: 3 + 2 + 1.",
+      "explanation": "Bậc của đơn thức bằng tổng số mũ của các biến: 3 (của x) + 2 (của y) + 1 (của z) = 6."
+    },
+    {
+      "id": "q_g8_m_c1_l1_2",
+      "lessonId": "g8_m_c1_l1",
+      "type": "TRUE_FALSE",
+      "content": "Biểu thức 2x + 3/y là một đa thức nhiều biến.",
+      "options": ["Đúng", "Sai"],
+      "correctAnswer": "Sai",
+      "hint": "Biến có nằm ở mẫu số không?",
+      "explanation": "Sai vì biến y nằm ở mẫu số (3/y), không thỏa mãn định nghĩa đơn thức và đa thức."
+    },
+    {
+      "id": "q_g8_m_c1_l1_3",
+      "lessonId": "g8_m_c1_l1",
+      "type": "FILL_BLANK",
+      "content": "Hệ số của đơn thức -5x²y³ là ___",
+      "options": [],
+      "correctAnswer": "-5",
+      "hint": "Phần số đứng trước phần biến.",
+      "explanation": "Hệ số là -5, phần biến là x²y³."
+    },
+    {
+      "id": "q_g8_m_c1_l1_4",
+      "lessonId": "g8_m_c1_l1",
+      "type": "MULTIPLE_CHOICE",
+      "content": "Cặp đơn thức nào sau đây là hai đơn thức đồng dạng?",
+      "options": ["3x²y và -5x²y", "2xy² và 2x²y", "4x³ và 4y³", "7xy và 7yz"],
+      "correctAnswer": "3x²y và -5x²y",
+      "hint": "Hai đơn thức đồng dạng phải có cùng phần biến.",
+      "explanation": "3x²y và -5x²y có cùng phần biến là x²y nên chúng đồng dạng."
+    },
+    {
+      "id": "q_g8_m_c1_l1_5",
+      "lessonId": "g8_m_c1_l1",
+      "type": "MULTIPLE_CHOICE",
+      "content": "Bậc của đa thức P = 5x⁴y - 2x²y³ + x - 7 là:",
+      "options": ["4", "5", "6", "1"],
+      "correctAnswer": "5",
+      "hint": "Tìm bậc cao nhất trong các hạng tử của đa thức.",
+      "explanation": "Hạng tử 5x⁴y có bậc 5 (4+1); -2x²y³ có bậc 5 (2+3). Bậc cao nhất là 5, nên bậc của đa thức P là 5."
+    },
+    {
+      "id": "q_g8_m_c1_l2_1",
+      "lessonId": "g8_m_c1_l2",
+      "type": "MULTIPLE_CHOICE",
+      "content": "Thu gọn đa thức P = 3x²y + 5xy - x²y + 2xy ta được:",
+      "options": ["2x²y + 7xy", "4x²y + 7xy", "2x²y + 3xy", "8x²y"],
+      "correctAnswer": "2x²y + 7xy",
+      "hint": "Nhóm các đơn thức đồng dạng: (3 - 1)x²y + (5 + 2)xy.",
+      "explanation": "(3 - 1)x²y + (5 + 2)xy = 2x²y + 7xy."
+    },
+    {
+      "id": "q_g8_m_c1_l2_2",
+      "lessonId": "g8_m_c1_l2",
+      "type": "FILL_BLANK",
+      "content": "Tính tích: 2x(3x - 4) = 6x² - ___x",
+      "options": [],
+      "correctAnswer": "8",
+      "hint": "2x . (-4) = -8x.",
+      "explanation": "2x . 3x - 2x . 4 = 6x² - 8x."
+    },
+    {
+      "id": "q_g8_m_c1_l2_3",
+      "lessonId": "g8_m_c1_l2",
+      "type": "TRUE_FALSE",
+      "content": "Tích của đa thức (x + 2) với đa thức (x - 2) bằng x² - 4.",
+      "options": ["Đúng", "Sai"],
+      "correctAnswer": "Đúng",
+      "hint": "Hằng đẳng thức hiệu hai bình phương.",
+      "explanation": "Đúng. (x + 2)(x - 2) = x² - 2² = x² - 4."
+    },
+    {
+      "id": "q_g8_m_c1_l2_4",
+      "lessonId": "g8_m_c1_l2",
+      "type": "MULTIPLE_CHOICE",
+      "content": "Khai triển tích: (x + 3)(x + 5)",
+      "options": ["x² + 8x + 15", "x² + 15x + 8", "x² + 8x + 8", "x² + 15"],
+      "correctAnswer": "x² + 8x + 15",
+      "hint": "x . x + x . 5 + 3 . x + 3 . 5.",
+      "explanation": "x² + 5x + 3x + 15 = x² + 8x + 15."
+    },
+    {
+      "id": "q_g8_m_c1_l2_5",
+      "lessonId": "g8_m_c1_l2",
+      "type": "MULTIPLE_CHOICE",
+      "content": "Chia đơn thức 12x³y² cho đơn thức 4xy ta được kết quả là:",
+      "options": ["3x²y", "3x²y²", "8x²y", "3xy"],
+      "correctAnswer": "3x²y",
+      "hint": "12:4 = 3; x³:x = x²; y²:y = y.",
+      "explanation": "(12/4) . (x³/x) . (y²/y) = 3x²y."
+    },
+    {
+      "id": "q_g8_m_c1_l3_1",
+      "lessonId": "g8_m_c1_l3",
+      "type": "MULTIPLE_CHOICE",
+      "content": "Khai triển hằng đẳng thức (x - 3)² ta được:",
+      "options": ["x² - 6x + 9", "x² - 9", "x² - 3x + 9", "x² + 6x + 9"],
+      "correctAnswer": "x² - 6x + 9",
+      "hint": "(A - B)² = A² - 2AB + B².",
+      "explanation": "x² - 2.x.3 + 3² = x² - 6x + 9."
+    },
+    {
+      "id": "q_g8_m_c1_l3_2",
+      "lessonId": "g8_m_c1_l3",
+      "type": "FILL_BLANK",
+      "content": "Viết biểu thức 4x² - 25 dưới dạng tích: (2x - 5)(2x + ___)",
+      "options": [],
+      "correctAnswer": "5",
+      "hint": "A² - B² = (A - B)(A + B).",
+      "explanation": "(2x)² - 5² = (2x - 5)(2x + 5)."
+    },
+    {
+      "id": "q_g8_m_c1_l3_3",
+      "lessonId": "g8_m_c1_l3",
+      "type": "TRUE_FALSE",
+      "content": "Biểu thức A³ + B³ được phân tích thành (A + B)(A² + AB + B²).",
+      "options": ["Đúng", "Sai"],
+      "correctAnswer": "Sai",
+      "hint": "Dấu trong ngoặc thứ hai phải là -AB.",
+      "explanation": "Sai. Công thức đúng là A³ + B³ = (A + B)(A² - AB + B²)."
+    },
+    {
+      "id": "q_g8_m_c1_l3_4",
+      "lessonId": "g8_m_c1_l3",
+      "type": "MULTIPLE_CHOICE",
+      "content": "Tính nhanh giá trị của 101² bằng hằng đẳng thức:",
+      "options": ["10201", "10101", "10001", "10401"],
+      "correctAnswer": "10201",
+      "hint": "(100 + 1)² = 10000 + 200 + 1.",
+      "explanation": "101² = (100 + 1)² = 100² + 2.100.1 + 1² = 10000 + 200 + 1 = 10201."
+    },
+    {
+      "id": "q_g8_m_c1_l3_5",
+      "lessonId": "g8_m_c1_l3",
+      "type": "MULTIPLE_CHOICE",
+      "content": "Rút gọn biểu thức (x + 1)³ - 3x(x + 1) ta được:",
+      "options": ["x³ + 1", "x³ - 1", "x³ + 3", "x³ + 6x + 1"],
+      "correctAnswer": "x³ + 1",
+      "hint": "Khai triển (x + 1)³ = x³ + 3x² + 3x + 1 rồi trừ 3x² + 3x.",
+      "explanation": "(x³ + 3x² + 3x + 1) - (3x² + 3x) = x³ + 1."
+    },
+    {
+      "id": "q_g8_m_c2_l1_1",
+      "lessonId": "g8_m_c2_l1",
+      "type": "MULTIPLE_CHOICE",
+      "content": "Điều kiện xác định của phân thức (x + 2)/(x - 3) là:",
+      "options": ["x ≠ 3", "x ≠ -2", "x ≠ 0", "x > 3"],
+      "correctAnswer": "x ≠ 3",
+      "hint": "Mẫu thức phải khác 0: x - 3 ≠ 0.",
+      "explanation": "Phân thức xác định khi mẫu khác 0 <=> x - 3 ≠ 0 <=> x ≠ 3."
+    },
+    {
+      "id": "q_g8_m_c2_l1_2",
+      "lessonId": "g8_m_c2_l1",
+      "type": "TRUE_FALSE",
+      "content": "Một số thực bất kỳ k (khác 0) cũng được coi là một phân thức đại số.",
+      "options": ["Đúng", "Sai"],
+      "correctAnswer": "Đúng",
+      "hint": "k có thể viết dưới dạng k/1.",
+      "explanation": "Đúng. Mỗi đa thức (kể cả số thực k) đều là một phân thức với mẫu thức bằng 1."
+    },
+    {
+      "id": "q_g8_m_c2_l1_3",
+      "lessonId": "g8_m_c2_l1",
+      "type": "FILL_BLANK",
+      "content": "Hai phân thức A/B và C/D bằng nhau khi A . D = B . ___",
+      "options": [],
+      "correctAnswer": "C",
+      "hint": "Tích chéo bằng nhau.",
+      "explanation": "Theo định nghĩa: A/B = C/D nếu A . D = B . C."
+    },
+    {
+      "id": "q_g8_m_c2_l1_4",
+      "lessonId": "g8_m_c2_l1",
+      "type": "MULTIPLE_CHOICE",
+      "content": "Phân thức nào sau đây bằng phân thức (x - 1)/(x + 2)?",
+      "options": [
+        "(x² - 1)/[(x + 2)(x + 1)]",
+        "(1 - x)/(x + 2)",
+        "(x + 1)/(x - 2)",
+        "(x - 1)²/(x + 2)"
+      ],
+      "correctAnswer": "(x² - 1)/[(x + 2)(x + 1)]",
+      "hint": "Nhân cả tử và mẫu với (x + 1).",
+      "explanation": "(x - 1)(x + 1) / [(x + 2)(x + 1)] = (x² - 1) / [(x + 2)(x + 1)]."
+    },
+    {
+      "id": "q_g8_m_c2_l1_5",
+      "lessonId": "g8_m_c2_l1",
+      "type": "MULTIPLE_CHOICE",
+      "content": "Giá trị của phân thức (x² - 4)/(x - 2) tại x = 3 là:",
+      "options": ["5", "1", "7", "0"],
+      "correctAnswer": "5",
+      "hint": "Rút gọn phân thức thành (x + 2) rồi thay x = 3.",
+      "explanation": "(x - 2)(x + 2)/(x - 2) = x + 2. Thay x = 3: 3 + 2 = 5."
+    },
+    {
+      "id": "q_g8_m_c2_l2_1",
+      "lessonId": "g8_m_c2_l2",
+      "type": "MULTIPLE_CHOICE",
+      "content": "Rút gọn phân thức 6x²y / 9xy³ ta được:",
+      "options": ["2x / (3y²)", "2x² / (3y)", "3x / (2y²)", "2 / (3y)"],
+      "correctAnswer": "2x / (3y²)",
+      "hint": "Chia cả tử và mẫu cho nhân tử chung 3xy.",
+      "explanation": "6/9 = 2/3; x²/x = x; y/y³ = 1/y². Kết quả là 2x / (3y²)."
+    },
+    {
+      "id": "q_g8_m_c2_l2_2",
+      "lessonId": "g8_m_c2_l2",
+      "type": "FILL_BLANK",
+      "content": "Quy tắc đổi dấu: Phân thức (3 - x)/(x + 1) = -(x - 3)/(x + ___)",
+      "options": [],
+      "correctAnswer": "1",
+      "hint": "Giữ nguyên mẫu số.",
+      "explanation": "(3 - x) = -(x - 3), mẫu giữ nguyên là (x + 1)."
+    },
+    {
+      "id": "q_g8_m_c2_l2_3",
+      "lessonId": "g8_m_c2_l2",
+      "type": "TRUE_FALSE",
+      "content": "Để rút gọn phân thức, ta phân tích tử và mẫu thành nhân tử rồi chia cả tử và mẫu cho nhân tử chung.",
+      "options": ["Đúng", "Sai"],
+      "correctAnswer": "Đúng",
+      "hint": "Các bước rút gọn chuẩn.",
+      "explanation": "Đúng. Đây là quy trình chuẩn để rút gọn một phân thức đại số."
+    },
+    {
+      "id": "q_g8_m_c2_l2_4",
+      "lessonId": "g8_m_c2_l2",
+      "type": "MULTIPLE_CHOICE",
+      "content": "Rút gọn phân thức (x² - 2x + 1)/(x - 1) với x ≠ 1:",
+      "options": ["x - 1", "x + 1", "1", "x² - 1"],
+      "correctAnswer": "x - 1",
+      "hint": "Tử số là hằng đẳng thức (x - 1)².",
+      "explanation": "(x - 1)² / (x - 1) = x - 1."
+    },
+    {
+      "id": "q_g8_m_c2_l2_5",
+      "lessonId": "g8_m_c2_l2",
+      "type": "MULTIPLE_CHOICE",
+      "content": "Mẫu thức chung nhỏ nhất của hai phân thức 1/(2x) và 1/(3x²) là:",
+      "options": ["6x²", "6x", "5x²", "6x³"],
+      "correctAnswer": "6x²",
+      "hint": "BCNN của 2 và 3 là 6, lũy thừa bậc cao nhất của x là x².",
+      "explanation": "Mẫu thức chung là 6x²."
+    },
+    {
+      "id": "q_g8_m_c2_l3_1",
+      "lessonId": "g8_m_c2_l3",
+      "type": "MULTIPLE_CHOICE",
+      "content": "Tính tổng hai phân thức cùng mẫu: 3/(x + 1) + 4/(x + 1)",
+      "options": ["7/(x + 1)", "7/(2x + 2)", "12/(x + 1)", "7/x"],
+      "correctAnswer": "7/(x + 1)",
+      "hint": "Cộng hai tử số với nhau và giữ nguyên mẫu số.",
+      "explanation": "(3 + 4)/(x + 1) = 7/(x + 1)."
+    },
+    {
+      "id": "q_g8_m_c2_l3_2",
+      "lessonId": "g8_m_c2_l3",
+      "type": "FILL_BLANK",
+      "content": "Kết quả của phép nhân: (x/2) . (4/x) = ___",
+      "options": [],
+      "correctAnswer": "2",
+      "hint": "(4x)/(2x).",
+      "explanation": "4x / 2x = 2."
+    },
+    {
+      "id": "q_g8_m_c2_l3_3",
+      "lessonId": "g8_m_c2_l3",
+      "type": "TRUE_FALSE",
+      "content": "Muốn chia phân thức A/B cho phân thức C/D (C/D ≠ 0), ta nhân A/B với phân thức nghịch đảo D/C.",
+      "options": ["Đúng", "Sai"],
+      "correctAnswer": "Đúng",
+      "hint": "Quy tắc chia phân số và phân thức.",
+      "explanation": "Đúng. (A/B) : (C/D) = (A/B) . (D/C)."
+    },
+    {
+      "id": "q_g8_m_c2_l3_4",
+      "lessonId": "g8_m_c2_l3",
+      "type": "MULTIPLE_CHOICE",
+      "content": "Tính hiệu: 1/x - 1/(x + 1)",
+      "options": ["1 / [x(x + 1)]", "-1 / [x(x + 1)]", "1 / (x² + 1)", "0"],
+      "correctAnswer": "1 / [x(x + 1)]",
+      "hint": "Quy đồng: [(x + 1) - x] / [x(x + 1)].",
+      "explanation": "[(x + 1) - x] / [x(x + 1)] = 1 / [x(x + 1)]."
+    },
+    {
+      "id": "q_g8_m_c2_l3_5",
+      "lessonId": "g8_m_c2_l3",
+      "type": "MULTIPLE_CHOICE",
+      "content": "Phân thức nghịch đảo của (x - 2)/(x + 5) là:",
+      "options": ["(x + 5)/(x - 2)", "(2 - x)/(x + 5)", "-(x - 2)/(x + 5)", "(x - 5)/(x + 2)"],
+      "correctAnswer": "(x + 5)/(x - 2)",
+      "hint": "Đổi vị trí tử thức và mẫu thức.",
+      "explanation": "Phân thức nghịch đảo của A/B là B/A: (x + 5)/(x - 2)."
+    },
+    {
+      "id": "q_g8_e_c1_l1_1",
+      "lessonId": "g8_e_c1_l1",
+      "type": "MULTIPLE_CHOICE",
+      "content": "What does the abbreviation 'DIY' stand for?",
+      "options": ["Do It Yourself", "Do It Yesterday", "Daily Internet Youth", "Design In Yard"],
+      "correctAnswer": "Do It Yourself",
+      "hint": "Making or repairing things by yourself without hiring a professional.",
+      "explanation": "DIY viết tắt của 'Do It Yourself' (tự làm lấy)."
+    },
+    {
+      "id": "q_g8_e_c1_l1_2",
+      "lessonId": "g8_e_c1_l1",
+      "type": "FILL_BLANK",
+      "content": "My sister is crazy ___ listening to K-pop idols. (about / on / of)",
+      "options": [],
+      "correctAnswer": "about",
+      "hint": "Collocation: crazy about something.",
+      "explanation": "'crazy about' có nghĩa là say mê, cuồng cái gì."
+    },
+    {
+      "id": "q_g8_e_c1_l1_3",
+      "lessonId": "g8_e_c1_l1",
+      "type": "MULTIPLE_CHOICE",
+      "content": "Which Japanese art involves folding paper into beautiful shapes?",
+      "options": ["origami", "judo", "karaoke", "sushi"],
+      "correctAnswer": "origami",
+      "hint": "Paper folding art.",
+      "explanation": "'origami' là nghệ thuật gấp giấy truyền thống của Nhật Bản."
+    },
+    {
+      "id": "q_g8_e_c1_l1_4",
+      "lessonId": "g8_e_c1_l1",
+      "type": "TRUE_FALSE",
+      "content": "'Hooked on' means extremely interested in or addicted to something.",
+      "options": ["Đúng", "Sai"],
+      "correctAnswer": "Đúng",
+      "hint": "Similar to addicted to / crazy about.",
+      "explanation": "Đúng. 'hooked on' nghĩa là say mê, nghiện một thú vui nào đó."
+    },
+    {
+      "id": "q_g8_e_c1_l1_5",
+      "lessonId": "g8_e_c1_l1",
+      "type": "MULTIPLE_CHOICE",
+      "content": "Instead of playing outside, many teens spend too much time ___ the net.",
+      "options": ["surfing", "riding", "flying", "driving"],
+      "correctAnswer": "surfing",
+      "hint": "Collocation: surf the net / surf the web.",
+      "explanation": "'surfing the net' có nghĩa là lướt mạng internet."
+    },
+    {
+      "id": "q_g8_e_c1_l2_1",
+      "lessonId": "g8_e_c1_l2",
+      "type": "MULTIPLE_CHOICE",
+      "content": "She decided ___ coding to build her own mobile apps.",
+      "options": ["to learn", "learning", "learn", "learned"],
+      "correctAnswer": "to learn",
+      "hint": "The verb 'decide' is followed by a to-infinitive.",
+      "explanation": "Cấu trúc: decide + to V (quyết định làm gì)."
+    },
+    {
+      "id": "q_g8_e_c1_l2_2",
+      "lessonId": "g8_e_c1_l2",
+      "type": "FILL_BLANK",
+      "content": "He stopped ___ when he realized it was bad for his lungs. (smoking / to smoke)",
+      "options": [],
+      "correctAnswer": "smoking",
+      "hint": "To give up a habit permanently.",
+      "explanation": "'stop + V-ing' nghĩa là dừng hẳn một thói quen (bỏ hút thuốc)."
+    },
+    {
+      "id": "q_g8_e_c1_l2_3",
+      "lessonId": "g8_e_c1_l2",
+      "type": "TRUE_FALSE",
+      "content": "The verb 'practice' can be followed by to-infinitive (e.g. practice to play piano).",
+      "options": ["Đúng", "Sai"],
+      "correctAnswer": "Sai",
+      "hint": "'practice' takes gerund only.",
+      "explanation": "Sai. Sau 'practice' luôn là V-ing (practice playing piano)."
+    },
+    {
+      "id": "q_g8_e_c1_l2_4",
+      "lessonId": "g8_e_c1_l2",
+      "type": "MULTIPLE_CHOICE",
+      "content": "Remember ___ off the lights before leaving the classroom.",
+      "options": ["to turn", "turning", "turn", "turned"],
+      "correctAnswer": "to turn",
+      "hint": "Remember to do something in the future.",
+      "explanation": "'remember + to V' nghĩa là nhớ phải làm một việc gì đó (trong tương lai)."
+    },
+    {
+      "id": "q_g8_e_c1_l2_5",
+      "lessonId": "g8_e_c1_l2",
+      "type": "MULTIPLE_CHOICE",
+      "content": "Which verb CANNOT be followed by a gerund (V-ing)?",
+      "options": ["hope", "enjoy", "avoid", "mind"],
+      "correctAnswer": "hope",
+      "hint": "hope + to V.",
+      "explanation": "'hope' chỉ đi với to-infinitive (hope to see you soon)."
+    },
+    {
+      "id": "q_g8_e_c1_l3_1",
+      "lessonId": "g8_e_c1_l3",
+      "type": "MULTIPLE_CHOICE",
+      "content": "The amount of time someone spends looking at a phone or computer is called:",
+      "options": ["screen time", "free time", "overtime", "part-time"],
+      "correctAnswer": "screen time",
+      "hint": "Time on a screen.",
+      "explanation": "'screen time' là thời gian dùng thiết bị có màn hình."
+    },
+    {
+      "id": "q_g8_e_c1_l3_2",
+      "lessonId": "g8_e_c1_l3",
+      "type": "FILL_BLANK",
+      "content": "We use social networks to ___ in touch with friends who live far away.",
+      "options": [],
+      "correctAnswer": "stay",
+      "hint": "Collocation: stay in touch / keep in touch.",
+      "explanation": "'stay in touch' có nghĩa là giữ liên lạc."
+    },
+    {
+      "id": "q_g8_e_c1_l3_3",
+      "lessonId": "g8_e_c1_l3",
+      "type": "TRUE_FALSE",
+      "content": "'Face-to-face interaction' means meeting someone in person directly.",
+      "options": ["Đúng", "Sai"],
+      "correctAnswer": "Đúng",
+      "hint": "Not online.",
+      "explanation": "Đúng. 'face-to-face' là gặp gỡ và trò chuyện trực tiếp ngoài đời thực."
+    },
+    {
+      "id": "q_g8_e_c1_l3_4",
+      "lessonId": "g8_e_c1_l3",
+      "type": "MULTIPLE_CHOICE",
+      "content": "Which transition word means 'Hơn nữa, ngoài ra'?",
+      "options": ["Furthermore", "However", "Therefore", "Otherwise"],
+      "correctAnswer": "Furthermore",
+      "hint": "Adding more information to support a point.",
+      "explanation": "'Furthermore' mang nghĩa 'hơn nữa, thêm vào đó'."
+    },
+    {
+      "id": "q_g8_e_c1_l3_5",
+      "lessonId": "g8_e_c1_l3",
+      "type": "MULTIPLE_CHOICE",
+      "content": "Teens should ___ a healthy balance between online and offline activities.",
+      "options": ["strike", "break", "lose", "fall"],
+      "correctAnswer": "strike",
+      "hint": "Collocation: strike a balance.",
+      "explanation": "Cụm thành ngữ 'strike a balance' nghĩa là đạt được sự cân bằng hợp lý."
+    },
+    {
+      "id": "q_g8_e_c2_l1_1",
+      "lessonId": "g8_e_c2_l1",
+      "type": "MULTIPLE_CHOICE",
+      "content": "A field where rice is grown is called a:",
+      "options": ["paddy field", "stadium", "orchard", "forest"],
+      "correctAnswer": "paddy field",
+      "hint": "Rice paddy.",
+      "explanation": "'paddy field' là cánh đồng lúa nước."
+    },
+    {
+      "id": "q_g8_e_c2_l1_2",
+      "lessonId": "g8_e_c2_l1",
+      "type": "FILL_BLANK",
+      "content": "The time when crops are gathered from the fields is called ___ time.",
+      "options": [],
+      "correctAnswer": "harvest",
+      "hint": "Thu hoạch mùa màng.",
+      "explanation": "'harvest time' nghĩa là vụ mùa thu hoạch."
+    },
+    {
+      "id": "q_g8_e_c2_l1_3",
+      "lessonId": "g8_e_c2_l1",
+      "type": "MULTIPLE_CHOICE",
+      "content": "Local villagers are very ___ and always welcome visitors warmly.",
+      "options": ["hospitable", "hostile", "impatient", "careless"],
+      "correctAnswer": "hospitable",
+      "hint": "Friendly and welcoming to guests.",
+      "explanation": "'hospitable' nghĩa là hiếu khách, niềm nở."
+    },
+    {
+      "id": "q_g8_e_c2_l1_4",
+      "lessonId": "g8_e_c2_l1",
+      "type": "TRUE_FALSE",
+      "content": "'Vast' means extremely large in area or extent.",
+      "options": ["Đúng", "Sai"],
+      "correctAnswer": "Đúng",
+      "hint": "Synonym of huge / immense.",
+      "explanation": "Đúng. 'vast' nghĩa là bao la, rộng lớn mênh mông."
+    },
+    {
+      "id": "q_g8_e_c2_l1_5",
+      "lessonId": "g8_e_c2_l1",
+      "type": "MULTIPLE_CHOICE",
+      "content": "In traditional rural areas, children often help their parents ___ cattle.",
+      "options": ["herd", "feed", "cook", "catch"],
+      "correctAnswer": "herd",
+      "hint": "Collocation: herd cattle / herd buffaloes (chăn gia súc).",
+      "explanation": "'herd cattle' là chăn dắt đàn gia súc."
+    },
+    {
+      "id": "q_g8_e_c2_l2_1",
+      "lessonId": "g8_e_c2_l2",
+      "type": "MULTIPLE_CHOICE",
+      "content": "Life in the countryside moves ___ than in bustling big cities.",
+      "options": ["more slowly", "slowlier", "more slow", "as slowly"],
+      "correctAnswer": "more slowly",
+      "hint": "'slowly' is a two-syllable adverb.",
+      "explanation": "Trạng từ 'slowly' có đuôi -ly nên dạng so sánh hơn là 'more slowly'."
+    },
+    {
+      "id": "q_g8_e_c2_l2_2",
+      "lessonId": "g8_e_c2_l2",
+      "type": "FILL_BLANK",
+      "content": "Farmers have to work ___ during harvest time than in winter. (hard / harder)",
+      "options": [],
+      "correctAnswer": "harder",
+      "hint": "'hard' is a short adverb: hard -> harder.",
+      "explanation": "'hard' là trạng từ ngắn 1 âm tiết, so sánh hơn thêm -er thành 'harder'."
+    },
+    {
+      "id": "q_g8_e_c2_l2_3",
+      "lessonId": "g8_e_c2_l2",
+      "type": "TRUE_FALSE",
+      "content": "The comparative form of the adverb 'well' is 'gooder'.",
+      "options": ["Đúng", "Sai"],
+      "correctAnswer": "Sai",
+      "hint": "It is an irregular adverb.",
+      "explanation": "Sai. Dạng so sánh hơn của trạng từ 'well' là 'better'."
+    },
+    {
+      "id": "q_g8_e_c2_l2_4",
+      "lessonId": "g8_e_c2_l2",
+      "type": "MULTIPLE_CHOICE",
+      "content": "Lan dances ___ than all the other girls in her team.",
+      "options": ["more gracefully", "gracefullier", "graceful", "most gracefully"],
+      "correctAnswer": "more gracefully",
+      "hint": "gracefully is a 3-syllable adverb.",
+      "explanation": "Trạng từ dài dùng 'more + adv + than': more gracefully."
+    },
+    {
+      "id": "q_g8_e_c2_l2_5",
+      "lessonId": "g8_e_c2_l2",
+      "type": "MULTIPLE_CHOICE",
+      "content": "He drives much ___ now after taking additional driving lessons.",
+      "options": ["more carefully", "carefullier", "carefully", "careful"],
+      "correctAnswer": "more carefully",
+      "hint": "carefully -> more carefully.",
+      "explanation": "So sánh hơn của carefully là 'more carefully'."
+    },
+    {
+      "id": "q_g8_e_c2_l3_1",
+      "lessonId": "g8_e_c2_l3",
+      "type": "MULTIPLE_CHOICE",
+      "content": "Which phrase is commonly used to express personal opinion?",
+      "options": ["From my perspective", "On behalf of", "By the way", "As a result of"],
+      "correctAnswer": "From my perspective",
+      "hint": "Means 'In my opinion'.",
+      "explanation": "'From my perspective' nghĩa là 'Theo góc nhìn / quan điểm của tôi'."
+    },
+    {
+      "id": "q_g8_e_c2_l3_2",
+      "lessonId": "g8_e_c2_l3",
+      "type": "FILL_BLANK",
+      "content": "Complete with a conjunction: '___ city life is convenient, country life is more peaceful.' (Although / Because)",
+      "options": [],
+      "correctAnswer": "Although",
+      "hint": "Shows contrast.",
+      "explanation": "'Although' mang nghĩa 'Mặc dù' để diễn tả sự tương phản."
+    },
+    {
+      "id": "q_g8_e_c2_l3_3",
+      "lessonId": "g8_e_c2_l3",
+      "type": "TRUE_FALSE",
+      "content": "'Lack of entertainment facilities' is often considered a drawback of living in rural areas.",
+      "options": ["Đúng", "Sai"],
+      "correctAnswer": "Đúng",
+      "hint": "Drawback = bất lợi.",
+      "explanation": "Đúng. Thiếu các tiện ích giải trí hiện đại là một bất lợi của nông thôn."
+    },
+    {
+      "id": "q_g8_e_c2_l3_4",
+      "lessonId": "g8_e_c2_l3",
+      "type": "MULTIPLE_CHOICE",
+      "content": "Which of the following is a major advantage of the countryside?",
+      "options": ["Fresh air and peaceful surroundings", "Heavy traffic", "High cost of living", "Crowded malls"],
+      "correctAnswer": "Fresh air and peaceful surroundings",
+      "hint": "Positive trait of nature.",
+      "explanation": "Không khí trong lành và khung cảnh yên bình là ưu điểm nổi bật của làng quê."
+    },
+    {
+      "id": "q_g8_e_c2_l3_5",
+      "lessonId": "g8_e_c2_l3",
+      "type": "MULTIPLE_CHOICE",
+      "content": "Choose the word with different stress pattern: <u>hos</u>pitable, pictu<u>resque</u>, <u>peace</u>ful, <u>har</u>vest",
+      "options": ["picturesque", "hospitable", "peaceful", "harvest"],
+      "correctAnswer": "picturesque",
+      "hint": "picturesque has stress on the last syllable /ˌpɪktʃəˈresk/.",
+      "explanation": "picturesque có trọng âm rơi vào âm tiết cuối, các từ còn lại có trọng âm rơi vào âm tiết thứ nhất."
+    },
+    {
+      "id": "q_g9_m_c1_l1_1",
+      "lessonId": "g9_m_c1_l1",
+      "type": "MULTIPLE_CHOICE",
+      "content": "Phương trình nào sau đây là phương trình bậc nhất hai ẩn?",
+      "options": ["2x + 3y = 5", "x² + y = 3", "2x + 0y = 0", "xy + 2 = 0"],
+      "correctAnswer": "2x + 3y = 5",
+      "hint": "Có dạng ax + by = c với a, b không đồng thời bằng 0.",
+      "explanation": "2x + 3y = 5 có dạng ax + by = c với bậc của cả x và y là bậc 1."
+    },
+    {
+      "id": "q_g9_m_c1_l1_2",
+      "lessonId": "g9_m_c1_l1",
+      "type": "TRUE_FALSE",
+      "content": "Phương trình bậc nhất hai ẩn ax + by = c luôn có vô số nghiệm.",
+      "options": ["Đúng", "Sai"],
+      "correctAnswer": "Đúng",
+      "hint": "Tập nghiệm là một đường thẳng trong mặt phẳng Oxy.",
+      "explanation": "Đúng. Với mỗi giá trị của x sẽ tìm được giá trị tương ứng của y, nên nó có vô số nghiệm."
+    },
+    {
+      "id": "q_g9_m_c1_l1_3",
+      "lessonId": "g9_m_c1_l1",
+      "type": "FILL_BLANK",
+      "content": "Cặp số (x; y) = (1; ___) là nghiệm của phương trình 3x - y = 1.",
+      "options": [],
+      "correctAnswer": "2",
+      "hint": "Thay x = 1: 3(1) - y = 1 => y = 2.",
+      "explanation": "3 . 1 - y = 1 <=> 3 - y = 1 <=> y = 2."
+    },
+    {
+      "id": "q_g9_m_c1_l1_4",
+      "lessonId": "g9_m_c1_l1",
+      "type": "MULTIPLE_CHOICE",
+      "content": "Đường thẳng biểu diễn tập nghiệm của phương trình 0x + 2y = 4 là đường thẳng:",
+      "options": ["Song song với trục hoành Ox", "Song song với trục tung Oy", "Đi qua gốc tọa độ O", "Trùng với trục Ox"],
+      "correctAnswer": "Song song với trục hoành Ox",
+      "hint": "y = 2 là đường thẳng nằm ngang.",
+      "explanation": "0x + 2y = 4 <=> y = 2. Đây là đường thẳng song song với trục Ox và cắt Oy tại điểm (0; 2)."
+    },
+    {
+      "id": "q_g9_m_c1_l1_5",
+      "lessonId": "g9_m_c1_l1",
+      "type": "MULTIPLE_CHOICE",
+      "content": "Trong mặt phẳng tọa độ Oxy, tập nghiệm của ax + by = c (với a, b không đồng thời bằng 0) được biểu diễn bởi:",
+      "options": ["Một đường thẳng", "Một đoạn thẳng", "Một điểm duy nhất", "Một đường tròn"],
+      "correctAnswer": "Một đường thẳng",
+      "hint": "Đồ thị hàm số bậc nhất.",
+      "explanation": "Tập nghiệm được biểu diễn bởi một đường thẳng."
+    },
+    {
+      "id": "q_g9_m_c1_l2_1",
+      "lessonId": "g9_m_c1_l2",
+      "type": "MULTIPLE_CHOICE",
+      "content": "Nghiệm của hệ phương trình { x + y = 7 ; x - y = 3 } là:",
+      "options": ["(5; 2)", "(4; 3)", "(2; 5)", "(6; 1)"],
+      "correctAnswer": "(5; 2)",
+      "hint": "Cộng hai phương trình: 2x = 10 => x = 5.",
+      "explanation": "Cộng hai vế: 2x = 10 => x = 5. Thay vào: 5 + y = 7 => y = 2. Cặp nghiệm là (5; 2)."
+    },
+    {
+      "id": "q_g9_m_c1_l2_2",
+      "lessonId": "g9_m_c1_l2",
+      "type": "FILL_BLANK",
+      "content": "Giải hệ phương trình { 2x + y = 5 ; x = 2 }. Giá trị của y là ___",
+      "options": [],
+      "correctAnswer": "1",
+      "hint": "Thế x = 2 vào pt thứ nhất: 2(2) + y = 5.",
+      "explanation": "4 + y = 5 => y = 1."
+    },
+    {
+      "id": "q_g9_m_c1_l2_3",
+      "lessonId": "g9_m_c1_l2",
+      "type": "TRUE_FALSE",
+      "content": "Hệ phương trình bậc nhất hai ẩn có thể vô nghiệm, có nghiệm duy nhất hoặc vô số nghiệm.",
+      "options": ["Đúng", "Sai"],
+      "correctAnswer": "Đúng",
+      "hint": "Tương ứng với hai đường thẳng song song, cắt nhau hoặc trùng nhau.",
+      "explanation": "Đúng. Hệ có thể có 1 nghiệm duy nhất, vô nghiệm (song song), hoặc vô số nghiệm (trùng nhau)."
+    },
+    {
+      "id": "q_g9_m_c1_l2_4",
+      "lessonId": "g9_m_c1_l2",
+      "type": "MULTIPLE_CHOICE",
+      "content": "Để giải hệ { 3x + 2y = 8 ; 2x - 2y = 2 } bằng phương pháp cộng đại số nhanh nhất, ta làm gì?",
+      "options": [
+        "Cộng vế với vế hai phương trình",
+        "Trừ vế với vế hai phương trình",
+        "Nhân phương trình thứ hai với 3",
+        "Chia phương trình thứ nhất cho 2"
+      ],
+      "correctAnswer": "Cộng vế với vế hai phương trình",
+      "hint": "Hệ số của y là 2 và -2 là hai số đối nhau.",
+      "explanation": "Vì hệ số của y là 2 và -2 (đối nhau), ta cộng hai vế sẽ triệt tiêu biến y ngay lập tức (5x = 10 => x = 2)."
+    },
+    {
+      "id": "q_g9_m_c1_l2_5",
+      "lessonId": "g9_m_c1_l2",
+      "type": "MULTIPLE_CHOICE",
+      "content": "Hệ phương trình { x + 2y = 4 ; 2x + 4y = 5 } có bao nhiêu nghiệm?",
+      "options": ["Vô nghiệm", "1 nghiệm duy nhất", "Vô số nghiệm", "2 nghiệm"],
+      "correctAnswer": "Vô nghiệm",
+      "hint": "Tỉ số a1/a2 = b1/b2 ≠ c1/c2 (1/2 = 2/4 ≠ 4/5).",
+      "explanation": "Vì 1/2 = 2/4 ≠ 4/5 nên hai đường thẳng song song với nhau, hệ vô nghiệm."
+    },
+    {
+      "id": "q_g9_m_c1_l3_1",
+      "lessonId": "g9_m_c1_l3",
+      "type": "MULTIPLE_CHOICE",
+      "content": "Hai bạn Lan và Mai cùng mua tập vở. Lan mua 3 quyển vở và 2 cái bút hết 35000 đồng. Mai mua 2 quyển vở và 3 cái bút hết 30000 đồng. Giá một quyển vở là:",
+      "options": ["9000 đồng", "8000 đồng", "7000 đồng", "5000 đồng"],
+      "correctAnswer": "9000 đồng",
+      "hint": "Giải hệ: 3x + 2y = 35000 và 2x + 3y = 30000.",
+      "explanation": "Giải hệ: 3x + 2y = 35; 2x + 3y = 30 => x = 9 (quyển vở = 9000 đồng), y = 4 (cái bút = 4000 đồng)."
+    },
+    {
+      "id": "q_g9_m_c1_l3_2",
+      "lessonId": "g9_m_c1_l3",
+      "type": "FILL_BLANK",
+      "content": "Một mảnh đất hình chữ nhật có chu vi 40m, chiều dài hơn chiều rộng 4m. Chiều dài mảnh đất là ___ mét.",
+      "options": [],
+      "correctAnswer": "12",
+      "hint": "Nửa chu vi x + y = 20; x - y = 4.",
+      "explanation": "Nửa chu vi = 20m. x = (20 + 4)/2 = 12m."
+    },
+    {
+      "id": "q_g9_m_c1_l3_3",
+      "lessonId": "g9_m_c1_l3",
+      "type": "TRUE_FALSE",
+      "content": "Khi giải bài toán bằng cách lập hệ phương trình, bắt buộc phải đặt điều kiện thích hợp cho ẩn.",
+      "options": ["Đúng", "Sai"],
+      "correctAnswer": "Đúng",
+      "hint": "Điều kiện để loại nghiệm không phù hợp thực tế.",
+      "explanation": "Đúng. Đặt điều kiện là bước tiên quyết để đối chiếu tính đúng đắn thực tế của nghiệm (ví dụ số người phải thuộc N*)."
+    },
+    {
+      "id": "q_g9_m_c1_l3_4",
+      "lessonId": "g9_m_c1_l3",
+      "type": "MULTIPLE_CHOICE",
+      "content": "Một ca nô xuôi dòng với vận tốc (v + 3) km/h và ngược dòng với vận tốc (v - 3) km/h. Số 3 ở đây đại diện cho:",
+      "options": ["Vận tốc dòng nước", "Vận tốc thực của ca nô", "Vận tốc của gió", "Quãng đường sông"],
+      "correctAnswer": "Vận tốc dòng nước",
+      "hint": "Vận tốc xuôi = v thực + v dòng nước.",
+      "explanation": "Vận tốc xuôi dòng = Vận tốc riêng + Vận tốc dòng nước. Vậy 3 km/h là vận tốc dòng nước."
+    },
+    {
+      "id": "q_g9_m_c1_l3_5",
+      "lessonId": "g9_m_c1_l3",
+      "type": "MULTIPLE_CHOICE",
+      "content": "Tổng của hai số là 100, hiệu của chúng là 40. Số lớn là:",
+      "options": ["70", "60", "80", "50"],
+      "correctAnswer": "70",
+      "hint": "Số lớn = (Tổng + Hiệu) / 2.",
+      "explanation": "Số lớn = (100 + 40) / 2 = 70. Số bé = 30."
+    },
+    {
+      "id": "q_g9_m_c2_l1_1",
+      "lessonId": "g9_m_c2_l1",
+      "type": "MULTIPLE_CHOICE",
+      "content": "Căn bậc hai số học của 49 là:",
+      "options": ["7", "-7", "±7", "49"],
+      "correctAnswer": "7",
+      "hint": "Căn bậc hai số học luôn là số không âm.",
+      "explanation": "Theo định nghĩa, căn bậc hai số học của số dương a là số không âm √a, do đó √49 = 7."
+    },
+    {
+      "id": "q_g9_m_c2_l1_2",
+      "lessonId": "g9_m_c2_l1",
+      "type": "TRUE_FALSE",
+      "content": "Biểu thức √(x - 3) có nghĩa khi và chỉ khi x ≥ 3.",
+      "options": ["Đúng", "Sai"],
+      "correctAnswer": "Đúng",
+      "hint": "Biểu thức dưới dấu căn phải không âm.",
+      "explanation": "Đúng. Căn thức √A xác định khi A ≥ 0 <=> x - 3 ≥ 0 <=> x ≥ 3."
+    },
+    {
+      "id": "q_g9_m_c2_l1_3",
+      "lessonId": "g9_m_c2_l1",
+      "type": "FILL_BLANK",
+      "content": "Rút gọn biểu thức √( (3 - √10)² ) được kết quả là √10 - ___",
+      "options": [],
+      "correctAnswer": "3",
+      "hint": "|3 - √10| vì 3 = √9 < √10.",
+      "explanation": "|3 - √10| = -(3 - √10) = √10 - 3 (vì 3 < √10)."
+    },
+    {
+      "id": "q_g9_m_c2_l1_4",
+      "lessonId": "g9_m_c2_l1",
+      "type": "MULTIPLE_CHOICE",
+      "content": "Hằng đẳng thức căn bậc hai chuẩn là:",
+      "options": ["√(A²) = |A|", "√(A²) = A", "√(A²) = -A", "√(A²) = A²"],
+      "correctAnswer": "√(A²) = |A|",
+      "hint": "Phải có giá trị tuyệt đối.",
+      "explanation": "Định lý: Với mọi biểu thức A, ta có √(A²) = |A|."
+    },
+    {
+      "id": "q_g9_m_c2_l1_5",
+      "lessonId": "g9_m_c2_l1",
+      "type": "MULTIPLE_CHOICE",
+      "content": "So sánh hai số: 3√2 và 2√3",
+      "options": ["3√2 > 2√3", "3√2 < 2√3", "3√2 = 2√3", "Không so sánh được"],
+      "correctAnswer": "3√2 > 2√3",
+      "hint": "Đưa vào trong dấu căn: 3√2 = √18; 2√3 = √12.",
+      "explanation": "3√2 = √(9.2) = √18; 2√3 = √(4.3) = √12. Vì 18 > 12 nên 3√2 > 2√3."
+    },
+    {
+      "id": "q_g9_m_c2_l2_1",
+      "lessonId": "g9_m_c2_l2",
+      "type": "MULTIPLE_CHOICE",
+      "content": "Tính: √12 . √3",
+      "options": ["6", "36", "4", "3√2"],
+      "correctAnswer": "6",
+      "hint": "√(12 . 3) = √36.",
+      "explanation": "√(12 . 3) = √36 = 6."
+    },
+    {
+      "id": "q_g9_m_c2_l2_2",
+      "lessonId": "g9_m_c2_l2",
+      "type": "FILL_BLANK",
+      "content": "Rút gọn biểu thức √50 dưới dạng a√2. Giá trị của a là ___",
+      "options": [],
+      "correctAnswer": "5",
+      "hint": "50 = 25 . 2.",
+      "explanation": "√50 = √(25 . 2) = 5√2. Vậy a = 5."
+    },
+    {
+      "id": "q_g9_m_c2_l2_3",
+      "lessonId": "g9_m_c2_l2",
+      "type": "TRUE_FALSE",
+      "content": "Với A ≥ 0 và B > 0, ta có √(A / B) = √A / √B.",
+      "options": ["Đúng", "Sai"],
+      "correctAnswer": "Đúng",
+      "hint": "Quy tắc khai phương một thương.",
+      "explanation": "Đúng. Đây là định lý khai phương một thương."
+    },
+    {
+      "id": "q_g9_m_c2_l2_4",
+      "lessonId": "g9_m_c2_l2",
+      "type": "MULTIPLE_CHOICE",
+      "content": "Đưa thừa số vào trong dấu căn: -2√5 bằng:",
+      "options": ["-√20", "√20", "-√10", "√10"],
+      "correctAnswer": "-√20",
+      "hint": "Dấu trừ giữ ở bên ngoài căn.",
+      "explanation": "-2√5 = -√(2² . 5) = -√(4 . 5) = -√20."
+    },
+    {
+      "id": "q_g9_m_c2_l2_5",
+      "lessonId": "g9_m_c2_l2",
+      "type": "MULTIPLE_CHOICE",
+      "content": "Giá trị của biểu thức √(4/25) là:",
+      "options": ["2/5", "-2/5", "4/5", "2/25"],
+      "correctAnswer": "2/5",
+      "hint": "√4 / √25.",
+      "explanation": "√4 / √25 = 2/5."
+    },
+    {
+      "id": "q_g9_m_c2_l3_1",
+      "lessonId": "g9_m_c2_l3",
+      "type": "MULTIPLE_CHOICE",
+      "content": "Trục căn thức ở mẫu của biểu thức 6 / √3 ta được:",
+      "options": ["2√3", "3√3", "6√3", "√3"],
+      "correctAnswer": "2√3",
+      "hint": "Nhân cả tử và mẫu với √3: 6√3 / 3.",
+      "explanation": "(6 . √3) / (√3 . √3) = 6√3 / 3 = 2√3."
+    },
+    {
+      "id": "q_g9_m_c2_l3_2",
+      "lessonId": "g9_m_c2_l3",
+      "type": "FILL_BLANK",
+      "content": "Rút gọn 1 / (√3 - 1) = (√3 + 1) / ___",
+      "options": [],
+      "correctAnswer": "2",
+      "hint": "(√3 - 1)(√3 + 1) = 3 - 1.",
+      "explanation": "(√3 + 1) / [(√3 - 1)(√3 + 1)] = (√3 + 1) / (3 - 1) = (√3 + 1) / 2."
+    },
+    {
+      "id": "q_g9_m_c2_l3_3",
+      "lessonId": "g9_m_c2_l3",
+      "type": "TRUE_FALSE",
+      "content": "Biểu thức liên hợp của (√a + √b) là (√a - √b).",
+      "options": ["Đúng", "Sai"],
+      "correctAnswer": "Đúng",
+      "hint": "Tích của chúng là a - b theo hằng đẳng thức hiệu hai bình phương.",
+      "explanation": "Đúng. (√a + √b)(√a - √b) = a - b giúp khử căn thức ở mẫu."
+    },
+    {
+      "id": "q_g9_m_c2_l3_4",
+      "lessonId": "g9_m_c2_l3",
+      "type": "MULTIPLE_CHOICE",
+      "content": "Tính giá trị của biểu thức P = (√2 + 1)² - 2√2:",
+      "options": ["3", "1", "2", "3 + 4√2"],
+      "correctAnswer": "3",
+      "hint": "Khai triển (√2 + 1)² = 2 + 2√2 + 1.",
+      "explanation": "2 + 2√2 + 1 - 2√2 = 3."
+    },
+    {
+      "id": "q_g9_m_c2_l3_5",
+      "lessonId": "g9_m_c2_l3",
+      "type": "MULTIPLE_CHOICE",
+      "content": "Rút gọn biểu thức A = √( (√5 - 2)² ) + √( (√5 - 3)² ):",
+      "options": ["1", "2√5 - 5", "5", "2√5"],
+      "correctAnswer": "1",
+      "hint": "|√5 - 2| + |√5 - 3| = (√5 - 2) + (3 - √5).",
+      "explanation": "(√5 - 2) + (3 - √5) = 1 (vì √5 > 2 và √5 < 3)."
+    },
+    {
+      "id": "q_g9_e_c1_l1_1",
+      "lessonId": "g9_e_c1_l1",
+      "type": "MULTIPLE_CHOICE",
+      "content": "A person who is skilled in making decorative or practical items by hand is an:",
+      "options": ["artisan", "architect", "engineer", "astronaut"],
+      "correctAnswer": "artisan",
+      "hint": "Thợ thủ công mỹ nghệ.",
+      "explanation": "'artisan' (hoặc craftsman) là nghệ nhân làm đồ thủ công."
+    },
+    {
+      "id": "q_g9_e_c1_l1_2",
+      "lessonId": "g9_e_c1_l1",
+      "type": "FILL_BLANK",
+      "content": "Bat Trang village is famous across Vietnam for its traditional clay ___.",
+      "options": [],
+      "correctAnswer": "pottery",
+      "hint": "Plates, vases, cups made from clay.",
+      "explanation": "'pottery' nghĩa là đồ gốm sứ."
+    },
+    {
+      "id": "q_g9_e_c1_l1_3",
+      "lessonId": "g9_e_c1_l1",
+      "type": "MULTIPLE_CHOICE",
+      "content": "We need to ___ our traditional handicraft villages for future generations.",
+      "options": ["preserve", "destroy", "abandon", "forget"],
+      "correctAnswer": "preserve",
+      "hint": "To keep something safe from loss.",
+      "explanation": "'preserve' nghĩa là bảo tồn, giữ gìn."
+    },
+    {
+      "id": "q_g9_e_c1_l1_4",
+      "lessonId": "g9_e_c1_l1",
+      "type": "TRUE_FALSE",
+      "content": "Hoi An ancient town is world-renowned for handmade silk lanterns.",
+      "options": ["Đúng", "Sai"],
+      "correctAnswer": "Đúng",
+      "hint": "Lantern = đèn lồng.",
+      "explanation": "Đúng. Đèn lồng lụa Hội An là sản phẩm thủ công truyền thống nổi tiếng thế giới."
+    },
+    {
+      "id": "q_g9_e_c1_l1_5",
+      "lessonId": "g9_e_c1_l1",
+      "type": "MULTIPLE_CHOICE",
+      "content": "A 'community helper' who collects trash from houses every night is a:",
+      "options": ["garbage collector", "electrician", "plumber", "delivery person"],
+      "correctAnswer": "garbage collector",
+      "hint": "Worker who cleans and collects waste.",
+      "explanation": "'garbage collector' là công nhân thu gom rác."
+    },
+    {
+      "id": "q_g9_e_c1_l2_1",
+      "lessonId": "g9_e_c1_l2",
+      "type": "MULTIPLE_CHOICE",
+      "content": "I really don't know ___ to get to the historic craft village.",
+      "options": ["how", "why", "which", "whose"],
+      "correctAnswer": "how",
+      "hint": "Structure: Wh-word + to V. 'Why' cannot be used.",
+      "explanation": "'how to get' = cách để đi tới đó. Chú ý 'why' không đi với to-infinitive."
+    },
+    {
+      "id": "q_g9_e_c1_l2_2",
+      "lessonId": "g9_e_c1_l2",
+      "type": "FILL_BLANK",
+      "content": "She asked her teacher what ___ next to improve her English. (to do / doing)",
+      "options": [],
+      "correctAnswer": "to do",
+      "hint": "Question word + to-infinitive.",
+      "explanation": "Cấu trúc: what to do (làm cái gì tiếp theo)."
+    },
+    {
+      "id": "q_g9_e_c1_l2_3",
+      "lessonId": "g9_e_c1_l2",
+      "type": "TRUE_FALSE",
+      "content": "The question word 'why' CAN be followed directly by a to-infinitive (e.g. 'why to do').",
+      "options": ["Đúng", "Sai"],
+      "correctAnswer": "Sai",
+      "hint": "'why' is the exception that cannot take to-V.",
+      "explanation": "Sai. 'Why' là từ để hỏi duy nhất không kết hợp với to-infinitive."
+    },
+    {
+      "id": "q_g9_e_c1_l2_4",
+      "lessonId": "g9_e_c1_l2",
+      "type": "MULTIPLE_CHOICE",
+      "content": "Rewrite using to-infinitive: 'I wonder where I should park my car.'",
+      "options": [
+        "I wonder where to park my car.",
+        "I wonder how to park my car.",
+        "I wonder where parking my car.",
+        "I wonder why park my car."
+      ],
+      "correctAnswer": "I wonder where to park my car.",
+      "hint": "'where I should park' = 'where to park'.",
+      "explanation": "Mệnh đề danh từ 'where I should park' rút gọn thành 'where to park'."
+    },
+    {
+      "id": "q_g9_e_c1_l2_5",
+      "lessonId": "g9_e_c1_l2",
+      "type": "MULTIPLE_CHOICE",
+      "content": "They couldn't decide ___ to invite to the community workshop.",
+      "options": ["who", "why", "wherever", "whenever"],
+      "correctAnswer": "who",
+      "hint": "Referring to people.",
+      "explanation": "'who to invite' nghĩa là mời ai."
+    },
+    {
+      "id": "q_g9_e_c1_l3_1",
+      "lessonId": "g9_e_c1_l3",
+      "type": "MULTIPLE_CHOICE",
+      "content": "This delicate weaving technique was ___ from generation to generation.",
+      "options": ["passed down", "run out", "looked after", "turned off"],
+      "correctAnswer": "passed down",
+      "hint": "Transferred to descendants.",
+      "explanation": "'pass down' nghĩa là truyền lại qua các thế hệ."
+    },
+    {
+      "id": "q_g9_e_c1_l3_2",
+      "lessonId": "g9_e_c1_l3",
+      "type": "FILL_BLANK",
+      "content": "We have run ___ of cooking oil, so please buy some on your way home. (out / in / off)",
+      "options": [],
+      "correctAnswer": "out",
+      "hint": "run out of = hết sạch.",
+      "explanation": "'run out of' có nghĩa là dùng hết, cạn kiệt."
+    },
+    {
+      "id": "q_g9_e_c1_l3_3",
+      "lessonId": "g9_e_c1_l3",
+      "type": "TRUE_FALSE",
+      "content": "'Look forward to' must be followed by a noun or verb-ing (e.g. look forward to seeing you).",
+      "options": ["Đúng", "Sai"],
+      "correctAnswer": "Đúng",
+      "hint": "'to' is a preposition here.",
+      "explanation": "Đúng. 'to' ở đây là giới từ nên sau nó là danh từ hoặc V-ing."
+    },
+    {
+      "id": "q_g9_e_c1_l3_4",
+      "lessonId": "g9_e_c1_l3",
+      "type": "MULTIPLE_CHOICE",
+      "content": "She gets ___ well with all her neighbors in the quiet residential area.",
+      "options": ["on", "in", "at", "by"],
+      "correctAnswer": "on",
+      "hint": "Collocation: get on well with someone (hòa thuận với ai).",
+      "explanation": "'get on well with' (hoặc get along with) nghĩa là có mối quan hệ hòa thuận với ai."
+    },
+    {
+      "id": "q_g9_e_c1_l3_5",
+      "lessonId": "g9_e_c1_l3",
+      "type": "MULTIPLE_CHOICE",
+      "content": "You must face ___ to the fact that exams are approaching soon.",
+      "options": ["up", "off", "down", "out"],
+      "hint": "face up to: đối mặt với sự thật.",
+      "correctAnswer": "up",
+      "explanation": "'face up to' có nghĩa là dũng cảm đối mặt với thực tế khó khăn."
+    },
+    {
+      "id": "q_g9_e_c2_l1_1",
+      "lessonId": "g9_e_c2_l1",
+      "type": "MULTIPLE_CHOICE",
+      "content": "The busiest time of day when traffic is at its heaviest is known as:",
+      "options": ["rush hour", "happy hour", "lunch break", "free hour"],
+      "correctAnswer": "rush hour",
+      "hint": "Hour of intense commuting.",
+      "explanation": "'rush hour' là giờ cao điểm trong giao thông đô thị."
+    },
+    {
+      "id": "q_g9_e_c2_l1_2",
+      "lessonId": "g9_e_c2_l1",
+      "type": "FILL_BLANK",
+      "content": "A very tall modern city building with many floors is called a ___.",
+      "options": [],
+      "correctAnswer": "skyscraper",
+      "hint": "Building that scrapes the sky.",
+      "explanation": "'skyscraper' là tòa nhà chọc trời."
+    },
+    {
+      "id": "q_g9_e_c2_l1_3",
+      "lessonId": "g9_e_c2_l1",
+      "type": "MULTIPLE_CHOICE",
+      "content": "The average amount of money needed for food, housing, and clothing in a city is the:",
+      "options": ["cost of living", "quality of life", "standard rate", "income tax"],
+      "correctAnswer": "cost of living",
+      "hint": "Cost of day-to-day life.",
+      "explanation": "'cost of living' là chi phí sinh hoạt thường nhật."
+    },
+    {
+      "id": "q_g9_e_c2_l1_4",
+      "lessonId": "g9_e_c2_l1",
+      "type": "TRUE_FALSE",
+      "content": "'Affordable' means something is excessively expensive and out of reach.",
+      "options": ["Đúng", "Sai"],
+      "correctAnswer": "Sai",
+      "hint": "Affordable = có giá cả phải chăng, vừa túi tiền.",
+      "explanation": "Sai. 'affordable' có nghĩa là giá cả vừa phải, có thể chi trả được."
+    },
+    {
+      "id": "q_g9_e_c2_l1_5",
+      "lessonId": "g9_e_c2_l1",
+      "type": "MULTIPLE_CHOICE",
+      "content": "Ho Chi Minh City is a crowded and ___ metropolitan center with vibrant nightlife.",
+      "options": ["bustling", "boring", "quiet", "deserted"],
+      "correctAnswer": "bustling",
+      "hint": "Full of energetic activity.",
+      "explanation": "'bustling' nghĩa là nhộn nhịp, hối hả, sôi động."
+    },
+    {
+      "id": "q_g9_e_c2_l2_1",
+      "lessonId": "g9_e_c2_l2",
+      "type": "MULTIPLE_CHOICE",
+      "content": "The ___ you study, the ___ your test scores will be.",
+      "options": [
+        "harder / higher",
+        "more hard / more high",
+        "hardest / highest",
+        "harder / highest"
+      ],
+      "correctAnswer": "harder / higher",
+      "hint": "Double comparative: The + comparative..., the + comparative...",
+      "explanation": "Cấu trúc so sánh kép: The harder you study, the higher your test scores will be."
+    },
+    {
+      "id": "q_g9_e_c2_l2_2",
+      "lessonId": "g9_e_c2_l2",
+      "type": "FILL_BLANK",
+      "content": "The bigger the city is, the ___ congested the roads become. (more / most)",
+      "options": [],
+      "correctAnswer": "more",
+      "hint": "Comparative of congested.",
+      "explanation": "The more congested = càng tắc nghẽn hơn."
+    },
+    {
+      "id": "q_g9_e_c2_l2_3",
+      "lessonId": "g9_e_c2_l2",
+      "type": "TRUE_FALSE",
+      "content": "Both clauses in a double comparative sentence must begin with the definite article 'The'.",
+      "options": ["Đúng", "Sai"],
+      "correctAnswer": "Đúng",
+      "hint": "The more..., the more...",
+      "explanation": "Đúng. Cả hai vế trong so sánh kép 'Càng... càng...' đều phải có 'The'."
+    },
+    {
+      "id": "q_g9_e_c2_l2_4",
+      "lessonId": "g9_e_c2_l2",
+      "type": "MULTIPLE_CHOICE",
+      "content": "The more modern a metropolis becomes, ___ it attracts young talents.",
+      "options": ["the more", "more", "the most", "as much"],
+      "correctAnswer": "the more",
+      "hint": "Requires 'the + comparative'.",
+      "explanation": "Vế thứ hai cần 'the more'."
+    },
+    {
+      "id": "q_g9_e_c2_l2_5",
+      "lessonId": "g9_e_c2_l2",
+      "type": "MULTIPLE_CHOICE",
+      "content": "'The older he gets, ___ he becomes.'",
+      "options": ["the wiser", "the more wise", "the wisest", "wiser"],
+      "correctAnswer": "the wiser",
+      "hint": "wise -> wiser.",
+      "explanation": "wise là tính từ 1 âm tiết, so sánh hơn thêm -r: the wiser."
+    },
+    {
+      "id": "q_g9_e_c2_l3_1",
+      "lessonId": "g9_e_c2_l3",
+      "type": "MULTIPLE_CHOICE",
+      "content": "If a destination is 'within walking distance', it means that:",
+      "options": [
+        "It is close enough to walk there comfortably",
+        "You must take a plane",
+        "It is too far to reach",
+        "Only cars are allowed"
+      ],
+      "correctAnswer": "It is close enough to walk there comfortably",
+      "hint": "Very close nearby.",
+      "explanation": "'within walking distance' nghĩa là ở khoảng cách gần có thể đi bộ được."
+    },
+    {
+      "id": "q_g9_e_c2_l3_2",
+      "lessonId": "g9_e_c2_l3",
+      "type": "FILL_BLANK",
+      "content": "Excuse me, could you ___ me the way to the central library? (tell / speak / talk)",
+      "options": [],
+      "correctAnswer": "tell",
+      "hint": "tell someone the way.",
+      "explanation": "Collocation: tell somebody the way to somewhere (chỉ đường cho ai)."
+    },
+    {
+      "id": "q_g9_e_c2_l3_3",
+      "lessonId": "g9_e_c2_l3",
+      "type": "TRUE_FALSE",
+      "content": "'Go straight ahead' means rẽ phải ngay lập tức.",
+      "options": ["Đúng", "Sai"],
+      "correctAnswer": "Sai",
+      "hint": "It means tiếp tục đi thẳng.",
+      "explanation": "Sai. 'Go straight ahead' có nghĩa là đi thẳng về phía trước, không phải rẽ phải."
+    },
+    {
+      "id": "q_g9_e_c2_l3_4",
+      "lessonId": "g9_e_c2_l3",
+      "type": "MULTIPLE_CHOICE",
+      "content": "'Take the second turning on your left' instructs you to:",
+      "options": [
+        "Turn left at the second intersection",
+        "Turn right immediately",
+        "Go straight for 2 miles",
+        "Turn around"
+      ],
+      "correctAnswer": "Turn left at the second intersection",
+      "hint": "Second turning on the left.",
+      "explanation": "Hướng dẫn: Rẽ trái ở ngã rẽ thứ hai."
+    },
+    {
+      "id": "q_g9_e_c2_l3_5",
+      "lessonId": "g9_e_c2_l3",
+      "type": "MULTIPLE_CHOICE",
+      "content": "The pharmacy is just ___ the corner, on Nguyen Trai street.",
+      "options": ["round", "between", "among", "along"],
+      "correctAnswer": "round",
+      "hint": "round the corner = ngay góc phố.",
+      "explanation": "'round the corner' là thành ngữ chỉ một địa điểm ở ngay khúc cua góc đường."
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "fc_1",
+      "grade": 6,
+      "subjectId": "english",
+      "front": "pencil case",
+      "back": "hộp bút / túi đựng bút\nPhiên âm: /ˈpensl keɪs/\nVí dụ: I keep my pens and eraser in my pencil case.",
+      "category": "Vocabulary"
+    },
+    {
+      "id": "fc_2",
+      "grade": 6,
+      "subjectId": "english",
+      "front": "compass",
+      "back": "com-pa (dụng cụ vẽ đường tròn)\nPhiên âm: /ˈkʌmpəs/\nVí dụ: Use a compass to draw a circle with radius 3cm.",
+      "category": "Vocabulary"
+    },
+    {
+      "id": "fc_3",
+      "grade": 6,
+      "subjectId": "math",
+      "front": "Tập hợp số tự nhiên ℕ và ℕ*",
+      "back": "ℕ = {0; 1; 2; 3; ...}\nℕ* = {1; 2; 3; ...} (không có số 0)\nLưu ý: 0 ∈ ℕ nhưng 0 ∉ ℕ*.",
+      "category": "Math Formula"
+    },
+    {
+      "id": "fc_4",
+      "grade": 6,
+      "subjectId": "math",
+      "front": "Nhân & Chia hai lũy thừa cùng cơ số",
+      "back": "aᵐ . aⁿ = aᵐ⁺ⁿ (cộng số mũ)\naᵐ : aⁿ = aᵐ⁻ⁿ (trừ số mũ, a ≠ 0, m ≥ n)\nQuy ước: a⁰ = 1.",
+      "category": "Math Formula"
+    },
+    {
+      "id": "fc_5",
+      "grade": 7,
+      "subjectId": "math",
+      "front": "Hai góc kề bù & Hai góc đối đỉnh",
+      "back": "- Hai góc kề bù: xOy + yOz = 180°\n- Hai góc đối đỉnh: có số đo bằng nhau",
+      "category": "Geometry"
+    },
+    {
+      "id": "fc_6",
+      "grade": 7,
+      "subjectId": "english",
+      "front": "fancy + V-ing",
+      "back": "thích, muốn làm gì đó\nVí dụ: Do you fancy hanging out with us tonight?",
+      "category": "Grammar"
+    },
+    {
+      "id": "fc_7",
+      "grade": 8,
+      "subjectId": "math",
+      "front": "Hằng đẳng thức: Hiệu hai bình phương",
+      "back": "A² - B² = (A - B)(A + B)\nVí dụ: x² - 9 = (x - 3)(x + 3)",
+      "category": "Math Formula"
+    },
+    {
+      "id": "fc_8",
+      "grade": 8,
+      "subjectId": "math",
+      "front": "Hằng đẳng thức: Bình phương của một tổng / hiệu",
+      "back": "(A + B)² = A² + 2AB + B²\n(A - B)² = A² - 2AB + B²",
+      "category": "Math Formula"
+    },
+    {
+      "id": "fc_9",
+      "grade": 8,
+      "subjectId": "english",
+      "front": "paddy field",
+      "back": "cánh đồng lúa nước\nPhiên âm: /ˈpædi fiːld/\nVí dụ: Golden paddy fields stretch across the valley.",
+      "category": "Vocabulary"
+    },
+    {
+      "id": "fc_10",
+      "grade": 9,
+      "subjectId": "math",
+      "front": "Hằng đẳng thức căn thức: √(A²)",
+      "back": "√(A²) = |A|\n- Nếu A ≥ 0 thì √(A²) = A\n- Nếu A < 0 thì √(A²) = -A",
+      "category": "Math Formula"
+    },
+    {
+      "id": "fc_11",
+      "grade": 9,
+      "subjectId": "math",
+      "front": "Trục căn thức ở mẫu bằng lượng liên hợp",
+      "back": "1 / (√A - √B) = (√A + √B) / (A - B)\nVí dụ: 1 / (√3 - 1) = (√3 + 1) / 2",
+      "category": "Math Formula"
+    },
+    {
+      "id": "fc_12",
+      "grade": 9,
+      "subjectId": "english",
+      "front": "Wh-word + to-infinitive",
+      "back": "Dùng sau: ask, wonder, know, decide, tell.\nVí dụ: I don't know WHERE TO GO.\nLưu ý: KHÔNG dùng với 'why'.",
+      "category": "Grammar"
+    },
+    {
+      "id": "fc_13",
+      "grade": 9,
+      "subjectId": "english",
+      "front": "Double comparison: The..., the...",
+      "back": "Cấu trúc Càng... Càng...\nThe + comparative..., the + comparative...\nVí dụ: The harder you work, the luckier you get.",
+      "category": "Grammar"
+    }
+  ]
+}

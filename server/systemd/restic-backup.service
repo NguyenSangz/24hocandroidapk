@@ -1,0 +1,12 @@
+[Unit]
+Description=Sao luu ma hoa PocketBase bang Restic (F16b)
+After=network-online.target pocketbase.service
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+User=root
+EnvironmentFile=/etc/pocketbase/restic.env
+ExecStart=/opt/pocketbase/scripts/restic_backup.sh
+Nice=10
+IOSchedulingClass=idle

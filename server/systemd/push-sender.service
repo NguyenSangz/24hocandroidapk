@@ -1,0 +1,18 @@
+[Unit]
+Description=F20a FCM push sender (Học Tốt THCS)
+After=network-online.target pocketbase.service
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+User=pocketbase
+Group=pocketbase
+WorkingDirectory=/opt/hoc-tot-thcs/server/push
+EnvironmentFile=/etc/pocketbase/push.env
+ExecStart=/usr/bin/env node fcm_sender.mjs
+# Bảo vệ thêm: không ghi vào hệ thống, chỉ đọc file cấu hình.
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=true
+ReadOnlyPaths=/etc/pocketbase

@@ -1,0 +1,130 @@
+{
+  "series": "kntt",
+  "seriesName": "Kết nối tri thức với cuộc sống",
+  "grade": 6,
+  "subjectId": "toan",
+  "subjectName": "Toán",
+  "title": "Toán 6 - Kết nối tri thức với cuộc sống (Tập 1 & Tập 2)",
+  "packageCode": "P01",
+  "verified": false,
+  "status": "CHƯA XÁC MINH",
+  "source": "Đề xuất dự thảo theo khung chương trình GDPT 2018 (Chờ người dùng dán mục lục chính thức từ SGK NXB Giáo dục Việt Nam)",
+  "chapters": [
+    {
+      "id": "kntt_toan6_c1",
+      "order": 1,
+      "title": "Chương I: Tập hợp các số tự nhiên",
+      "description": "Làm quen với tập hợp, các phép toán trên số tự nhiên và tính chia hết",
+      "lessons": [
+        { "id": "kntt_toan6_b01", "order": 1, "title": "Bài 1: Tập hợp", "topicId": "tap-hop" },
+        { "id": "kntt_toan6_b02", "order": 2, "title": "Bài 2: Cách ghi số tự nhiên", "topicId": "cach-ghi-so-tu-nhien" },
+        { "id": "kntt_toan6_b03", "order": 3, "title": "Bài 3: Phép cộng và phép trừ hai số tự nhiên", "topicId": "phep-cong-tru-so-tu-nhien" },
+        { "id": "kntt_toan6_b04", "order": 4, "title": "Bài 4: Phép nhân và phép chia hai số tự nhiên", "topicId": "phep-nhan-chia-so-tu-nhien" },
+        { "id": "kntt_toan6_b05", "order": 5, "title": "Bài 5: Phép tính luỹ thừa với số mũ tự nhiên", "topicId": "luy-thua-so-mu-tu-nhien" },
+        { "id": "kntt_toan6_b06", "order": 6, "title": "Bài 6: Thứ tự thực hiện các phép tính", "topicId": "thu-tu-thuc-hien-phep-tinh" },
+        { "id": "kntt_toan6_b07", "order": 7, "title": "Bài 7: Quan hệ chia hết và tính chất", "topicId": "quan-he-chia-het" },
+        { "id": "kntt_toan6_b08", "order": 8, "title": "Bài 8: Dấu hiệu chia hết cho 2, cho 5", "topicId": "dau-hieu-chia-het-2-5" },
+        { "id": "kntt_toan6_b09", "order": 9, "title": "Bài 9: Dấu hiệu chia hết cho 3, cho 9", "topicId": "dau-hieu-chia-het-3-9" },
+        { "id": "kntt_toan6_b10", "order": 10, "title": "Bài 10: Số nguyên tố", "topicId": "so-nguyen-to-hop-so" },
+        { "id": "kntt_toan6_b11", "order": 11, "title": "Bài 11: Ước chung. Ước chung lớn nhất", "topicId": "uoc-chung-lon-nhat" },
+        { "id": "kntt_toan6_b12", "order": 12, "title": "Bài 12: Bội chung. Bội chung nhỏ nhất", "topicId": "boi-chung-nho-nhat" }
+      ]
+    },
+    {
+      "id": "kntt_toan6_c2",
+      "order": 2,
+      "title": "Chương II: Tính chia hết trong tập hợp các số tự nhiên",
+      "description": "Ôn tập và bài tập cuối chương I & II",
+      "lessons": [
+        { "id": "kntt_toan6_b13", "order": 13, "title": "Bài luyện tập chung và ôn tập chương I", "topicId": "on-tap-chuong-1-toan-6" }
+      ]
+    },
+    {
+      "id": "kntt_toan6_c3",
+      "order": 3,
+      "title": "Chương III: Số nguyên",
+      "description": "Tập hợp các số nguyên, so sánh và các phép tính cộng, trừ, nhân, chia số nguyên",
+      "lessons": [
+        { "id": "kntt_toan6_b14", "order": 14, "title": "Bài 13: Tập hợp các số nguyên", "topicId": "tap-hop-so-nguyen" },
+        { "id": "kntt_toan6_b15", "order": 15, "title": "Bài 14: Phép cộng và phép trừ số nguyên", "topicId": "phep-cong-tru-so-nguyen" },
+        { "id": "kntt_toan6_b16", "order": 16, "title": "Bài 15: Quy tắc dấu ngoặc", "topicId": "quy-tac-dau-ngoac" },
+        { "id": "kntt_toan6_b17", "order": 17, "title": "Bài 16: Phép nhân số nguyên", "topicId": "phep-nhan-so-nguyen" },
+        { "id": "kntt_toan6_b18", "order": 18, "title": "Bài 17: Phép chia hết. Ước và bội của một số nguyên", "topicId": "phep-chia-uoc-boi-so-nguyen" }
+      ]
+    },
+    {
+      "id": "kntt_toan6_c4",
+      "order": 4,
+      "title": "Chương IV: Một số hình phẳng trong thực tiễn",
+      "description": "Tam giác đều, hình vuông, lục giác đều, hình chữ nhật, hình thoi, hình bình hành, hình thang cân",
+      "lessons": [
+        { "id": "kntt_toan6_b19", "order": 19, "title": "Bài 18: Tam giác đều. Hình vuông. Lục giác đều", "topicId": "tam-giac-hinh-vuong-luc-giac" },
+        { "id": "kntt_toan6_b20", "order": 20, "title": "Bài 19: Hình chữ nhật. Hình thoi. Hình bình hành. Hình thang cân", "topicId": "cac-hinh-tu-giac-dac-biet" },
+        { "id": "kntt_toan6_b21", "order": 21, "title": "Bài 20: Chu vi và diện tích của một số tứ giác đã học", "topicId": "chu-vi-dien-tich-tu-giac" }
+      ]
+    },
+    {
+      "id": "kntt_toan6_c5",
+      "order": 5,
+      "title": "Chương V: Tính đối xứng của hình phẳng trong tự nhiên",
+      "description": "Hình có trục đối xứng và hình có tâm đối xứng",
+      "lessons": [
+        { "id": "kntt_toan6_b22", "order": 22, "title": "Bài 21: Hình có trục đối xứng", "topicId": "hinh-co-truc-doi-xung" },
+        { "id": "kntt_toan6_b23", "order": 23, "title": "Bài 22: Hình có tâm đối xứng", "topicId": "hinh-co-tam-doi-xung" }
+      ]
+    },
+    {
+      "id": "kntt_toan6_c6",
+      "order": 6,
+      "title": "Chương VI: Phân số",
+      "description": "Mở rộng khái niệm phân số, tính chất cơ bản và phép tính trên phân số",
+      "lessons": [
+        { "id": "kntt_toan6_b24", "order": 24, "title": "Bài 23: Mở rộng phân số. Phân số bằng nhau", "topicId": "mo-rong-phan-so" },
+        { "id": "kntt_toan6_b25", "order": 25, "title": "Bài 24: So sánh phân số. Hỗn số dương", "topicId": "so-sanh-phan-so" },
+        { "id": "kntt_toan6_b26", "order": 26, "title": "Bài 25: Phép cộng và phép trừ phân số", "topicId": "phep-cong-tru-phan-so" },
+        { "id": "kntt_toan6_b27", "order": 27, "title": "Bài 26: Phép nhân và phép chia phân số", "topicId": "phep-nhan-chia-phan-so" },
+        { "id": "kntt_toan6_b28", "order": 28, "title": "Bài 27: Hai bài toán về phân số", "topicId": "hai-bai-toan-ve-phan-so" }
+      ]
+    },
+    {
+      "id": "kntt_toan6_c7",
+      "order": 7,
+      "title": "Chương VII: Số thập phân",
+      "description": "Số thập phân, các phép tính và tỉ số, tỉ số phần trăm",
+      "lessons": [
+        { "id": "kntt_toan6_b29", "order": 29, "title": "Bài 28: Số thập phân", "topicId": "so-thap-phan" },
+        { "id": "kntt_toan6_b30", "order": 30, "title": "Bài 29: Tính toán với số thập phân", "topicId": "tinh-toan-so-thap-phan" },
+        { "id": "kntt_toan6_b31", "order": 31, "title": "Bài 30: Làm tròn và ước lượng", "topicId": "lam-tron-uoc-luong" },
+        { "id": "kntt_toan6_b32", "order": 32, "title": "Bài 31: Một số bài toán về tỉ số và tỉ số phần trăm", "topicId": "ti-so-ti-so-phan-tram" }
+      ]
+    },
+    {
+      "id": "kntt_toan6_c8",
+      "order": 8,
+      "title": "Chương VIII: Những hình hình học cơ bản",
+      "description": "Điểm, đường thẳng, tia, đoạn thẳng, góc",
+      "lessons": [
+        { "id": "kntt_toan6_b33", "order": 33, "title": "Bài 32: Điểm và đường thẳng", "topicId": "diem-va-duong-thang" },
+        { "id": "kntt_toan6_b34", "order": 34, "title": "Bài 33: Điểm nằm giữa hai điểm. Tia", "topicId": "diem-nam-giua-tia" },
+        { "id": "kntt_toan6_b35", "order": 35, "title": "Bài 34: Đoạn thẳng. Độ dài đoạn thẳng", "topicId": "doan-thang-do-dai" },
+        { "id": "kntt_toan6_b36", "order": 36, "title": "Bài 35: Trung điểm của đoạn thẳng", "topicId": "trung-diem-doan-thang" },
+        { "id": "kntt_toan6_b37", "order": 37, "title": "Bài 36: Góc", "topicId": "goc" },
+        { "id": "kntt_toan6_b38", "order": 38, "title": "Bài 37: Số đo góc", "topicId": "so-do-goc" }
+      ]
+    },
+    {
+      "id": "kntt_toan6_c9",
+      "order": 9,
+      "title": "Chương IX: Dữ liệu và xác suất thực nghiệm",
+      "description": "Thu thập, tổ chức, biểu diễn dữ liệu và xác suất thực nghiệm",
+      "lessons": [
+        { "id": "kntt_toan6_b39", "order": 39, "title": "Bài 38: Dữ liệu và thu thập dữ liệu", "topicId": "du-lieu-va-thu-thap" },
+        { "id": "kntt_toan6_b40", "order": 40, "title": "Bài 39: Bảng thống kê và biểu đồ tranh", "topicId": "bang-thong-ke-bieu-do-tranh" },
+        { "id": "kntt_toan6_b41", "order": 41, "title": "Bài 40: Biểu đồ cột", "topicId": "bieu-do-cot" },
+        { "id": "kntt_toan6_b42", "order": 42, "title": "Bài 41: Biểu đồ cột kép", "topicId": "bieu-do-cot-kep" },
+        { "id": "kntt_toan6_b43", "order": 43, "title": "Bài 42: Kết quả có thể và sự kiện trong trò chơi, thí nghiệm", "topicId": "ket-qua-co-the-su-kien" },
+        { "id": "kntt_toan6_b44", "order": 44, "title": "Bài 43: Xác suất thực nghiệm", "topicId": "xac-suat-thuc-nghiem" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,209 @@
+[
+  {
+    "id": "first_lesson",
+    "title": "Khởi đầu vững chắc",
+    "description": "Hoàn thành bài học lý thuyết đầu tiên",
+    "icon": "menu_book",
+    "category": "KHỞI ĐẦU",
+    "type": "LESSONS_COMPLETED",
+    "threshold": 1
+  },
+  {
+    "id": "first_correct",
+    "title": "Phát súng đầu tiên",
+    "description": "Trả lời chính xác câu hỏi luyện tập đầu tiên",
+    "icon": "check_circle",
+    "category": "KHỞI ĐẦU",
+    "type": "QUESTIONS_CORRECT",
+    "threshold": 1
+  },
+  {
+    "id": "first_flashcard",
+    "title": "Thẻ tri thức",
+    "description": "Ôn tập thẻ flashcard đầu tiên",
+    "icon": "style",
+    "category": "KHỞI ĐẦU",
+    "type": "FLASHCARDS_REVIEWED",
+    "threshold": 1
+  },
+  {
+    "id": "first_test",
+    "title": "Vượt vũ môn",
+    "description": "Hoàn thành bài kiểm tra đầu tiên",
+    "icon": "assignment_turned_in",
+    "category": "KHỞI ĐẦU",
+    "type": "TESTS_COMPLETED",
+    "threshold": 1
+  },
+  {
+    "id": "streak_3",
+    "title": "Tia lửa nhỏ",
+    "description": "Duy trì chuỗi học 3 ngày liên tiếp",
+    "icon": "local_fire_department",
+    "category": "KIÊN TRÌ",
+    "type": "STREAK_DAYS",
+    "threshold": 3
+  },
+  {
+    "id": "streak_7",
+    "title": "Ngọn lửa bừng sáng",
+    "description": "Duy trì chuỗi học 7 ngày liên tiếp",
+    "icon": "whatshot",
+    "category": "KIÊN TRÌ",
+    "type": "STREAK_DAYS",
+    "threshold": 7
+  },
+  {
+    "id": "streak_14",
+    "title": "Bền bỉ hai tuần",
+    "description": "Duy trì chuỗi học 14 ngày liên tiếp",
+    "icon": "wb_sunny",
+    "category": "KIÊN TRÌ",
+    "type": "STREAK_DAYS",
+    "threshold": 14
+  },
+  {
+    "id": "streak_30",
+    "title": "Thói quen vàng",
+    "description": "Duy trì chuỗi học 30 ngày liên tiếp",
+    "icon": "workspace_premium",
+    "category": "KIÊN TRÌ",
+    "type": "STREAK_DAYS",
+    "threshold": 30
+  },
+  {
+    "id": "streak_100",
+    "title": "Trăm ngày chuyên cần",
+    "description": "Duy trì chuỗi học 100 ngày liên tiếp",
+    "icon": "military_tech",
+    "category": "KIÊN TRÌ",
+    "type": "STREAK_DAYS",
+    "threshold": 100
+  },
+  {
+    "id": "lessons_5",
+    "title": "Học giả tí hon",
+    "description": "Hoàn thành 5 bài học lý thuyết",
+    "icon": "auto_stories",
+    "category": "CHINH PHỤC",
+    "type": "LESSONS_COMPLETED",
+    "threshold": 5
+  },
+  {
+    "id": "lessons_20",
+    "title": "Khai phá tri thức",
+    "description": "Hoàn thành 20 bài học lý thuyết",
+    "icon": "library_books",
+    "category": "CHINH PHỤC",
+    "type": "LESSONS_COMPLETED",
+    "threshold": 20
+  },
+  {
+    "id": "chapter_complete",
+    "title": "Về đích trọn vẹn",
+    "description": "Hoàn thành toàn bộ các bài trong một chương",
+    "icon": "flag",
+    "category": "CHINH PHỤC",
+    "type": "CHAPTERS_COMPLETED",
+    "threshold": 1
+  },
+  {
+    "id": "perfect_10",
+    "title": "Điểm 10 tuyệt đối",
+    "description": "Đạt trọn vẹn 10 điểm trong một bài kiểm tra",
+    "icon": "grade",
+    "category": "CHÍNH XÁC",
+    "type": "PERFECT_TEST",
+    "threshold": 1
+  },
+  {
+    "id": "streak_correct_10",
+    "title": "Bách phát bách trúng",
+    "description": "Trả lời đúng liên tiếp 10 câu hỏi trong một phiên luyện tập",
+    "icon": "radar",
+    "category": "CHÍNH XÁC",
+    "type": "CONSECUTIVE_CORRECT",
+    "threshold": 10
+  },
+  {
+    "id": "high_score_5",
+    "title": "Phong độ xuất sắc",
+    "description": "Đạt từ 8.0 điểm trở lên trong 5 bài kiểm tra",
+    "icon": "trending_up",
+    "category": "CHÍNH XÁC",
+    "type": "HIGH_SCORE_TESTS",
+    "threshold": 5
+  },
+  {
+    "id": "flashcards_50",
+    "title": "Ghi nhớ thần kỳ",
+    "description": "Ôn tập 50 lượt thẻ flashcard ghi nhớ",
+    "icon": "psychology",
+    "category": "ÔN TẬP",
+    "type": "FLASHCARDS_REVIEWED",
+    "threshold": 50
+  },
+  {
+    "id": "flashcards_100",
+    "title": "Kho tàng từ vựng",
+    "description": "Ôn tập 100 lượt thẻ flashcard",
+    "icon": "menu_book",
+    "category": "ÔN TẬP",
+    "type": "FLASHCARDS_REVIEWED",
+    "threshold": 100
+  },
+  {
+    "id": "wrong_mastered_5",
+    "title": "Sửa sai thông minh",
+    "description": "Chuyển thành công 5 câu hỏi sai sang trạng thái Đã thuộc",
+    "icon": "change_circle",
+    "category": "ÔN TẬP",
+    "type": "WRONG_MASTERED",
+    "threshold": 5
+  },
+  {
+    "id": "wrong_mastered_20",
+    "title": "Không lặp lại lỗi",
+    "description": "Chuyển thành công 20 câu hỏi sai sang trạng thái Đã thuộc",
+    "icon": "task_alt",
+    "category": "ÔN TẬP",
+    "type": "WRONG_MASTERED",
+    "threshold": 20
+  },
+  {
+    "id": "level_5",
+    "title": "Vươn tầm cấp 5",
+    "description": "Tích lũy XP và đạt cấp độ 5",
+    "icon": "star",
+    "category": "CẤP ĐỘ",
+    "type": "LEVEL",
+    "threshold": 5
+  },
+  {
+    "id": "level_10",
+    "title": "Tinh anh cấp 10",
+    "description": "Tích lũy XP và đạt cấp độ 10",
+    "icon": "verified",
+    "category": "CẤP ĐỘ",
+    "type": "LEVEL",
+    "threshold": 10
+  },
+  {
+    "id": "level_20",
+    "title": "Đại sư cấp 20",
+    "description": "Tích lũy XP và đạt cấp độ 20",
+    "icon": "diamond",
+    "category": "CẤP ĐỘ",
+    "type": "LEVEL",
+    "threshold": 20
+  },
+  {
+    "id": "subjects_5",
+    "title": "Nhà thám hiểm đa năng",
+    "description": "Học và làm bài ở đủ 5 môn học khác nhau",
+    "icon": "explore",
+    "category": "KHÁM PHÁ",
+    "type": "SUBJECTS_STUDIED",
+    "threshold": 5
+  }
+]

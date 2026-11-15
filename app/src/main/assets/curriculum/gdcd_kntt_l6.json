@@ -1,0 +1,528 @@
+{
+  "packageId": "gdcd_kntt_l6_v1",
+  "contentVersion": 1,
+  "packageTitle": "Giáo dục công dân 6 - Trách nhiệm với bản thân, gia đình và cộng đồng",
+  "subjects": [],
+  "grades": [
+    {
+      "grade": 6,
+      "chapters": [
+        {
+          "id": "g6_gdcd_c1",
+          "subjectId": "gdcd",
+          "grade": 6,
+          "order": 1,
+          "title": "Chương 1: Trách nhiệm với bản thân và gia đình",
+          "description": "Yêu thương người thân, ứng xử lễ phép, giữ lời hứa và hoàn thành nhiệm vụ học tập",
+          "lessons": [
+            {
+              "id": "g6_gdcd_c1_l1",
+              "chapterId": "g6_gdcd_c1",
+              "order": 1,
+              "title": "Bài 1: Yêu thương, kính trọng ông bà, cha mẹ",
+              "summary": "Ông bà, cha mẹ là những người sinh thành, nuôi dưỡng và luôn yêu thương ta.\n\nThể hiện tình yêu thương với ông bà, cha mẹ:\n1. Vâng lời, cư xử hòa nhã, không cãi lời hay làm cho người thân buồn lòng.\n2. Quan tâm, hỏi thăm sức khỏe; chia sẻ công việc nhà phù hợp lứa tuổi.\n3. Hiểu và thông cảm khi người lớn hơi khắt khe vì mong ta giỏi hơn.",
+              "examples": "Ví dụ 1: Sau bữa tối, Lan tự rửa bát giúp mẹ và hỏi thăm sức khỏe bà.\n\nVí dụ 2: Khi mẹ nhắc học bài, Nam không cãi nữa mà lên tiếng: \"Con đi học bài ngay ạ\".",
+              "tips": "Mẹo nhớ: Yêu thương không cần điều to lớn - việc nhỏ mỗi ngày như chào hỏi, phụ việc nhà, hỏi thăm đã khiến ông bà, cha mẹ vui rồi."
+            },
+            {
+              "id": "g6_gdcd_c1_l2",
+              "chapterId": "g6_gdcd_c1",
+              "order": 2,
+              "title": "Bài 2: Ứng xử lễ phép, lịch sự với mọi người",
+              "summary": "Lễ phép, lịch sự là cách cư xử thể hiện sự tôn trọng người khác.\n\nMột số biểu hiện:\n1. Chào hỏi đúng mực, dùng lời nói dễ nghe, không nói tục.\n2. Lắng nghe khi người khác nói, không nói to, ngắt lời vô lễ.\n3. Xin phép trước khi lấy đồ của người khác và cảm ơn, xin lỗi đúng lúc.",
+              "examples": "Ví dụ 1: Trước khi vào nhà thầy cô, Hùng gõ cửa và chào \"Em chào thầy ạ\".\n\nVí dụ 2: Vô tình va vào bạn, Mai nói: \"Xin lỗi bạn nhé, mình không để ý\".",
+              "tips": "Mẹo nhớ: 3 câu nói nhỏ tạo nên người lịch sự - \"Chào ạ\", \"Cảm ơn\", \"Xin lỗi\". Dùng đúng lúc là lễ phép, bỏ quên là dễ làm người khác buồn."
+            },
+            {
+              "id": "g6_gdcd_c1_l3",
+              "chapterId": "g6_gdcd_c1",
+              "order": 3,
+              "title": "Bài 3: Giữ lời hứa và hoàn thành nhiệm vụ học tập",
+              "summary": "Giữ lời hứa thể hiện tính trung thực và trách nhiệm với bản thân.\n\nHoàn thành nhiệm vụ học tập:\n1. Chuẩn bị sách vở, học bài và làm bài tập đầy đủ trước khi đi học.\n2. Học tập nghiêm túc, trung thực, không quay cóp, không gian lận.\n3. Sắp xếp thời gian hợp lý: học trước, chơi sau; thiếu tiến độ thì cố gắng bù lại.",
+              "examples": "Ví dụ 1: Hẹn giúp bạn ôn toán chủ nhật, dù có khách đến chơi Phong vẫn sắp xếp thời gian đúng hẹn.\n\nVí dụ 2: Quên làm bài tập, Hoà không viện lý do mà thừa nhận và xin cô cho nộp muộn.",
+              "tips": "Mẹo nhớ: Hứa ít làm nhiều. Nếu không thể giữ lời hứa, hãy chủ động nói sớm để người khác không phải chờ vô ích."
+            }
+          ]
+        },
+        {
+          "id": "g6_gdcd_c2",
+          "subjectId": "gdcd",
+          "grade": 6,
+          "order": 2,
+          "title": "Chương 2: Trách nhiệm với tập thể lớp và cộng đồng",
+          "description": "Tình bạn lành mạnh, hợp tác tôn trọng sự khác biệt và thực hiện quy tắc nơi công cộng",
+          "lessons": [
+            {
+              "id": "g6_gdcd_c2_l1",
+              "chapterId": "g6_gdcd_c2",
+              "order": 1,
+              "title": "Bài 4: Tình bạn và cách ứng xử với bạn bè",
+              "summary": "Bạn tốt là người cùng tiến, an ủi khi buồn và ngăn mình làm điều sai.\n\nỨng xử với bạn bè:\n1. Thành thật, giúp đỡ bạn khi bạn gặp khó khăn trong học tập, cuộc sống.\n2. Không chê bai, kỳ thị ngoại hình hay hoàn cảnh gia đình của bạn.\n3. Không theo bạn làm điều sai; biết từ chối khéo và khuyên bạn quay lại đúng đường.",
+              "examples": "Ví dụ 1: Bạn ốm nghỉ học, Hằng chép bài và giải lại phần khó cho bạn khi bạn trở lại lớp.\n\nVí dụ 2: Bạn rủ trốn tiết đi chơi, Tuấn từ chối và nhắc bạn: \"Trốn tiết sẽ bị điểm kém đấy, mình vào lớp nhé\".",
+              "tips": "Mẹo nhớ: Từ chối bạn không có nghĩa là mất bạn. Người bạn thật sự sẽ tôn trọng khi mình nói \"không\" với điều sai trái."
+            },
+            {
+              "id": "g6_gdcd_c2_l2",
+              "chapterId": "g6_gdcd_c2",
+              "order": 2,
+              "title": "Bài 5: Hợp tác và tôn trọng sự khác biệt trong hoạt động nhóm",
+              "summary": "Mỗi người một cá tính, sở trường khác nhau; hợp tác giúp nhóm hoàn thành tốt nhiệm vụ.\n\nCách làm việc nhóm hiệu quả:\n1. Phân công công việc phù hợp với sở trường của từng thành viên.\n2. Lắng nghe ý kiến, kể cả ý kiến khác mình; tranh luận để tiến bộ, không tranh cãi để thắng.\n3. Chia sẻ thành công của nhóm, không đổ lỗi khi gặp khó khăn.",
+              "examples": "Ví dụ 1: Làm poster nhóm, người vẽ đẹp đảm nhận vẽ, người giỏi tổng hợp nội dung, người bắt chước tốt thuyết trình.\n\nVí dụ 2: Bạn bảo vệ của mình nhút nhát, Thảo khuyến khích: \"Câu hỏi của bạn hay lắm, tiếp tục đi\".",
+              "tips": "Mẹo nhớ: Khác biệt không phải để so cao thấp. Nhóm mạnh là nhóm biết đặt đúng người vào đúng việc."
+            },
+            {
+              "id": "g6_gdcd_c2_l3",
+              "chapterId": "g6_gdcd_c2",
+              "order": 3,
+              "title": "Bài 6: Thực hiện quy tắc nơi công cộng và an toàn giao thông",
+              "summary": "Nơi công cộng (trường học, công viên, đường phố) có quy tắc để mọi người đều an toàn, thoải mái.\n\nCần thực hiện:\n1. Giữ gìn vệ sinh, không xả rác, không vẽ loạn, không gây ồn nơi công cộng.\n2. Đi đúng vỉa hè, qua đường đúng nơi quy định, quan sát hai chiều trước khi băng qua.\n3. Không đùa nghịch trên đường, không chạy theo xe, đội mũ bảo hiểm khi đi xe máy.",
+              "examples": "Ví dụ 1: Đi học, Nhi đi đúng phần đường, qua đường ở vạch kẻ và nhìn trái - phải trước khi bước.\n\nVí dụ 2: Nhóm bạn muốn nghịch nước ở công viên, Minh nhắc: \"Giữ sạch sẽ đi, chỗ này mọi người cùng dùng mà\".",
+              "tips": "Mẹo nhớ: Quy tắc nơi công cộng không hạn chế tự do mà bảo vệ an toàn cho chính mình và mọi người xung quanh."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "q_g6_gdcd_c1_l1_1",
+      "lessonId": "g6_gdcd_c1_l1",
+      "type": "MULTIPLE_CHOICE",
+      "content": "Việc làm nào dưới đây thể hiện em yêu thương, kính trọng ông bà, cha mẹ?",
+      "options": [
+        "Hỏi thăm sức khỏe và phụ giúp ông bà, cha mẹ việc nhà phù hợp lứa tuổi",
+        "Cãi lời khi bị nhắc nhở học bài",
+        "Cả ngày chỉ chơi điện tử, không chịu làm gì",
+        "Chê món ăn nhà nấu không ngon"
+      ],
+      "correctAnswer": "Hỏi thăm sức khỏe và phụ giúp ông bà, cha mẹ việc nhà phù hợp lứa tuổi",
+      "hint": "Hãy chọn việc làm khiến ông bà, cha mẹ vui lòng.",
+      "explanation": "Quan tâm sức khỏe và phụ việc nhà là biểu hiện của tình yêu thương; cãi lời, lười biếng hay chê bai là cách ứng xử chưa đúng.",
+      "difficulty": 1
+    },
+    {
+      "id": "q_g6_gdcd_c1_l1_2",
+      "lessonId": "g6_gdcd_c1_l1",
+      "type": "TRUE_FALSE",
+      "content": "Khi ông bà nhắc nhở ta, đôi khi hơi khắt khe, ta vẫn cần hiểu rằng đó là vì mong ta tiến bộ.",
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "correctAnswer": "Đúng",
+      "hint": "Suy nghĩ từ góc nhìn của người thân yêu.",
+      "explanation": "Lời nhắc nhở của ông bà, cha mẹ xuất phát từ mong muốn ta giỏi hơn; cần hiểu và thông cảm thay vì phản ứng gay gắt.",
+      "difficulty": 1
+    },
+    {
+      "id": "q_g6_gdcd_c1_l1_3",
+      "lessonId": "g6_gdcd_c1_l1",
+      "type": "FILL_BLANK",
+      "content": "Khi cha mẹ nhắc học bài, cách trả lời lễ phép và đúng mực là: \"Con ___ ạ.\" (điền 2 tiếng)",
+      "options": [],
+      "correctAnswer": "đi học bài ngay",
+      "hint": "Một câu trả lời thể hiện vâng lời và hành động ngay.",
+      "explanation": "\"Con đi học bài ngay ạ\" vừa vâng lời vừa cho thấy em nghiêm túc thực hiện nhiệm vụ của mình.",
+      "difficulty": 2
+    },
+    {
+      "id": "q_g6_gdcd_c1_l1_4",
+      "lessonId": "g6_gdcd_c1_l1",
+      "type": "MULTIPLE_CHOICE",
+      "content": "Mẹ đang bận rộn, em nên làm gì để thể hiện sự quan tâm?",
+      "options": [
+        "Tự dọn dẹp phòng và phụ việc nhà để mẹ bớt vất vả",
+        "Đòi mẹ mua đồ chơi mới để mẹ chứng minh yêu mình",
+        "Càu nhàu mẹ vì mẹ không đưa đi chơi",
+        "Giả vờ không thấy mẹ bận"
+      ],
+      "correctAnswer": "Tự dọn dẹp phòng và phụ việc nhà để mẹ bớt vất vả",
+      "hint": "Hành động nhỏ nhưng thiết thực.",
+      "explanation": "Chia sẻ việc nhà phù hợp lứa tuổi giúp bớt gánh nặng cho mẹ và thể hiện tình yêu thương cụ thể.",
+      "difficulty": 1
+    },
+    {
+      "id": "q_g6_gdcd_c1_l1_5",
+      "lessonId": "g6_gdcd_c1_l1",
+      "type": "MULTIPLE_CHOICE",
+      "content": "Trường hợp nào là cách bày tỏ lòng biết ơn đúng mực với ông bà?",
+      "options": [
+        "Thỉnh thoảng kể chuyện vui cho ông bà nghe, hỏi thăm sức khỏe",
+        "Chỉ nhớ đến ông bà khi cần tiền tiêu vặt",
+        "Càu nhàu khi bà nhắc mình ăn cơm",
+        "Cả ngày khóa cửa phòng, không nói chuyện với ai"
+      ],
+      "correctAnswer": "Thỉnh thoảng kể chuyện vui cho ông bà nghe, hỏi thăm sức khỏe",
+      "hint": "Sự quan tâm hằng ngày quý hơn quà cáp.",
+      "explanation": "Biết ơn thể hiện qua sự quan tâm thường ngày; chỉ nhớ khi cần hoặc cáu gắt là ứng xử chưa đúng.",
+      "difficulty": 2
+    },
+    {
+      "id": "q_g6_gdcd_c1_l2_1",
+      "lessonId": "g6_gdcd_c1_l2",
+      "type": "MULTIPLE_CHOICE",
+      "content": "Cách ứng xử nào là lễ phép, lịch sự?",
+      "options": [
+        "Gõ cửa và chào thầy cô trước khi vào phòng làm việc",
+        "Cướp lời khi cô giáo đang nói",
+        "Bật nhạc lớn trong thư viện",
+        "Lấy vở của bạn mà không xin phép"
+      ],
+      "correctAnswer": "Gõ cửa và chào thầy cô trước khi vào phòng làm việc",
+      "hint": "Sự tôn trọng bắt đầu từ những thao tác nhỏ.",
+      "explanation": "Gõ cửa, chào hỏi đúng mực là hành vi lễ phép; các việc còn lại thiếu tôn trọng người khác.",
+      "difficulty": 1
+    },
+    {
+      "id": "q_g6_gdcd_c1_l2_2",
+      "lessonId": "g6_gdcd_c1_l2",
+      "type": "TRUE_FALSE",
+      "content": "Vô tình va vào bạn, mình không cần xin lỗi vì mình không cố ý.",
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "correctAnswer": "Sai",
+      "hint": "Người khác vẫn cảm thấy khó chịu dù mình không cố ý.",
+      "explanation": "Dù không cố ý, việc xin lỗi và hỏi han là cách ứng xử lịch sự, giúp bạn bè cảm thấy được tôn trọng.",
+      "difficulty": 1
+    },
+    {
+      "id": "q_g6_gdcd_c1_l2_3",
+      "lessonId": "g6_gdcd_c1_l2",
+      "type": "FILL_BLANK",
+      "content": "Khi nhận quà hoặc được giúp đỡ, câu nói lịch sự cần nói là \"___\".",
+      "options": [],
+      "correctAnswer": "cảm ơn",
+      "hint": "2 tiếng thể hiện lòng biết ơn.",
+      "explanation": "\"Cảm ơn\" là lời nói lịch sự thể hiện sự trân trọng khi được giúp đỡ hoặc nhận quà.",
+      "difficulty": 1
+    },
+    {
+      "id": "q_g6_gdcd_c1_l2_4",
+      "lessonId": "g6_gdcd_c1_l2",
+      "type": "MULTIPLE_CHOICE",
+      "content": "Bạn đang trình bày ý kiến, em nên làm gì để thể hiện mình lịch sự?",
+      "options": [
+        "Lắng nghe hết ý rồi mới góp ý thêm",
+        "Ngắt lời ngay để khoe ý mình hay hơn",
+        "Cười khẩy và lắc đầu liên tục",
+        "Bận nhìn điện thoại, không để ý bạn nói"
+      ],
+      "correctAnswer": "Lắng nghe hết ý rồi mới góp ý thêm",
+      "hint": "Lịch sự là cho người khác được nói hết.",
+      "explanation": "Lắng nghe đầy đủ rồi góp ý là cách tôn trọng người nói; ngắt lời, chế giễu hay lơ đi là thiếu lịch sự.",
+      "difficulty": 1
+    },
+    {
+      "id": "q_g6_gdcd_c1_l2_5",
+      "lessonId": "g6_gdcd_c1_l2",
+      "type": "MULTIPLE_CHOICE",
+      "content": "Trường hợp nào cho thấy em biết dùng lời nói dễ nghe?",
+      "options": [
+        "Nhắc bạn nhẹ nhàng: \"Bạn ơi, mình nói chuyện nhỏ thôi nhé, lớp đang học\"",
+        "Quát: \"Câm miệng đi!\"",
+        "Nói tục khi cáu gắt",
+        "Chê bạn: \"Nói gì mà khó nghe thế\""
+      ],
+      "correctAnswer": "Nhắc bạn nhẹ nhàng: \"Bạn ơi, mình nói chuyện nhỏ thôi nhé, lớp đang học\"",
+      "hint": "Lời nói dễ nghe vẫn đạt mục đích mà không làm bạn buồn.",
+      "explanation": "Nhắc nhở nhẹ nhàng vừa giữ trật tự vừa tôn trọng bạn; quát, nói tục hay chê bai là lời nói khó nghe.",
+      "difficulty": 2
+    },
+    {
+      "id": "q_g6_gdcd_c1_l3_1",
+      "lessonId": "g6_gdcd_c1_l3",
+      "type": "MULTIPLE_CHOICE",
+      "content": "Hành động nào thể hiện em giữ lời hứa?",
+      "options": [
+        "Hẹn giúp bạn ôn bài thì đến đúng giờ, chuẩn bị sẵn tài liệu",
+        "Hẹn xong quên luôn, để bạn chờ vô ích",
+        "Trốn hẹn rồi đổ lỗi cho thời tiết",
+        "Hứa cho có, không định làm"
+      ],
+      "correctAnswer": "Hẹn giúp bạn ôn bài thì đến đúng giờ, chuẩn bị sẵn tài liệu",
+      "hint": "Giữ lời hứa cần hành động cụ thể, đúng giờ.",
+      "explanation": "Giữ lời hứa là đến đúng hẹn và làm đúng việc đã hứa; quên, trốn hẹn hay hứa cho có là thiếu trách nhiệm.",
+      "difficulty": 1
+    },
+    {
+      "id": "q_g6_gdcd_c1_l3_2",
+      "lessonId": "g6_gdcd_c1_l3",
+      "type": "TRUE_FALSE",
+      "content": "Quên làm bài tập, cách đúng đắn là thừa nhận với cô giáo và xin nộp muộn, không bịa lý do.",
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "correctAnswer": "Đúng",
+      "hint": "Trung thực hơn là viện cớ.",
+      "explanation": "Thừa nhận sai sót và cố gắng bù lại là thái độ trung thực, có trách nhiệm; bịa lý do là gian lận.",
+      "difficulty": 1
+    },
+    {
+      "id": "q_g6_gdcd_c1_l3_3",
+      "lessonId": "g6_gdcd_c1_l3",
+      "type": "FILL_BLANK",
+      "content": "Nhiệm vụ quan trọng nhất của học sinh là ___ (điền 1 tiếng, 5 chữ cái).",
+      "options": [],
+      "correctAnswer": "học tập",
+      "hint": "Công việc chính của tuổi học trò.",
+      "explanation": "Học tập là nhiệm vụ quan trọng nhất của học sinh; cần chuẩn bị bài vở, học nghiêm túc và trung thực.",
+      "difficulty": 1
+    },
+    {
+      "id": "q_g6_gdcd_c1_l3_4",
+      "lessonId": "g6_gdcd_c1_l3",
+      "type": "MULTIPLE_CHOICE",
+      "content": "Sắp xếp thời gian nào hợp lý cho một buổi tối học sinh?",
+      "options": [
+        "Học bài và làm bài tập trước, sau đó nghỉ ngơi, chơi đúng giờ",
+        "Chơi game đến khuya, sáng dậy chép bài bạn",
+        "Xem phim cả tối, sáng đến lớp hỏi lại bạn",
+        "Làm một nửa bài tập, phần còn lại sao cũng được"
+      ],
+      "correctAnswer": "Học bài và làm bài tập trước, sau đó nghỉ ngơi, chơi đúng giờ",
+      "hint": "Nguyên tắc: học trước, chơi sau.",
+      "explanation": "Ưu tiên nhiệm vụ học tập trước rồi mới giải trí giúp việc học đảm bảo và vẫn có thời gian nghỉ ngơi.",
+      "difficulty": 2
+    },
+    {
+      "id": "q_g6_gdcd_c1_l3_5",
+      "lessonId": "g6_gdcd_c1_l3",
+      "type": "MULTIPLE_CHOICE",
+      "content": "Khi không thể giữ lời hứa đã hẹn với bạn, cách xử lý đúng là gì?",
+      "options": [
+        "Chủ động báo bạn sớm và cùng hẹn lại thời gian khác",
+        "Cứ lặn lì để bạn tự hiểu",
+        "Đổ lỗi cho bạn vì đã hẹn mình",
+        "Gửi tin nhắn sai sự thật để thoái thác"
+      ],
+      "correctAnswer": "Chủ động báo bạn sớm và cùng hẹn lại thời gian khác",
+      "hint": "Không giữ được hẹn thì thông báo sớm.",
+      "explanation": "Báo sớm và hẹn lại là cách tôn trọng thời gian của bạn; lặn lì, đổ lỗi hay nói dối làm mất lòng tin.",
+      "difficulty": 2
+    },
+    {
+      "id": "q_g6_gdcd_c2_l1_1",
+      "lessonId": "g6_gdcd_c2_l1",
+      "type": "MULTIPLE_CHOICE",
+      "content": "Người bạn tốt là người như thế nào?",
+      "options": [
+        "Cùng tiến bộ, an ủi khi mình buồn và ngăn mình làm điều sai",
+        "Chỉ chơi khi mình có quà ngon",
+        "Kích động mình trốn tiết, phá phách",
+        "Chê bai, kỳ thị hoàn cảnh của mình"
+      ],
+      "correctAnswer": "Cùng tiến bộ, an ủi khi mình buồn và ngăn mình làm điều sai",
+      "hint": "Bạn thật sự muốn mình tốt hơn mỗi ngày.",
+      "explanation": "Bạn tốt giúp ta tiến bộ, động viên tinh thần và dám ngăn ta khỏi việc sai; lợi dụng, kích động hay kỳ thị không phải tình bạn lành mạnh.",
+      "difficulty": 1
+    },
+    {
+      "id": "q_g6_gdcd_c2_l1_2",
+      "lessonId": "g6_gdcd_c2_l1",
+      "type": "TRUE_FALSE",
+      "content": "Bạn rủ mình trốn tiết đi chơi, mình cần từ chối và khuyên bạn trở lại lớp học.",
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "correctAnswer": "Đúng",
+      "hint": "Trốn tiết là vi phạm nội quy và hại chính mình.",
+      "explanation": "Từ chối khéo và khuyên bạn là cách bảo vệ cả mình lẫn bạn; theo bạn làm điều sai sẽ cùng chịu hậu quả xấu.",
+      "difficulty": 1
+    },
+    {
+      "id": "q_g6_gdcd_c2_l1_3",
+      "lessonId": "g6_gdcd_c2_l1",
+      "type": "FILL_BLANK",
+      "content": "Khi bạn ốm nghỉ học, việc làm thể hiện tình bạn tốt là chép ___ và giải lại phần khó cho bạn. (điền 1 tiếng, 3 chữ cái)",
+      "options": [],
+      "correctAnswer": "bài",
+      "hint": "Món quà tinh thần cho bạn khi trở lại lớp.",
+      "explanation": "Chép bài và giúp bạn bắt kịp chương trình là hành động cụ thể thể hiện sự quan tâm của một người bạn tốt.",
+      "difficulty": 1
+    },
+    {
+      "id": "q_g6_gdcd_c2_l1_4",
+      "lessonId": "g6_gdcd_c2_l1",
+      "type": "MULTIPLE_CHOICE",
+      "content": "Bạn bị các bạn khác trêu chọc về ngoại hình, em nên làm gì?",
+      "options": [
+        "Đứng ra can ngăn và động viên bạn, báo cô giáo nếu tình hình tiếp diễn",
+        "Cười theo cho vui",
+        "Im lặng làm ngơ để khỏi phiền",
+        "Tham gia trêu để được các bạn \"tôn trọng\""
+      ],
+      "correctAnswer": "Đứng ra can ngăn và động viên bạn, báo cô giáo nếu tình hình tiếp diễn",
+      "hint": "Bảo vệ bạn khỏi bị kỳ thị.",
+      "explanation": "Can ngăn, động viên và báo thầy cô khi cần là cách bảo vệ bạn; cười theo, im lặng hay tham gia trêu chọc là tiếp tay cho kỳ thị.",
+      "difficulty": 2
+    },
+    {
+      "id": "q_g6_gdcd_c2_l1_5",
+      "lessonId": "g6_gdcd_c2_l1",
+      "type": "MULTIPLE_CHOICE",
+      "content": "Cách từ chối bạn khi bạn rủ làm điều sai là gì?",
+      "options": [
+        "Nói rõ lý do và khuyên bạn cùng làm điều đúng",
+        "Nói dối: \"Để mình nghĩ đã\" rồi lặn mất",
+        "Chửi bạn để bạn sợ không rủ nữa",
+        "Làm theo bạn để khỏi mất bạn"
+      ],
+      "correctAnswer": "Nói rõ lý do và khuyên bạn cùng làm điều đúng",
+      "hint": "Từ chối khéo vẫn giữ được tình bạn.",
+      "explanation": "Từ chối có lý do và khuyên bạn là cách ứng xử chân thành; nói dối, chửi bới hay làm theo điều sai đều không đúng.",
+      "difficulty": 2
+    },
+    {
+      "id": "q_g6_gdcd_c2_l2_1",
+      "lessonId": "g6_gdcd_c2_l2",
+      "type": "MULTIPLE_CHOICE",
+      "content": "Để làm việc nhóm hiệu quả, việc phân công nên như thế nào?",
+      "options": [
+        "Theo sở trường của từng thành viên",
+        "Toàn bộ việc dồn cho nhóm trưởng",
+        "Ai nhanh giọng cãi thì được chọn việc nhẹ",
+        "Không cần phân công, ai làm gì cũng được"
+      ],
+      "correctAnswer": "Theo sở trường của từng thành viên",
+      "hint": "Đúng người - đúng việc.",
+      "explanation": "Phân công theo sở trường giúp nhóm tận dụng thế mạnh của từng người và hoàn thành nhiệm vụ tốt hơn.",
+      "difficulty": 1
+    },
+    {
+      "id": "q_g6_gdcd_c2_l2_2",
+      "lessonId": "g6_gdcd_c2_l2",
+      "type": "TRUE_FALSE",
+      "content": "Khi ý kiến của bạn khác ý kiến mình, mình vẫn cần lắng nghe và cân nhắc vì có thể ý kiến đó hay hơn.",
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "correctAnswer": "Đúng",
+      "hint": "Khác ý không có nghĩa là sai.",
+      "explanation": "Lắng nghe ý kiến khác giúp nhóm chọn phương án tốt nhất; chỉ bảo vệ ý kiến riêng sẽ làm việc nhóm rơi vào tranh cãi vô ích.",
+      "difficulty": 1
+    },
+    {
+      "id": "q_g6_gdcd_c2_l2_3",
+      "lessonId": "g6_gdcd_c2_l2",
+      "type": "FILL_BLANK",
+      "content": "Khi nhóm đạt kết quả tốt, cần chia sẻ ___ với tất cả thành viên đã góp công sức. (điền 1 tiếng, 8 chữ cái)",
+      "options": [],
+      "correctAnswer": "thành công",
+      "hint": "Kết quả của nhóm là của chung.",
+      "explanation": "Thành công của nhóm là thành quả chung; chia sẻ đúng giúp mọi người có động lực và giữ được sự đoàn kết.",
+      "difficulty": 2
+    },
+    {
+      "id": "q_g6_gdcd_c2_l2_4",
+      "lessonId": "g6_gdcd_c2_l2",
+      "type": "MULTIPLE_CHOICE",
+      "content": "Nhóm gặp khó khăn, thành viên nào chưa hoàn thành phần việc. Cách xử lý tốt nhất là gì?",
+      "options": [
+        "Cùng bạn tìm cách khắc phục và hỗ trợ phần còn thiếu",
+        "Đổ lỗi cho bạn trước cả nhóm",
+        "Bỏ việc nhóm để khỏi phải chờ bạn",
+        "Báo thầy cô để bạn bị nhắc nhở"
+      ],
+      "correctAnswer": "Cùng bạn tìm cách khắc phục và hỗ trợ phần còn thiếu",
+      "hint": "Mục tiêu là hoàn thành nhiệm vụ chung.",
+      "explanation": "Hỗ trợ và cùng tìm cách khắc phục giúp nhiệm vụ chung hoàn thành; đổ lỗi, bỏ việc hay cố tình làm bạn bị nhắc là ứng xử thiếu hợp tác.",
+      "difficulty": 2
+    },
+    {
+      "id": "q_g6_gdcd_c2_l2_5",
+      "lessonId": "g6_gdcd_c2_l2",
+      "type": "MULTIPLE_CHOICE",
+      "content": "Bạn bảo vệ của nhóm nhút nhát, em nên động viên bạn thế nào cho đúng?",
+      "options": [
+        "\"Ý kiến của bạn hay lắm, cứ tự tin nói lên nhé\"",
+        "\"Nói gì mà lí nhí thế, buồn cười\"",
+        "Cứ nói thay để khỏi mất thời gian",
+        "Bỏ qua ý kiến của bạn, coi như bạn không có ý"
+      ],
+      "correctAnswer": "\"Ý kiến của bạn hay lắm, cứ tự tin nói lên nhé\"",
+      "hint": "Động viên đúng cách giúp bạn mạnh dạn hơn.",
+      "explanation": "Khích lệ tích cực giúp bạn tự tin; chế giễu, nói thay hay bỏ qua ý kiến là thiếu tôn trọng sự khác biệt.",
+      "difficulty": 1
+    },
+    {
+      "id": "q_g6_gdcd_c2_l3_1",
+      "lessonId": "g6_gdcd_c2_l3",
+      "type": "MULTIPLE_CHOICE",
+      "content": "Khi tham gia giao thông, học sinh cần thực hiện điều nào?",
+      "options": [
+        "Đi đúng phần đường, qua đường đúng nơi quy định và quan sát hai chiều",
+        "Qua đường chớp thời điểm xe ngừng nhanh nhất có thể",
+        "Đùa nghịch, chạy ngang đường cho nhanh về nhà",
+        "Không cần đội mũ bảo hiểm vì đi quãng ngắn"
+      ],
+      "correctAnswer": "Đi đúng phần đường, qua đường đúng nơi quy định và quan sát hai chiều",
+      "hint": "An toàn trên đường bắt đầu từ quy tắc.",
+      "explanation": "Đi đúng phần đường, qua đường đúng vạch kẻ và quan sát hai chiều là quy định bắt buộc để bảo vệ an toàn của bản thân.",
+      "difficulty": 1
+    },
+    {
+      "id": "q_g6_gdcd_c2_l3_2",
+      "lessonId": "g6_gdcd_c2_l3",
+      "type": "TRUE_FALSE",
+      "content": "Xả rác nơi công cộng chỉ là chuyện nhỏ, không ảnh hưởng đến ai.",
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "correctAnswer": "Sai",
+      "hint": "Nơi công cộng là của chung mọi người.",
+      "explanation": "Xả rác làm mất vệ sinh, ảnh hưởng sức khỏe và môi trường của cộng đồng; giữ sạch sẽ là trách nhiệm của mọi người, kể cả học sinh.",
+      "difficulty": 1
+    },
+    {
+      "id": "q_g6_gdcd_c2_l3_3",
+      "lessonId": "g6_gdcd_c2_l3",
+      "type": "FILL_BLANK",
+      "content": "Trước khi băng qua đường, em cần quan sát ___ (điền 2 tiếng) trước khi bước xuống đường.",
+      "options": [],
+      "correctAnswer": "hai chiều",
+      "hint": "Nhìn cả hai bên đường.",
+      "explanation": "Quan sát hai chiều (trái - phải) giúp em thấy được xe cộ từ cả hai hướng, tránh tai nạn khi băng qua đường.",
+      "difficulty": 1
+    },
+    {
+      "id": "q_g6_gdcd_c2_l3_4",
+      "lessonId": "g6_gdcd_c2_l3",
+      "type": "MULTIPLE_CHOICE",
+      "content": "Ở trường học, hành vi nào đúng với quy tắc nơi công cộng?",
+      "options": [
+        "Giữ vệ sinh lớp học, xếp hàng đúng nếp khi chờ mua suất ăn",
+        "Vẽ loạn lên bàn ghế để \"lưu dấu\"",
+        "Hò hét, đuổi bắt trong hành lang khi nghỉ giải lao",
+        "Cướp hàng của bạn trong khi xếp hàng"
+      ],
+      "correctAnswer": "Giữ vệ sinh lớp học, xếp hàng đúng nếp khi chờ mua suất ăn",
+      "hint": "Quy tắc giúp mọi người cùng thoải mái.",
+      "explanation": "Giữ vệ sinh và xếp hàng đúng nếp là thực hiện quy tắc; vẽ loạn, hò hét đuổi bắt hay cướp hàng là vi phạm và gây mất trật tự chung.",
+      "difficulty": 1
+    },
+    {
+      "id": "q_g6_gdcd_c2_l3_5",
+      "lessonId": "g6_gdcd_c2_l3",
+      "type": "MULTIPLE_CHOICE",
+      "content": "Khi đi xe đạp hoặc được chở bằng xe máy đến trường, em cần chú ý điều gì?",
+      "options": [
+        "Đi đúng phần đường, đội mũ bảo hiểm khi đi xe máy và không dàn hàng ngang",
+        "Đi xe ôm sát mép đường để xe khác tránh",
+        "Đua tốc độ với bạn cùng đường cho kịp giờ",
+        "Đeo tai nghe lớn vừa đi vừa nghe nhạc"
+      ],
+      "correctAnswer": "Đi đúng phần đường, đội mũ bảo hiểm khi đi xe máy và không dàn hàng ngang",
+      "hint": "Đúng luật mới an toàn cho cả nhóm bạn.",
+      "explanation": "Đi đúng phần đường, đội mũ bảo hiểm và không dàn hàng ngang là quy định giao thông; đua xe, đeo tai nghe lớn hay bám mép đường là nguy hiểm và vi phạm luật.",
+      "difficulty": 2
+    }
+  ],
+  "flashcards": []
+}

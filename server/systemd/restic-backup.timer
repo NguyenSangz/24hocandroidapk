@@ -1,0 +1,10 @@
+[Unit]
+Description=Lich chay hang ngay cho Restic Backup PocketBase (03:15 sang)
+
+[Timer]
+OnCalendar=*-*-* 03:15:00
+RandomizedDelaySec=10m
+Persistent=true
+
+[Install]
+WantedBy=timers.target

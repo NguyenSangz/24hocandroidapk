@@ -1,0 +1,80 @@
+{
+  "id": "deck_math6_so_hoc",
+  "name": "Công thức Số học & Lũy thừa Lớp 6",
+  "grade": 6,
+  "subjectId": "math",
+  "type": "CÔNG THỨC",
+  "description": "Các công thức nền tảng về phép tính lũy thừa, tính chất chia hết và ước chung - bội chung theo GDPT 2018.",
+  "cards": [
+    {
+      "id": "math6_sh_01",
+      "front": "Nhân hai lũy thừa cùng cơ số:\n$a^m \\cdot a^n = ?$",
+      "back": "$a^m \\cdot a^n = a^{m+n}$\n(Giữ nguyên cơ số, cộng các số mũ)",
+      "example": "$2^3 \\cdot 2^4 = 2^{3+4} = 2^7 = 128$",
+      "notes": "Quy tắc áp dụng với cơ số $a$ tùy ý và $m, n \\in \\mathbb{N}^*$."
+    },
+    {
+      "id": "math6_sh_02",
+      "front": "Chia hai lũy thừa cùng cơ số ($a \\neq 0, m \\ge n$):\n$a^m : a^n = ?$",
+      "back": "$a^m : a^n = a^{m-n}$\n(Giữ nguyên cơ số, trừ các số mũ)",
+      "example": "$5^6 : 5^2 = 5^{6-2} = 5^4 = 625$",
+      "notes": "Quy ước: $a^0 = 1$ với mọi $a \\neq 0$."
+    },
+    {
+      "id": "math6_sh_03",
+      "front": "Lũy thừa của một lũy thừa:\n$(a^m)^n = ?$",
+      "back": "$(a^m)^n = a^{m \\cdot n}$\n(Giữ nguyên cơ số, nhân các số mũ)",
+      "example": "$(3^2)^3 = 3^{2 \\cdot 3} = 3^6 = 729$",
+      "notes": "Phân biệt $(a^m)^n$ với $a^{(m^n)}$."
+    },
+    {
+      "id": "math6_sh_04",
+      "front": "Lũy thừa của một tích:\n$(a \\cdot b)^n = ?$",
+      "back": "$(a \\cdot b)^n = a^n \\cdot b^n$\n(Lũy thừa của một tích bằng tích các lũy thừa)",
+      "example": "$(2 \\cdot 5)^3 = 2^3 \\cdot 5^3 = 8 \\cdot 125 = 1000$",
+      "notes": "Công thức đảo: $a^n \\cdot b^n = (a \\cdot b)^n$ dùng gom nhóm nhanh."
+    },
+    {
+      "id": "math6_sh_05",
+      "front": "Tính chất chia hết của một tổng:\nNếu $a \\,\\vdots\\, m$ và $b \\,\\vdots\\, m$ thì $(a + b) \\dots ?$",
+      "back": "$(a + b) \\,\\vdots\\, m$\nNếu tất cả các số hạng đều chia hết cho $m$ thì tổng chia hết cho $m$.",
+      "example": "Vì $12 \\,\\vdots\\, 3$ và $15 \\,\\vdots\\, 3$ nên $(12 + 15) = 27 \\,\\vdots\\, 3$",
+      "notes": "Tương tự cho hiệu: nếu $a \\ge b$ thì $(a - b) \\,\\vdots\\, m$."
+    },
+    {
+      "id": "math6_sh_06",
+      "front": "Dấu hiệu chia hết cho $2$ và cho $5$",
+      "back": "• Chia hết cho $2$: chữ số tận cùng là chữ số chẵn: $0, 2, 4, 6, 8$\n• Chia hết cho $5$: chữ số tận cùng là $0$ hoặc $5$",
+      "example": "Số $350$ tận cùng là $0$ nên vừa chia hết cho $2$, vừa chia hết cho $5$.",
+      "notes": "Số chia hết cho cả $2$ và $5$ có tận cùng là $0$."
+    },
+    {
+      "id": "math6_sh_07",
+      "front": "Dấu hiệu chia hết cho $3$ và cho $9$",
+      "back": "• Chia hết cho $3$: tổng các chữ số chia hết cho $3$\n• Chia hết cho $9$: tổng các chữ số chia hết cho $9$",
+      "example": "Số $243$ có tổng chữ số $2+4+3=9 \\,\\vdots\\, 9$ nên chia hết cho cả $3$ và $9$.",
+      "notes": "Một số chia hết cho $9$ thì luôn chia hết cho $3$, nhưng điều ngược lại không luôn đúng."
+    },
+    {
+      "id": "math6_sh_08",
+      "front": "Quy tắc tìm Ước chung lớn nhất $\\text{ƯCLN}(a, b)$ qua thừa số nguyên tố",
+      "back": "1. Phân tích $a, b$ ra thừa số nguyên tố\n2. Chọn các thừa số nguyên tố CHUNG\n3. Lập tích các thừa số đã chọn, mỗi thừa số lấy với số mũ NHỎ NHẤT",
+      "example": "$18 = 2 \\cdot 3^2$, $24 = 2^3 \\cdot 3$ $\\Rightarrow \\text{ƯCLN}(18, 24) = 2^1 \\cdot 3^1 = 6$",
+      "notes": "Nếu hai số nguyên tố cùng nhau thì $\\text{ƯCLN}(a, b) = 1$."
+    },
+    {
+      "id": "math6_sh_09",
+      "front": "Quy tắc tìm Bội chung nhỏ nhất $\\text{BCNN}(a, b)$ qua thừa số nguyên tố",
+      "back": "1. Phân tích $a, b$ ra thừa số nguyên tố\n2. Chọn các thừa số nguyên tố CHUNG VÀ RIÊNG\n3. Lập tích các thừa số đã chọn, mỗi thừa số lấy với số mũ LỚN NHẤT",
+      "example": "$12 = 2^2 \\cdot 3$, $18 = 2 \\cdot 3^2$ $\\Rightarrow \\text{BCNN}(12, 18) = 2^2 \\cdot 3^2 = 36$",
+      "notes": "Mối quan hệ hữu ích: $a \\cdot b = \\text{ƯCLN}(a, b) \\cdot \\text{BCNN}(a, b)$."
+    },
+    {
+      "id": "math6_sh_10",
+      "front": "Phép cộng hai số nguyên khác dấu:\n$a + (-b)$ với $a > b > 0$",
+      "back": "Lấy số có phần số tự nhiên lớn hơn trừ đi số có phần số tự nhiên nhỏ hơn, rồi đặt dấu của số có phần tự nhiên lớn hơn trước hiệu nhận được:\n$a + (-b) = +(a - b)$",
+      "example": "$(-15) + 9 = -(15 - 9) = -6$",
+      "notes": "Tổng hai số nguyên đối nhau luôn bằng $0$: $a + (-a) = 0$."
+    }
+  ]
+}

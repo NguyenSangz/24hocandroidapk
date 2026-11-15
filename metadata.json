@@ -1,0 +1,8 @@
+{
+  "name": "Remix Remix  Học Tập THCS Việt Nam",
+  "description": "Ứng dụng học tập thông minh theo chương trình GDPT 2018, giúp học sinh THCS ôn luyện hiệu quả mọi lúc mọi nơi.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

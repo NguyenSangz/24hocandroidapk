@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lint>
+    <!-- Quy tắc chất lượng nghiêm cho dự án Học Tốt THCS (F17a) -->
+
+    <!-- Bảo mật và tính đúng đắn -->
+    <issue id="DefaultLocale" severity="error" />
+    <issue id="HardwareIds" severity="error" />
+    <issue id="BadHostnameVerifier" severity="error" />
+    <issue id="TrulyRandom" severity="error" />
+    <issue id="TrustAllX509TrustManager" severity="error" />
+    <issue id="ExportedReceiver" severity="error" />
+    <issue id="ExportedService" severity="error" />
+    <issue id="SetJavaScriptEnabled" severity="error" />
+
+    <!-- Khả năng tiếp cận (Accessibility) -->
+    <issue id="ContentDescription" severity="error" />
+    <issue id="ClickableViewAccessibility" severity="warning" />
+
+    <!-- Hiệu năng và tài nguyên -->
+    <issue id="UseKtx" severity="warning" />
+    <issue id="RedundantLabel" severity="warning" />
+    <issue id="UnusedResources" severity="warning">
+        <option name="skip-libraries" value="true" />
+    </issue>
+    <issue id="IconLocation" severity="warning" />
+
+    <!-- Tạm bỏ qua cảnh báo đề xuất nâng cấp dependency tự động để tránh phá vỡ build -->
+    <issue id="GradleDependency" severity="ignore" />
+    <issue id="NewerVersionAvailable" severity="ignore" />
+    <issue id="AndroidGradlePluginVersion" severity="ignore" />
+    <issue id="DiscouragedApi" severity="ignore" />
+</lint>

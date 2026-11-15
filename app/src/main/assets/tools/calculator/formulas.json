@@ -1,0 +1,108 @@
+{
+  "toolId": "calculator",
+  "version": "1.0.0",
+  "verified": true,
+  "categories": [
+    {
+      "id": "constants",
+      "title": "Hằng số toán học & vật lý THCS",
+      "items": [
+        {
+          "name": "Số Pi (π)",
+          "expression": "π",
+          "description": "Tỉ số giữa chu vi đường tròn và đường kính của nó (~3.14159265)",
+          "example": "2 * π * 5",
+          "grade": 6
+        },
+        {
+          "name": "Số Euler (e)",
+          "expression": "e",
+          "description": "Cơ số của logarit tự nhiên (~2.71828182)",
+          "example": "e^2",
+          "grade": 9
+        }
+      ]
+    },
+    {
+      "id": "algebra",
+      "title": "Đại số & Lũy thừa",
+      "items": [
+        {
+          "name": "Bình phương một tổng",
+          "expression": "(a + b)^2 = a^2 + 2*a*b + b^2",
+          "description": "Hằng đẳng thức đáng nhớ số 1 (Lớp 8)",
+          "example": "(3 + 4)^2",
+          "grade": 8
+        },
+        {
+          "name": "Hiệu hai bình phương",
+          "expression": "a^2 - b^2 = (a - b)*(a + b)",
+          "description": "Hằng đẳng thức đáng nhớ số 3 (Lớp 8)",
+          "example": "5^2 - 3^2",
+          "grade": 8
+        },
+        {
+          "name": "Căn bậc hai số học",
+          "expression": "√(a)",
+          "description": "Với số a không âm, căn bậc hai số học là số x >= 0 sao cho x^2 = a (Lớp 7, 9)",
+          "example": "√(144)",
+          "grade": 7
+        }
+      ]
+    },
+    {
+      "id": "geometry",
+      "title": "Hình học THCS",
+      "items": [
+        {
+          "name": "Định lý Pythagoras",
+          "expression": "c = √(a^2 + b^2)",
+          "description": "Trong tam giác vuông, bình phương cạnh huyền bằng tổng bình phương hai cạnh góc vuông (Lớp 7, 8)",
+          "example": "√(3^2 + 4^2)",
+          "grade": 7
+        },
+        {
+          "name": "Chu vi hình tròn",
+          "expression": "2 * π * r",
+          "description": "Chu vi hình tròn bán kính r (Lớp 6, 9)",
+          "example": "2 * π * 7",
+          "grade": 6
+        },
+        {
+          "name": "Diện tích hình tròn",
+          "expression": "π * r^2",
+          "description": "Diện tích hình tròn bán kính r (Lớp 6, 9)",
+          "example": "π * 5^2",
+          "grade": 6
+        }
+      ]
+    },
+    {
+      "id": "trigonometry",
+      "title": "Tỉ số lượng giác góc nhọn (Lớp 9)",
+      "items": [
+        {
+          "name": "Sin 30° / 45° / 60°",
+          "expression": "sin(30)",
+          "description": "sin(30°) = 0.5, sin(45°) = √2/2, sin(60°) = √3/2 (ở chế độ DEG)",
+          "example": "sin(30)",
+          "grade": 9
+        },
+        {
+          "name": "Cos 60° / 45° / 30°",
+          "expression": "cos(60)",
+          "description": "cos(60°) = 0.5, cos(45°) = √2/2, cos(30°) = √3/2 (ở chế độ DEG)",
+          "example": "cos(60)",
+          "grade": 9
+        },
+        {
+          "name": "Tan 45°",
+          "expression": "tan(45)",
+          "description": "tan(45°) = 1; Chú ý: tan(90°) không xác định",
+          "example": "tan(45)",
+          "grade": 9
+        }
+      ]
+    }
+  ]
+}

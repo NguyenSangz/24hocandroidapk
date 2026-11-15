@@ -1,0 +1,11 @@
+[Unit]
+Description=Chạy F20a FCM push sender mỗi phút
+
+[Timer]
+OnBootSec=2min
+OnUnitActiveSec=1min
+AccuracySec=10s
+Persistent=true
+
+[Install]
+WantedBy=timers.target

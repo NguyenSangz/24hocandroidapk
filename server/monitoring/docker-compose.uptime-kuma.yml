@@ -1,0 +1,15 @@
+# Giám sát uptime & cảnh báo hết hạn chứng chỉ SSL bằng Uptime Kuma (F16b)
+# Chỉ lắng nghe 127.0.0.1:3001 (mở qua SSH tunnel: ssh -L 3001:127.0.0.1:3001 user@server)
+
+services:
+  uptime-kuma:
+    image: louislam/uptime-kuma:1
+    container_name: hoctot-uptime-kuma
+    restart: unless-stopped
+    ports:
+      - "127.0.0.1:3001:3001"
+    volumes:
+      - uptime_kuma_data:/app/data
+
+volumes:
+  uptime_kuma_data:

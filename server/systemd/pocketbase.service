@@ -1,0 +1,41 @@
+[Unit]
+Description=PocketBase Server (Hoc Tot THCS)
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=pocketbase
+Group=pocketbase
+
+# Chỉ lắng nghe loopback; bắt buộc đi qua Caddy hoặc Cloudflare Tunnel (HTTPS)
+WorkingDirectory=/opt/pocketbase
+EnvironmentFile=/etc/pocketbase/pocketbase.env
+ExecStart=/opt/pocketbase/pocketbase serve \
+  --http=127.0.0.1:8090 \
+  --dir=/var/lib/pocketbase \
+  --migrationsDir=/opt/pocketbase/pb_migrations \
+  --hooksDir=/opt/pocketbase/pb_hooks \
+  --publicDir=/opt/pocketbase/pb_public \
+  --encryptionEnv=PB_ENCRYPTION_KEY
+
+Restart=always
+RestartSec=5s
+LimitNOFILE=4096
+
+# Hardening bảo mật: không chạy root, giới hạn quyền hệ thống file
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=true
+ReadWritePaths=/var/lib/pocketbase
+ProtectKernelTunables=true
+ProtectControlGroups=true
+RestrictRealtime=true
+
+StandardOutput=journal
+StandardError=journal
+SyslogIdentifier=pocketbase
+
+[Install]
+WantedBy=multi-user.target

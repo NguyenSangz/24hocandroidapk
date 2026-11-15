@@ -1,0 +1,30 @@
+# Phương án A: Reverse proxy bằng Caddy + IP công cộng (tự động TLS Let's Encrypt)
+# Thay [TÔI CẦN ĐIỀN] bằng tên miền thật của bạn, ví dụ: api.tenmiencuatoi.vn
+
+[TÔI CẦN ĐIỀN: api.tenmiencuatoi.vn] {
+    # Tự động nén phản hồi
+    encode gzip zstd
+
+    # Giới hạn kích thước request tránh spam payload lớn (F16a/b)
+    request_body {
+        max_size 2MB
+    }
+
+    # Header bảo mật chuẩn HTTPS
+    header {
+        Strict-Transport-Security "max-age=31536000; includeSubDomains; preload"
+        X-Content-Type-Options "nosniff"
+        X-Frame-Options "DENY"
+        Referrer-Policy "strict-origin-when-cross-origin"
+        -Server
+    }
+
+    # Chặn truy cập Admin UI /_/ từ Internet công cộng (chỉ mở qua SSH tunnel 127.0.0.1:8090)
+    @admin path /_/* /_/
+    respond @admin 403
+
+    # Chuyển tiếp API & pb_public (delete-account.html, privacy.html) về PocketBase local
+    reverse_proxy 127.0.0.1:8090 {
+        header_up X-Real-IP {remote_host}
+    }
+}

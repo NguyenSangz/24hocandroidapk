@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Chính Sách Quyền Riêng Tư – Học Tốt THCS</title>
+  <style>
+    body { font-family: system-ui, -apple-system, sans-serif; max-width: 780px; margin: 40px auto; padding: 0 20px; line-height: 1.65; color: #1e293b; }
+    h1 { color: #1d4ed8; }
+    h2 { color: #0f172a; margin-top: 24px; }
+    .notice { background: #fff7ed; border: 1px solid #fdba74; border-radius: 12px; padding: 14px 18px; color: #9a3412; margin: 16px 0; }
+  </style>
+</head>
+<body>
+  <div class="notice">
+    <strong>[CẦN THAM VẤN PHÁP LÝ]:</strong> Bản nháp chính sách phục vụ tuân thủ Nghị định 13/2023/NĐ-CP (Việt Nam) và Google Play Families Policy. Hãy rà soát cùng luật sư trước khi phát hành chính thức.
+  </div>
+
+  <h1>Chính Sách Quyền Riêng Tư – Học Tốt THCS (GDPT 2018)</h1>
+
+  <h2>1. Chế độ Khách (Offline-First) – Không bắt buộc đăng nhập</h2>
+  <p>Người học có thể sử dụng toàn bộ chức năng học tập (bài học, luyện tập, kiểm tra, flashcard, công cụ môn học) ở <strong>Chế độ Khách</strong> hoàn toàn ngoại tuyến mà không gửi bất kỳ dữ liệu cá nhân nào lên máy chủ. Ứng dụng không chứa quảng cáo và không tích hợp SDK theo dõi quảng cáo.</p>
+
+  <h2>2. Dữ liệu thu thập khi tự nguyện tạo/đăng nhập Tài khoản</h2>
+  <ul>
+    <li><strong>Định danh tối thiểu:</strong> Email, biệt danh học sinh, khối lớp, bộ sách mặc định.</li>
+    <li><strong>Bảo vệ học sinh dưới 16 tuổi [CẦN LUẬT SƯ]:</strong> Năm sinh (kiểm tra ngưỡng &lt;16 tuổi), email cha mẹ/người giám hộ và mốc thời gian xác nhận đồng ý (<code>parentConsentAt</code>). Email xác nhận có liên kết dùng một lần, hết hạn sau một giờ; yêu cầu chưa xác nhận được máy chủ dọn định kỳ. Cách xác minh và hiệu lực pháp lý cần được rà soát trước khi phát hành.</li>
+    <li><strong>Dữ liệu đồng bộ (F16b):</strong> Tiến độ học tập, kết quả kiểm tra, ngân hàng câu sai, thẻ flashcard SM-2, XP/huy hiệu.</li>
+  </ul>
+
+  <h2>2b. Thông báo đẩy (tùy chọn, F20a) <em>[CẦN LUẬT SƯ]</em></h2>
+  <ul>
+    <li><strong>Chỉ khi đăng nhập và chủ động bật</strong> công tắc “Thông báo đẩy”, ứng dụng mới lấy <strong>mã thiết bị FCM</strong> do Google Firebase Cloud Messaging cấp và gửi tới máy chủ PocketBase tự vận hành để gắn với tài khoản. <strong>Chế độ Khách không đăng ký mã thiết bị.</strong></li>
+    <li><strong>Nội dung tối giản:</strong> máy chủ chỉ gửi <strong>mã loại thông báo</strong> và <strong>mã nội dung</strong>; không gửi tên học sinh, điểm số, email hay nội dung bài làm. Chữ hiển thị được dựng cục bộ trên máy.</li>
+    <li><strong>Bên thứ ba:</strong> Google Firebase Cloud Messaging (Google LLC) thực hiện việc vận chuyển và có thể xử lý siêu dữ liệu kỹ thuật theo chính sách của Google. <code>[CẦN LUẬT SƯ: chuyển dữ liệu ra nước ngoài &amp; dữ liệu trẻ em]</code></li>
+    <li><strong>Kiểm soát:</strong> tắt trong Cài đặt, đăng xuất hoặc xóa tài khoản sẽ yêu cầu máy chủ xóa mã thiết bị; mã không còn hợp lệ được tự động dọn khi gửi thất bại. Nhắc học cục bộ vẫn hoạt động độc lập.</li>
+  </ul>
+
+  <h2>3. Nơi lưu trữ &amp; Thời gian lưu giữ</h2>
+  <ul>
+    <li><strong>Nơi lưu trữ:</strong> Dữ liệu được lưu cục bộ trên thiết bị (Room) và khi đăng nhập sẽ đồng bộ qua kết nối HTTPS tới <strong>máy chủ PocketBase tự vận hành trên máy chủ Linux do nhà phát triển quản lý</strong> tại <code>[TÔI CẦN ĐIỀN: vị trí/nhà cung cấp VPS hoặc máy chủ tại ...]</code>. Token phiên trên Android được mã hóa bằng Android Keystore; không lưu mật khẩu thô trên thiết bị.</li>
+    <li><strong>Thời gian lưu giữ:</strong> Lưu giữ trong thời gian tài khoản hoạt động cho đến khi người dùng xóa tài khoản trong app hoặc yêu cầu xóa qua email (hoặc sau <code>[TÔI CẦN ĐIỀN: ví dụ 12 tháng]</code> không hoạt động). Bản sao lưu mã hóa tự động hết hạn sau tối đa <code>[TÔI CẦN ĐIỀN: 30 ngày]</code>.</li>
+  </ul>
+
+  <h2>4. Quy trình xử lý sự cố rò rỉ dữ liệu <em>[CẦN THAM VẤN PHÁP LÝ]</em></h2>
+  <p>Trong trường hợp phát hiện sự cố truy cập trái phép hoặc rò rỉ dữ liệu cá nhân: (1) Cô lập máy chủ, thu hồi token phiên và vá lỗ hổng ngay lập tức; (2) Đánh giá phạm vi dữ liệu bị ảnh hưởng; (3) Thông báo cho người dùng/phụ huynh bị ảnh hưởng qua email và báo cáo cơ quan chức năng theo thời hạn 72 giờ quy định tại Nghị định 13/2023/NĐ-CP.</p>
+
+  <h2>5. Quyền xóa &amp; Liên hệ</h2>
+  <p>Người dùng và phụ huynh có quyền xem, xuất bản sao lưu cục bộ, chỉnh sửa hoặc xóa vĩnh viễn tài khoản ngay trong ứng dụng hoặc tại <a href="/delete-account.html">Trang hướng dẫn xóa dữ liệu</a>. Email liên hệ: <strong>[TÔI CẦN ĐIỀN: hotro@tenmiencuatoi.vn]</strong>.</p>
+</body>
+</html>

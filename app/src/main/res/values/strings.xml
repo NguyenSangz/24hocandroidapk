@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Học Tốt THCS</string>
+    <string name="continue_learning_title">Tiếp tục học</string>
+    <string name="continue_learning_desc">Bài học đang dở hoặc gợi ý tiếp theo</string>
+    <string name="continue_learning_button">Học tiếp ngay</string>
+    <string name="next_lesson_suggested">Gợi ý bài tiếp theo</string>
+    <string name="daily_goal_title">Mục tiêu hôm nay</string>
+    <string name="daily_goal_questions">%1$d/%2$d câu</string>
+    <string name="daily_goal_minutes">%1$d/%2$d phút</string>
+    <string name="status_completed">Đã hoàn thành</string>
+    <string name="status_in_progress">Đang học</string>
+    <string name="status_untouched">Chưa học</string>
+    <string name="soft_unlock_hint">Nên học theo thứ tự</string>
+    <string name="parent_consent_submit">Gửi email xác nhận phụ huynh</string>
+    <string name="parent_consent_checkbox">Tôi sẽ nhờ cha mẹ/người giám hộ mở email và xác nhận trước khi bật đồng bộ.</string>
+    <string name="parent_consent_pending">Đang chờ phụ huynh xác nhận qua email. Đồng bộ vẫn tắt; bài học trên máy tiếp tục dùng được.</string>
+    <string name="parent_consent_check_status">Tôi đã xác nhận — kiểm tra lại</string>
+</resources>

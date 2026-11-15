@@ -1,0 +1,43 @@
+{
+  "series": [
+    {
+      "id": "kntt",
+      "name": "Kết nối tri thức với cuộc sống",
+      "shortName": "KNTT",
+      "publisher": "Nhà xuất bản Giáo dục Việt Nam"
+    },
+    {
+      "id": "cd",
+      "name": "Cánh Diều",
+      "shortName": "CD",
+      "publisher": "NXB Đại học Sư phạm / NXB ĐH Sư phạm TP.HCM"
+    },
+    {
+      "id": "ctst",
+      "name": "Chân trời sáng tạo",
+      "shortName": "CTST",
+      "publisher": "Nhà xuất bản Giáo dục Việt Nam"
+    },
+    {
+      "id": "chung",
+      "name": "Chương trình chung / Dùng chung",
+      "shortName": "CHUNG",
+      "publisher": "Bộ GD&ĐT"
+    }
+  ],
+  "subjects": [
+    { "id": "toan", "name": "Toán" },
+    { "id": "van", "name": "Ngữ văn" },
+    { "id": "tienganh", "name": "Tiếng Anh" },
+    { "id": "khtn", "name": "Khoa học tự nhiên", "integrated": true, "subDisciplines": ["ly", "hoa", "sinh"] },
+    { "id": "lsdl", "name": "Lịch sử và Địa lí", "integrated": true, "subDisciplines": ["lichsu", "diali"] },
+    { "id": "gdcd", "name": "Giáo dục công dân" },
+    { "id": "tinhoc", "name": "Tin học" },
+    { "id": "congnghe", "name": "Công nghệ" },
+    { "id": "gdtc", "name": "Giáo dục thể chất" },
+    { "id": "amnhac", "name": "Âm nhạc" },
+    { "id": "mythuat", "name": "Mỹ thuật" },
+    { "id": "hdtn", "name": "Hoạt động trải nghiệm, hướng nghiệp" }
+  ],
+  "grades": [6, 7, 8, 9]
+}

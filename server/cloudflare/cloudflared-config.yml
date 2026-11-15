@@ -1,0 +1,17 @@
+# Phương án B: Cloudflare Tunnel (không cần IP tĩnh hoặc mở port 80/443 trên máy Linux)
+# Đặt file này tại /etc/cloudflared/config.yml sau khi chạy: cloudflared tunnel create hoctot-pb
+
+tunnel: [TÔI CẦN ĐIỀN: TUNNEL_UUID]
+credentials-file: /root/.cloudflared/[TÔI CẦN ĐIỀN: TUNNEL_UUID].json
+
+ingress:
+  # Chặn trang quản trị /_/ từ Internet công cộng
+  - hostname: [TÔI CẦN ĐIỀN: api.tenmiencuatoi.vn]
+    path: ^/_(/.*)?$
+    service: http_status:403
+
+  # Toàn bộ API & trang tĩnh đi qua PocketBase local
+  - hostname: [TÔI CẦN ĐIỀN: api.tenmiencuatoi.vn]
+    service: http://127.0.0.1:8090
+
+  - service: http_status:404

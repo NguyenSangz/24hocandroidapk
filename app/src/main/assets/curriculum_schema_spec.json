@@ -1,0 +1,112 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "THCS_Curriculum_Schema_GDPT2018",
+  "description": "Chuẩn định dạng JSON nội dung học tập THCS (lớp 6-9) chương trình GDPT 2018",
+  "type": "object",
+  "required": ["subjects", "grades", "questions", "flashcards"],
+  "properties": {
+    "subjects": {
+      "type": "array",
+      "description": "Danh sách 15 môn học THCS",
+      "items": {
+        "type": "object",
+        "required": ["id", "name", "icon", "color", "description", "category", "isPinned"],
+        "properties": {
+          "id": { "type": "string" },
+          "name": { "type": "string" },
+          "icon": { "type": "string" },
+          "color": { "type": "string", "pattern": "^#[0-9A-Fa-f]{6}$" },
+          "description": { "type": "string" },
+          "category": { "type": "string" },
+          "isPinned": { "type": "boolean" }
+        }
+      }
+    },
+    "grades": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["grade", "chapters"],
+        "properties": {
+          "grade": { "type": "integer", "minimum": 6, "maximum": 9 },
+          "chapters": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["id", "subjectId", "grade", "order", "title", "description", "lessons"],
+              "properties": {
+                "id": { "type": "string" },
+                "subjectId": { "type": "string" },
+                "grade": { "type": "integer" },
+                "order": { "type": "integer" },
+                "title": { "type": "string" },
+                "description": { "type": "string" },
+                "lessons": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "required": ["id", "chapterId", "order", "title", "summary", "examples", "tips"],
+                    "properties": {
+                      "id": { "type": "string" },
+                      "chapterId": { "type": "string" },
+                      "order": { "type": "integer" },
+                      "title": { "type": "string" },
+                      "series": { "type": "string", "enum": ["kntt", "cd", "ctst", "chung"] },
+                      "topicId": { "type": "string" },
+                      "phanMon": { "type": "string" },
+                      "tier": { "type": "string", "enum": ["tier_a", "tier_b"] },
+                      "objectives": { "type": "array", "items": { "type": "string" } },
+                      "summary": { "type": "string" },
+                      "examples": { "type": "string" },
+                      "tips": { "type": "string" },
+                      "formulasLatex": { "type": "string" },
+                      "tablesJson": { "type": "string" }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "questions": {
+      "type": "array",
+      "description": "Ngân hàng câu hỏi trắc nghiệm, đúng/sai, điền khuyết, nối cặp, sắp xếp, tự luận ngắn",
+      "items": {
+        "type": "object",
+        "required": ["id", "lessonId", "type", "content", "options", "correctAnswer", "hint", "explanation"],
+        "properties": {
+          "id": { "type": "string" },
+          "lessonId": { "type": "string" },
+          "type": {
+            "type": "string",
+            "enum": ["MULTIPLE_CHOICE", "TRUE_FALSE", "FILL_BLANK", "MATCHING", "SORTING", "SHORT_ESSAY"]
+          },
+          "content": { "type": "string" },
+          "options": { "type": "array", "items": { "type": "string" } },
+          "correctAnswer": { "type": "string" },
+          "hint": { "type": "string" },
+          "explanation": { "type": "string" },
+          "difficulty": { "type": "integer", "minimum": 1, "maximum": 3 }
+        }
+      }
+    },
+    "flashcards": {
+      "type": "array",
+      "description": "Thẻ ghi nhớ từ vựng, công thức, định lý",
+      "items": {
+        "type": "object",
+        "required": ["id", "grade", "subjectId", "front", "back", "category"],
+        "properties": {
+          "id": { "type": "string" },
+          "grade": { "type": "integer", "minimum": 6, "maximum": 9 },
+          "subjectId": { "type": "string" },
+          "front": { "type": "string" },
+          "back": { "type": "string" },
+          "category": { "type": "string" }
+        }
+      }
+    }
+  }
+}

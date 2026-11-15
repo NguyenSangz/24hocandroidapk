@@ -1,0 +1,80 @@
+{
+  "id": "deck_his6_moc_su",
+  "name": "Mốc Lịch Sử Việt Nam Cổ - Trung Đại Lớp 6",
+  "grade": 6,
+  "subjectId": "history",
+  "type": "MỐC LỊCH SỬ",
+  "description": "Các sự kiện và mốc son mở đầu trong lịch sử dựng nước và giữ nước của dân tộc Việt Nam theo chương trình GDPT 2018.",
+  "cards": [
+    {
+      "id": "his6_mls_01",
+      "front": "Khoảng thế kỷ VII TCN",
+      "back": "Nhà nước Văn Lang ra đời, kinh đô đặt tại Phong Châu (Phú Thọ ngày nay). Đứng đầu nhà nước là Hùng Vương.",
+      "example": "Thời kỳ khởi nguồn nền văn minh sông Hồng gắn với văn hóa Đông Sơn.",
+      "notes": "Mốc niên đại tương đối theo truyền thuyết và khảo cổ học học đường."
+    },
+    {
+      "id": "his6_mls_02",
+      "front": "Năm 208 TCN (hoặc khoảng 214 TCN - CẦN KIỂM CHỨNG)",
+      "back": "Thục Phán hợp nhất người Tây Âu và Lạc Việt, lập ra nhà nước Âu Lạc, xưng là An Dương Vương, dời đô về Cổ Loa.",
+      "example": "Thành Cổ Loa với kiến trúc nhiều vòng thành xoắn ốc độc đáo phòng thủ.",
+      "notes": "Có quan điểm sử liệu đề cập năm 214 TCN hoặc năm 208 TCN, cần đối chiếu văn bản SGK hiện hành."
+    },
+    {
+      "id": "his6_mls_03",
+      "front": "Năm 179 TCN",
+      "back": "Triệu Đà (vua nước Nam Việt) xâm chiếm Âu Lạc. Đất nước bước vào thời kỳ hơn một nghìn năm Bắc thuộc.",
+      "example": "Gắn liền với truyền thuyết nỏ thần và bi kịch Mỵ Châu - Trọng Thủy.",
+      "notes": "Đánh dấu sự mở đầu của thời kỳ Bắc thuộc lần thứ nhất."
+    },
+    {
+      "id": "his6_mls_04",
+      "front": "Mùa xuân năm 40 (Sau Công Nguyên)",
+      "back": "Khởi nghĩa Hai Bà Trưng (Trưng Trắc và Trưng Nhị) bùng nổ tại cửa sông Hát (Hát Môn), lật đổ ách thống trị của thái thú Tô Định.",
+      "example": "Khởi nghĩa giành quyền tự chủ trong 3 năm (40 - 43 SCN).",
+      "notes": "Cuộc khởi nghĩa vũ trang đầu tiên của nhân dân ta chống lại phong kiến phương Bắc."
+    },
+    {
+      "id": "his6_mls_05",
+      "front": "Năm 248",
+      "back": "Khởi nghĩa Bà Triệu (Triệu Thị Trinh) bùng nổ ở vùng Căn cứ Phú Điền (Hậu Lộc, Thanh Hóa) chống ách đô hộ của nhà Ngô.",
+      "example": "Câu nói nổi tiếng: 'Tôi muốn cưỡi cơn gió mạnh, đạp luồng sóng dữ, chém cá kình ở biển Đông...'",
+      "notes": "Ghi dấu tinh thần bất khuất của phụ nữ và nhân dân Giao Châu thế kỷ III."
+    },
+    {
+      "id": "his6_mls_06",
+      "front": "Năm 542 - 544",
+      "back": "Lý Bí lãnh đạo khởi nghĩa đánh đuổi quân đô hộ nhà Lương (542). Năm 544 lên ngôi Hoàng đế (Lý Nam Đế), lập nước Vạn Xuân.",
+      "example": "Dựng chùa Khai Quốc (tiền thân của chùa Trấn Quốc ngày nay tại Hà Nội).",
+      "notes": "Lần đầu tiên người Việt xưng Đế và đặt niên hiệu riêng thể hiện chủ quyền độc lập."
+    },
+    {
+      "id": "his6_mls_07",
+      "front": "Năm 722 (có tài liệu ghi 713 - CẦN KIỂM CHỨNG)",
+      "back": "Khởi nghĩa Mai Thúc Loan (Mai Hắc Đế) bùng nổ, xây dựng căn cứ Vạn An (Nam Đàn, Nghệ An) chống ách đô hộ nhà Đường.",
+      "example": "Nhân dân tôn xưng ông là Mai Hắc Đế (Vua Đen).",
+      "notes": "Thời điểm nổ ra cuộc khởi nghĩa giữa 713 và 722 còn nhiều thảo luận trong giới nghiên cứu, sách GDPT 2018 thường lấy mốc 722."
+    },
+    {
+      "id": "his6_mls_08",
+      "front": "Khoảng năm 776 - 791 (CẦN KIỂM CHỨNG)",
+      "back": "Khởi nghĩa Phùng Hưng đánh chiếm phủ thành Tống Bình (Hà Nội ngày nay), làm chủ đất nước trong nhiều năm.",
+      "example": "Sau khi mất, nhân dân ghi nhớ công ơn tôn vinh ông là 'Bố Cái Đại Vương'.",
+      "notes": "Thời gian Phùng Hưng cai quản và năm mất có sai biệt nhỏ giữa các bản dịch sử cũ."
+    },
+    {
+      "id": "his6_mls_09",
+      "front": "Năm 905",
+      "back": "Khúc Thừa Dụ chớp thời cơ nhà Đường suy yếu, chiếm phủ thành Đại La, tự xưng Tiết độ sứ, mở đầu thời kỳ tự chủ cho dân tộc.",
+      "example": "Đường lối cai trị 'Khoan dung giản dị, nhân dân đều được yên vui'.",
+      "notes": "Bước chuyển mình trọng đại: từ đấu tranh chống đô hộ sang khôi phục nền tự chủ hoàn toàn."
+    },
+    {
+      "id": "his6_mls_10",
+      "front": "Năm 938",
+      "back": "Ngô Quyền lãnh đạo nhân dân đánh tan quân Nam Hán trên sông Bạch Đằng bằng chiến thuật cắm cọc ngầm nhử thuyền giặc.",
+      "example": "Trận chiến Bạch Đằng vĩ đại chấm dứt hoàn toàn hơn 1.000 năm Bắc thuộc.",
+      "notes": "Mốc son chói lọi mở ra kỷ nguyên độc lập lâu dài và bền vững cho nước Việt."
+    }
+  ]
+}

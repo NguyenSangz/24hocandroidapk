@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="referrer" content="no-referrer">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'unsafe-inline'; connect-src 'self'; style-src 'unsafe-inline'">
+  <title>Xác nhận phụ huynh – Học Tốt THCS</title>
+  <style>
+    body { font: 16px system-ui, sans-serif; max-width: 640px; margin: 3rem auto; padding: 0 1rem; color: #172033; line-height: 1.6; }
+    main { border: 1px solid #cbd5e1; border-radius: 1rem; padding: 1.5rem; }
+    #status { font-weight: 600; }
+    button { font: inherit; margin-top: 1rem; min-height: 48px; padding: 0.5rem 1rem; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Xác nhận phụ huynh</h1>
+    <p>Chỉ xác nhận nếu bạn là cha mẹ/người giám hộ hợp pháp và đã đọc <a href="/privacy.html">Chính sách quyền riêng tư</a>.</p>
+    <p id="status" role="status" aria-live="polite">Đang kiểm tra liên kết…</p>
+    <button id="confirm" type="button" disabled>Xác nhận và bật đồng bộ</button>
+  </main>
+  <script>
+    (function () {
+      const status = document.getElementById("status");
+      const confirmButton = document.getElementById("confirm");
+      const token = new URLSearchParams(location.hash.slice(1)).get("token") || "";
+      history.replaceState(null, "", location.pathname);
+      if (!token) {
+        status.textContent = "Liên kết không hợp lệ. Hãy yêu cầu gửi email mới trong ứng dụng.";
+        return;
+      }
+      status.textContent = "Nếu bạn là cha mẹ/người giám hộ và đồng ý, hãy nhấn nút bên dưới.";
+      confirmButton.disabled = false;
+      confirmButton.addEventListener("click", async function () {
+        confirmButton.disabled = true;
+        status.textContent = "Đang gửi xác nhận…";
+        try {
+          const response = await fetch("/api/custom/parental-consent/confirm", {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({ token })
+          });
+          const result = await response.json();
+          status.textContent = response.ok && result.confirmed
+            ? "Đã xác nhận. Học sinh có thể mở ứng dụng và kiểm tra trạng thái."
+            : (result.message || "Liên kết đã hết hạn hoặc không hợp lệ.");
+        } catch (_) {
+          status.textContent = "Không kết nối được. Hãy thử lại khi có mạng.";
+          confirmButton.disabled = false;
+        }
+      });
+    })();
+  </script>
+</body>
+</html>

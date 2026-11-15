@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "CalculatorToolDataSchema",
+  "type": "object",
+  "required": ["toolId", "version", "verified", "categories"],
+  "properties": {
+    "toolId": { "type": "string", "enum": ["calculator"] },
+    "version": { "type": "string" },
+    "verified": { "type": "boolean" },
+    "categories": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "title", "items"],
+        "properties": {
+          "id": { "type": "string" },
+          "title": { "type": "string" },
+          "items": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["name", "expression", "description"],
+              "properties": {
+                "name": { "type": "string" },
+                "expression": { "type": "string" },
+                "description": { "type": "string" },
+                "example": { "type": "string" },
+                "grade": { "type": "integer" }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
